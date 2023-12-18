@@ -21,7 +21,9 @@
     "picocolors": "^1.0.0",
     "postcss": "^8.4.32",
     "rollup": "^4.9.1",
-    "source-map-js": "^1.0.2"
+    "source-map-js": "^1.0.2",
+    "stylelint": "^16.0.2",
+    "stylelint-scss": "^6.0.0"
   },
   "keywords": [],
   "author": "",
