@@ -14,6 +14,9 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-promise": "^6.1.1",
+    "sass": "^1.69.5",
+    "stylelint": "^16.0.2",
+    "stylelint-config-standard-scss": "^12.0.0",
     "vite": "^5.0.8"
   },
   "main": "main.js",
@@ -25,7 +28,6 @@
     "postcss": "^8.4.32",
     "rollup": "^4.9.1",
     "source-map-js": "^1.0.2",
-    "stylelint": "^16.0.2",
     "stylelint-scss": "^6.0.0"
   },
   "keywords": [],
