@@ -1,13 +1,5 @@
 @use '../../utils/utils.scss';
 
-.result-expand {
-  grid-template-columns: 420px calc(100% - 400px - 20px);
-}
-
-.result-collapse {
-  grid-template-columns: 420px calc(100% - 408px - 344px - 20px - 12px);
-}
-
 div.result-scrollable-container {
   position: relative;
   width: 100%;
@@ -293,4 +285,12 @@ section.filter-result-body {
       }
     }
   }
+}
+
+.result-expand {
+  grid-template-columns: 420px calc(100% - 400px - 20px);
+}
+
+.result-collapse {
+  grid-template-columns: 420px calc(100% - 408px - 344px - 20px - 12px);
 }
