@@ -1,0 +1,415 @@
+@use '../../utils/utils.scss';
+
+section.filter-display {
+  display: grid;
+  grid-template-rows: 84px;
+  grid-column-gap: 20px;
+  grid-row-gap: 16px;
+  font-size: 12px;
+  transition: all 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.display-expand {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
+}
+
+.display-collapse {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+}
+
+div.pokemon-filter {
+  position: relative;
+  width: 100%;
+  background: utils.$defaultGrey700;
+  border-radius: 12px;
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+
+  div.scroll-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    padding: 8px;
+
+    div.filter-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+
+      div.filter-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        height: 30px;
+        padding: 1px 1px 1px 6px;
+        width: auto;
+        background: utils.$defaultGrey600;
+
+        h5 {
+          color: utils.$defaultWhite;
+        }
+
+        button {
+          width: 25px;
+          height: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: transparent;
+          border: none;
+
+          i {
+            font-size: 16px;
+            color: utils.$defaultWhite;
+          }
+
+          &:hover {
+            background: utils.$defaultWhite;
+            border-radius: 6px;
+            cursor: pointer;
+
+            i {
+              color: utils.$defaultRed;
+            }
+          }
+        }
+      }
+
+      ul.filter-option-group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 8px;
+        border-radius: 0 0 8px 8px;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        li.filter-option {
+          display: flex;
+          gap: 4px;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 12px;
+          background: utils.$defaultWhite;
+          width: auto;
+          height: 30px;
+          padding: 8px;
+          border-radius: 8px;
+          white-space: nowrap;
+
+          button {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 99px;
+            background: utils.$defaultGrey800;
+            color: utils.$defaultWhite;
+
+            i {
+              font-size: 14px;
+            }
+
+            &:hover {
+              background: utils.$defaultRed;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div.species-filter {
+  position: relative;
+  width: 100%;
+  background: utils.$defaultGrey700;
+  border-radius: 12px;
+  overflow-x: scroll;
+  padding-right: 8px;
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  div.scroll-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    padding: 8px;
+
+    div.filter-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      &:last-child {
+        padding-right: 8px;
+      }
+
+      div.filter-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        height: 30px;
+        padding: 1px 1px 1px 6px;
+        min-width: 120px;
+        width: auto;
+
+        h5 {
+          color: utils.$defaultWhite;
+        }
+
+        button {
+          width: 25px;
+          height: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: transparent;
+          border: none;
+
+          i {
+            font-size: 16px;
+            color: utils.$defaultWhite;
+          }
+
+          &:hover {
+            background: utils.$defaultWhite;
+            border-radius: 6px;
+            cursor: pointer;
+
+            i {
+              color: utils.$defaultRed;
+            }
+          }
+        }
+      }
+
+      ul.filter-option-group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 8px;
+
+        li.filter-option {
+          display: flex;
+          gap: 4px;
+          justify-content: center;
+          align-items: center;
+          font-size: 12px;
+          background: utils.$defaultWhite;
+          width: auto;
+          height: 30px;
+          padding: 8px;
+          border-radius: 8px;
+          flex-grow: 1;
+          flex-wrap: nowrap;
+          min-width: 64px;
+          white-space: nowrap;
+
+          button {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 99px;
+            background: utils.$defaultGrey800;
+            color: utils.$defaultWhite;
+
+            i {
+              font-size: 14px;
+            }
+
+            &:hover {
+              background: utils.$defaultRed;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.types-filter {
+    div.filter-title {
+      background: utils.$optionColorRed;
+    }
+
+    ul.filter-option-group {
+      li.filter-option {
+        border: 2px utils.$optionColorRed solid;
+      }
+    }
+  }
+
+  div.abilities-filter {
+    div.filter-title {
+      background: utils.$optionColorOrange;
+    }
+
+    ul.filter-option-group {
+      li.filter-option {
+        border: 2px utils.$optionColorOrange solid;
+      }
+    }
+  }
+
+  div.stats-filter {
+    div.filter-title {
+      background: utils.$optionColorGreen;
+    }
+
+    ul.filter-option-group {
+      li.filter-option {
+        border: 2px utils.$optionColorGreen solid;
+      }
+    }
+  }
+
+  div.moves-filter {
+    div.filter-title {
+      background: utils.$optionColorPurple;
+    }
+
+    ul.filter-option-group {
+      li.filter-option {
+        border: 2px utils.$optionColorPurple solid;
+      }
+    }
+  }
+}
+
+div.filter-button-wrapper {
+  width: 82px;
+  height: 82px;
+
+  button.filter-button {
+    width: 100%;
+    height: 100%;
+    background: utils.$defaultWhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+
+    i {
+      color: utils.$defaultGrey700;
+      font-size: 32px;
+      transition: all 0.3s ease;
+    }
+
+    i.fa-angle-left,
+    i.fa-angle-right {
+      font-size: 24px;
+    }
+
+    &:hover {
+      i {
+        color: utils.$defaultBlue;
+      }
+    }
+
+    &:active {
+      background: utils.$defaultGrey200;
+
+      i {
+        color: utils.$defaultBlue;
+      }
+    }
+  }
+}
+
+div.result-stats {
+  position: relative;
+  bottom: -8px;
+  font-size: 16px;
+  color: utils.$defaultWhite;
+}
+
+div.pokemon-search {
+  label {
+    position: relative;
+
+    input {
+      height: 32px;
+      border: none;
+      border-radius: 12px;
+      width: 300px;
+      padding-left: 12px;
+    }
+
+    button.search-pokemon-submit {
+      position: absolute;
+      right: 4px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 24px;
+      background: transparent;
+      border: none;
+      border-radius: 8px;
+
+      i {
+        position: relative;
+        top: -2px;
+      }
+
+      &:hover {
+        background: utils.$defaultGrey200;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+div.content-view {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60px;
+  height: 32px;
+  margin-left: auto;
+  background: utils.$defaultGrey200;
+  border-radius: 12px;
+
+  button {
+    background: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+
+    i {
+      position: relative;
+      top: -1px;
+    }
+
+    &:hover {
+      background: utils.$defaultGrey100;
+    }
+  }
+
+  .content-view-active {
+    background: utils.$defaultWhite;
+  }
+}
