@@ -128,3 +128,12 @@ div.filter-wrapper {
   }
 }
 
+.menu-invisible {
+  right: -344px;
+  opacity: 0;
+}
+
+.menu-visible {
+  right: 0;
+  opacity: 1;
+}
