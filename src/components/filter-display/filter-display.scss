@@ -10,14 +10,6 @@ section.filter-display {
   margin-bottom: 16px;
 }
 
-.display-expand {
-  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
-}
-
-.display-collapse {
-  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
-}
-
 div.pokemon-filter {
   position: relative;
   width: 100%;
@@ -412,4 +404,12 @@ div.content-view {
   .content-view-active {
     background: utils.$defaultWhite;
   }
+}
+
+.display-expand {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
+}
+
+.display-collapse {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
 }
