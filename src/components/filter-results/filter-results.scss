@@ -1,0 +1,296 @@
+@use '../../utils/utils.scss';
+
+.result-expand {
+  grid-template-columns: 420px calc(100% - 400px - 20px);
+}
+
+.result-collapse {
+  grid-template-columns: 420px calc(100% - 408px - 344px - 20px - 12px);
+}
+
+div.result-scrollable-container {
+  position: relative;
+  width: 100%;
+  overflow: scroll;
+  border-radius: 0 12px 12px 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+//TODO:padding-right:無法提供邊界，造成result-species會貼緊container的右側而不是result-head-scrollable-container
+
+section.filter-result-head {
+  position: relative;
+  display: grid;
+  margin-bottom: 4px;
+  transition: all 0.3s ease;
+
+  div.result-head-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 12px;
+    background: utils.$defaultGrey100;
+  }
+
+  div.result-head-fixed-container {
+    position: relative;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 80px 308px;
+    grid-template-rows: 86px;
+    gap: 8px;
+
+    div.result-title {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+
+      div.table-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 16px;
+        background: utils.$defaultWhite;
+
+        &:first-child {
+          height: 86px;
+        }
+      }
+
+      div.subtitle-group {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-start;
+        align-items: center;
+
+        div.subtitle {
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 16px;
+          background: utils.$defaultWhite;
+          text-align: center;
+
+          &:first-child {
+            width: 80px;
+          }
+
+          &:nth-child(2) {
+            width: 128px;
+          }
+
+          &:last-child {
+            width: 84px;
+          }
+        }
+      }
+    }
+  }
+
+  div.result-scrollable-container {
+    div.result-title {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      div.table-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 90px;
+        width: auto;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 16px;
+        background: utils.$defaultWhite;
+      }
+
+      div.subtitle-group {
+        display: flex;
+        gap: 8px;
+        justify-content: flex-start;
+        align-items: center;
+
+        div.subtitle {
+          position: relative;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 16px;
+          background: utils.$defaultWhite;
+          text-align: center;
+          flex-grow: 1;
+        }
+      }
+    }
+
+    div.pokemon-types {
+      div.table-title {
+        background: utils.$optionColorRed;
+        color: utils.$defaultWhite;
+      }
+
+      div.subtitle {
+        min-width: 100px;
+        width: auto;
+      }
+    }
+
+    div.pokemon-abilities {
+      div.table-title {
+        background: utils.$optionColorOrange;
+        color: utils.$defaultWhite;
+      }
+
+      div.subtitle {
+        min-width: 120px;
+        width: auto;
+      }
+    }
+
+    div.pokemon-stats {
+      div.table-title {
+        background: utils.$optionColorGreen;
+        color: utils.$defaultWhite;
+      }
+
+      div.subtitle {
+        min-width: 64px;
+        width: auto;
+      }
+    }
+
+    div.pokemon-moves {
+      div.table-title {
+        background: utils.$optionColorPurple;
+        color: utils.$defaultWhite;
+      }
+
+      div.subtitle {
+        min-width: 90px;
+        width: auto;
+      }
+    }
+  }
+}
+
+section.filter-result-body {
+  position: relative;
+  display: grid;
+  margin-bottom: 20px;
+  height: calc(100vh - 94px - 148px - 114px - 20px);
+  transition: all 0.3s ease;
+
+  div.result-body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    width: auto;
+    height: auto;
+    background: utils.$defaultGrey100;
+    overflow: scroll;
+  }
+
+  div.result {
+    width: 100%;
+    height: 39px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: utils.$defaultWhite;
+  }
+
+  div.result-body-scrollY-container {
+    position: relative;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    div.result-identify {
+      position: relative;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: 80px 80px 128px 84px;
+
+      div.result-pokemon-picture {
+        overflow: hidden;
+
+        img {
+          position: relative;
+          top: 0;
+          width: 40px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  div.result-species {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    padding-right: 12px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    div.result-species-group {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: auto;
+      gap: 8px;
+    }
+
+    div.pokemon-types {
+      div.result-type-double {
+        width: 100px;
+      }
+
+      div.result-type-single {
+        width: 208px;
+      }
+    }
+
+    div.pokemon-abilities {
+      div.result-ability-double {
+        width: 120px;
+      }
+
+      div.result-ability-single {
+        width: 248px;
+      }
+
+      div.result-ability-hidden {
+        width: 120px;
+      }
+    }
+
+    div.pokemon-stats {
+      div.result-stat {
+        width: 64px;
+      }
+    }
+
+    div.pokemon-move {
+      min-width: 90px;
+      width: auto;
+
+      div.result-move-name {
+        min-width: 90px;
+        width: auto;
+      }
+    }
+  }
+}
