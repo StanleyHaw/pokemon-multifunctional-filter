@@ -149,6 +149,12 @@ div.filter-wrapper {
 
       div.filter-menu-title {
         padding: 16px 32px;
+
+        div.title-group {
+          button.close-menu {
+            display: none;
+          }
+        }
       }
 
       div.scroll-wrapper {
@@ -181,6 +187,17 @@ div.filter-wrapper {
 
       div.filter-menu-title {
         padding: 16px 32px 16px 8px;
+
+        div.title-group {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 8px;
+
+          button.close-menu {
+            display: block;
+          }
+        }
       }
 
       div.scroll-wrapper {
