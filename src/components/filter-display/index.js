@@ -4,6 +4,7 @@ const filterArrowIcon = filterMenuToggleButton.querySelector('.fa-angle-left');
 const filterMenu = document.querySelector('.filter-menu');
 const filterResultHead = document.querySelector('.filter-result-head');
 const filterResultBody = document.querySelector('.filter-result-body');
+const filterMenuCloseButton = document.querySelector('.close-menu');
 
 function toggleFilterMenu() {
   const isExpanded = filterDisplay.classList.contains('display-expand');
@@ -24,4 +25,23 @@ function toggleFilterMenu() {
   filterResultBody.classList.toggle('result-collapse', isExpanded);
 }
 
+function closeFilterMenu() {
+  filterDisplay.classList.remove('display-collapse');
+  filterDisplay.classList.add('display-expand');
+
+  filterArrowIcon.classList.remove('fa-angle-right');
+  filterArrowIcon.classList.add('fa-angle-left');
+
+  filterMenu.classList.remove('menu-visible');
+  filterMenu.classList.add('menu-invisible');
+
+  filterResultHead.classList.remove('result-collapse');
+  filterResultHead.classList.add('result-expand');
+
+  filterResultBody.classList.remove('result-collapse');
+  filterResultBody.classList.add('result-expand');
+}
+
 filterMenuToggleButton.addEventListener('click', toggleFilterMenu);
+filterMenuCloseButton.addEventListener('click', closeFilterMenu);
+//TODO: At resolutions of 1024px or below, pressing the `filterMenuToggleButton` will display an overlay. Pressing the `filterMenuCloseButton` will make the overlay disappear.
