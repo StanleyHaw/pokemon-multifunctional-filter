@@ -137,43 +137,66 @@ div.filter-wrapper {
   right: 0;
   opacity: 1;
 }
+@media screen and (min-width: 1025px) {
+  section.filter-menu {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
 
-div.types-filter {
-  &:after {
-    background: utils.$optionColorRed;
+    div.filter-menu-wrapper {
+      width: 344px;
+      height: calc(100vh - 40px);
+
+      div.filter-menu-title {
+        padding: 16px 32px;
+      }
+
+      div.scroll-wrapper {
+        height: calc(100vh - 105px);
+        border-radius: 12px;
+      }
+    }
   }
 
-  h4 {
-    color: utils.$optionColorRed;
+  .menu-invisible {
+    right: -344px;
+    opacity: 0;
+  }
+
+  .menu-visible {
+    right: 0;
+    opacity: 1;
   }
 }
 
-div.abilities-filter {
-  &:after {
-    background: utils.$optionColorOrange;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  section.filter-menu {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+
+    div.filter-menu-wrapper {
+      width: 344px;
+      height: calc(100vh - 40px);
+
+      div.filter-menu-title {
+        padding: 16px 32px 16px 8px;
+      }
+
+      div.scroll-wrapper {
+        height: calc(100vh - 105px);
+        border-radius: 12px;
+      }
+    }
   }
 
-  h4 {
-    color: utils.$optionColorOrange;
-  }
-}
-
-div.stats-filter {
-  &:after {
-    background: utils.$optionColorGreen;
+  .menu-invisible {
+    right: -344px;
+    opacity: 0;
   }
 
-  h4 {
-    color: utils.$optionColorGreen;
-  }
-}
-
-div.moves-filter {
-  &:after {
-    background: utils.$optionColorPurple;
-  }
-
-  h4 {
-    color: utils.$optionColorPurple;
+  .menu-visible {
+    right: 0;
+    opacity: 1;
   }
 }
