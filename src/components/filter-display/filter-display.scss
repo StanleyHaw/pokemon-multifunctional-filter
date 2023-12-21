@@ -406,10 +406,68 @@ div.content-view {
   }
 }
 
-.display-expand {
-  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
+@media screen and (min-width: 1025px) {
+  section.filter-display {
+    div.filter-title {
+      display: flex;
+    }
+  }
+
+  div.filter-button-wrapper {
+    width: 82px;
+    height: 82px;
+  }
+
+  div.result-stats {
+    bottom: -8px;
+    font-size: 16px;
+  }
+
+  div.pokemon-search {
+    input {
+      width: 300px;
+    }
+  }
+
+  .display-expand {
+    grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
+  }
+
+  .display-collapse {
+    grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+  }
 }
 
-.display-collapse {
-  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  section.filter-display {
+    div.filter-title {
+      display: flex;
+    }
+  }
+
+  div.filter-button-wrapper {
+    width: 82px;
+    height: 82px;
+  }
+
+  div.result-stats {
+    bottom: -8px;
+    font-size: 16px;
+  }
+
+  div.pokemon-search {
+    input {
+      width: 100%;
+    }
+  }
+
+  .display-expand {
+    grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
+  }
+  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
+
+  .display-collapse {
+    grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
+  }
+  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
