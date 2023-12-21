@@ -15,14 +15,11 @@ div.result-scrollable-container {
 section.filter-result-head {
   position: relative;
   display: grid;
-  margin-bottom: 4px;
   transition: all 0.3s ease;
 
   div.result-head-container {
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    padding: 12px;
     background: utils.$defaultGrey100;
   }
 
@@ -32,54 +29,26 @@ section.filter-result-head {
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
     z-index: 1;
     display: grid;
-    grid-template-columns: 80px 308px;
-    grid-template-rows: 86px;
-    gap: 8px;
 
     div.result-title {
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      width: 100%;
 
       div.table-title {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 8px;
-        border-radius: 4px;
-        font-size: 16px;
         background: utils.$defaultWhite;
-
-        &:first-child {
-          height: 86px;
-        }
       }
 
       div.subtitle-group {
         display: flex;
-        gap: 8px;
         justify-content: flex-start;
         align-items: center;
 
         div.subtitle {
-          padding: 8px;
-          border-radius: 4px;
-          font-size: 16px;
           background: utils.$defaultWhite;
           text-align: center;
-
-          &:first-child {
-            width: 80px;
-          }
-
-          &:nth-child(2) {
-            width: 128px;
-          }
-
-          &:last-child {
-            width: 84px;
-          }
         }
       }
     }
@@ -89,31 +58,21 @@ section.filter-result-head {
     div.result-title {
       display: flex;
       flex-direction: column;
-      gap: 8px;
 
       div.table-title {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-width: 90px;
-        width: auto;
-        padding: 8px;
-        border-radius: 4px;
-        font-size: 16px;
         background: utils.$defaultWhite;
       }
 
       div.subtitle-group {
         display: flex;
-        gap: 8px;
         justify-content: flex-start;
         align-items: center;
 
         div.subtitle {
           position: relative;
-          padding: 8px;
-          border-radius: 4px;
-          font-size: 16px;
           background: utils.$defaultWhite;
           text-align: center;
           flex-grow: 1;
@@ -126,22 +85,12 @@ section.filter-result-head {
         background: utils.$optionColorRed;
         color: utils.$defaultWhite;
       }
-
-      div.subtitle {
-        min-width: 100px;
-        width: auto;
-      }
     }
 
     div.pokemon-abilities {
       div.table-title {
         background: utils.$optionColorOrange;
         color: utils.$defaultWhite;
-      }
-
-      div.subtitle {
-        min-width: 120px;
-        width: auto;
       }
     }
 
@@ -150,22 +99,12 @@ section.filter-result-head {
         background: utils.$optionColorGreen;
         color: utils.$defaultWhite;
       }
-
-      div.subtitle {
-        min-width: 64px;
-        width: auto;
-      }
     }
 
     div.pokemon-moves {
       div.table-title {
         background: utils.$optionColorPurple;
         color: utils.$defaultWhite;
-      }
-
-      div.subtitle {
-        min-width: 90px;
-        width: auto;
       }
     }
   }
@@ -174,25 +113,16 @@ section.filter-result-head {
 section.filter-result-body {
   position: relative;
   display: grid;
-  margin-bottom: 20px;
-  height: calc(100vh - 94px - 148px - 114px - 20px);
   transition: all 0.3s ease;
 
   div.result-body-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 12px;
-    width: auto;
-    height: auto;
     background: utils.$defaultGrey100;
     overflow: scroll;
   }
 
   div.result {
-    width: 100%;
-    height: 39px;
-    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,8 +142,6 @@ section.filter-result-body {
     div.result-identify {
       position: relative;
       display: grid;
-      gap: 8px;
-      grid-template-columns: 80px 80px 128px 84px;
 
       div.result-pokemon-picture {
         overflow: hidden;
@@ -221,8 +149,6 @@ section.filter-result-body {
         img {
           position: relative;
           top: 0;
-          width: 40px;
-          height: auto;
         }
       }
     }
@@ -231,9 +157,6 @@ section.filter-result-body {
   div.result-species {
     position: relative;
     display: flex;
-    gap: 8px;
-    padding-right: 12px;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 
@@ -242,6 +165,10 @@ section.filter-result-body {
       justify-content: flex-start;
       align-items: center;
       width: auto;
+    }
+  }
+}
+
 @media screen and (min-width: 1025px) {
   section.filter-result-head {
     margin-bottom: 4px;
