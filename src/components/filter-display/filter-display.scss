@@ -6,8 +6,8 @@ section.filter-display {
   grid-column-gap: 20px;
   grid-row-gap: 16px;
   font-size: 12px;
-  transition: all 0.3s ease;
   margin-bottom: 16px;
+  transition: all 0.3s ease;
 }
 
 div.pokemon-filter {
@@ -291,9 +291,6 @@ div.species-filter {
 }
 
 div.filter-button-wrapper {
-  width: 82px;
-  height: 82px;
-
   button.filter-button {
     width: 100%;
     height: 100%;
@@ -333,8 +330,6 @@ div.filter-button-wrapper {
 
 div.result-stats {
   position: relative;
-  bottom: -8px;
-  font-size: 16px;
   color: utils.$defaultWhite;
 }
 
@@ -346,7 +341,6 @@ div.pokemon-search {
       height: 32px;
       border: none;
       border-radius: 12px;
-      width: 300px;
       padding-left: 12px;
     }
 
