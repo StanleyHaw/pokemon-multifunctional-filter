@@ -137,3 +137,43 @@ div.filter-wrapper {
   right: 0;
   opacity: 1;
 }
+
+div.types-filter {
+  &:after {
+    background: utils.$optionColorRed;
+  }
+
+  h4 {
+    color: utils.$optionColorRed;
+  }
+}
+
+div.abilities-filter {
+  &:after {
+    background: utils.$optionColorOrange;
+  }
+
+  h4 {
+    color: utils.$optionColorOrange;
+  }
+}
+
+div.stats-filter {
+  &:after {
+    background: utils.$optionColorGreen;
+  }
+
+  h4 {
+    color: utils.$optionColorGreen;
+  }
+}
+
+div.moves-filter {
+  &:after {
+    background: utils.$optionColorPurple;
+  }
+
+  h4 {
+    color: utils.$optionColorPurple;
+  }
+}
