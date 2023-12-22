@@ -465,3 +465,84 @@ div.content-view {
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
+
+@media screen and (max-width: 767px) {
+  section.filter-display {
+    grid-template-rows: 46px;
+    row-gap: 8px;
+    column-gap: 12px;
+    margin-bottom: 8px;
+
+    div.pokemon-filter {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    div.species-filter {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    div.filter-button-wrapper {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      height: 100%;
+    }
+
+    div.pokemon-search {
+      grid-column: 1 / span 2;
+      grid-row: 3;
+    }
+
+    div.result-stats {
+      grid-column: 1 / span 2;
+      grid-row: 4;
+      position: relative;
+      bottom: -14px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    div.content-view {
+      grid-column: 1 / span 2;
+      grid-row: 4;
+    }
+
+    div.pokemon-filter,
+    div.species-filter {
+      div.filter-container {
+        div.filter-title {
+          display: none;
+        }
+      }
+    }
+  }
+
+  div.filter-button-wrapper {
+    width: 82px;
+    height: 82px;
+  }
+
+  div.result-stats {
+    bottom: -8px;
+    font-size: 16px;
+  }
+
+  div.pokemon-search {
+    input {
+      width: 100%;
+    }
+  }
+
+  .display-expand {
+    grid-template-columns: calc(100% - 94px) 82px;
+  }
+  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
+
+  .display-collapse {
+    grid-template-columns: calc(100% - 94px) 82px;
+  }
+  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
+}
