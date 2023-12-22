@@ -170,6 +170,7 @@ div.moves-filter {
   right: 0;
   opacity: 1;
 }
+
 @media screen and (min-width: 1025px) {
   section.filter-menu {
     position: absolute;
@@ -242,6 +243,50 @@ div.moves-filter {
 
   .menu-invisible {
     right: -344px;
+    opacity: 0;
+  }
+
+  .menu-visible {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.filter-menu {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    z-index: 1;
+
+    div.filter-menu-wrapper {
+      width: 100vw;
+      height: 100vh;
+
+      div.filter-menu-title {
+        padding: 16px 32px 16px 8px;
+
+        div.title-group {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 8px;
+
+          button.close-menu {
+            display: block;
+          }
+        }
+      }
+
+      div.scroll-wrapper {
+        height: calc(100vh - 72px);
+        border-radius: 12px;
+      }
+    }
+  }
+
+  .menu-invisible {
+    right: -100%;
     opacity: 0;
   }
 
