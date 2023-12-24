@@ -11,6 +11,7 @@ function toggleFilterMenu() {
 
   filterDisplay.classList.toggle('display-expand', !isExpanded);
   filterDisplay.classList.toggle('display-collapse', isExpanded);
+  filterDisplay.classList.add('display-transition');
 
   filterArrowIcon.classList.toggle('fa-angle-left', !isExpanded);
   filterArrowIcon.classList.toggle('fa-angle-right', isExpanded);
@@ -20,14 +21,17 @@ function toggleFilterMenu() {
 
   filterResultHead.classList.toggle('result-expand', !isExpanded);
   filterResultHead.classList.toggle('result-collapse', isExpanded);
+  filterResultHead.classList.add('result-transition');
 
   filterResultBody.classList.toggle('result-expand', !isExpanded);
   filterResultBody.classList.toggle('result-collapse', isExpanded);
+  filterResultBody.classList.add('result-transition');
 }
 
 function closeFilterMenu() {
   filterDisplay.classList.remove('display-collapse');
   filterDisplay.classList.add('display-expand');
+  filterDisplay.classList.add('display-transition');
 
   filterArrowIcon.classList.remove('fa-angle-right');
   filterArrowIcon.classList.add('fa-angle-left');
@@ -37,9 +41,11 @@ function closeFilterMenu() {
 
   filterResultHead.classList.remove('result-collapse');
   filterResultHead.classList.add('result-expand');
+  filterResultHead.classList.add('result-transition');
 
   filterResultBody.classList.remove('result-collapse');
   filterResultBody.classList.add('result-expand');
+  filterResultBody.classList.add('result-transition');
 }
 
 filterMenuToggleButton.addEventListener('click', toggleFilterMenu);
