@@ -7,7 +7,6 @@
   grid-row-gap: 16px;
   font-size: 12px;
   margin-bottom: 16px;
-  transition: all 0.3s ease;
 }
 
 .pokemon-filter {
@@ -16,6 +15,7 @@
   background: utils.$defaultGrey700;
   border-radius: 12px;
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+  will-change: transform;
 
   .scroll-wrapper {
     position: relative;
@@ -131,6 +131,7 @@
   overflow-x: scroll;
   padding-right: 8px;
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+  will-change: transform;
 
   &::-webkit-scrollbar {
     display: none;
@@ -304,7 +305,7 @@
     i {
       color: utils.$defaultGrey700;
       font-size: 32px;
-      transition: all 0.3s ease;
+      transition: color 0.3s ease;
     }
 
     .fa-angle-left,
@@ -422,6 +423,10 @@
   }
 }
 
+.display-transition {
+  transition: grid 0.3s ease;
+}
+
 .display-expand {
   grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
 }
@@ -455,11 +460,13 @@
 
   .display-expand {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
@@ -536,11 +543,13 @@
 
   .display-expand {
     grid-template-columns: calc(100% - 94px) 82px;
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: calc(100% - 94px) 82px;
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }

@@ -15,7 +15,6 @@
 .filter-result-head {
   position: relative;
   display: grid;
-  transition: all 0.3s ease;
 
   .result-head-container {
     display: flex;
@@ -29,6 +28,7 @@
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
     z-index: 1;
     display: grid;
+    will-change: transform;
 
     .result-title {
       display: flex;
@@ -55,6 +55,8 @@
   }
 
   .result-scrollable-container {
+    will-change: transform;
+
     .result-title {
       display: flex;
       flex-direction: column;
@@ -113,13 +115,13 @@
 .filter-result-body {
   position: relative;
   display: grid;
-  transition: all 0.3s ease;
 
   .result-body-container {
     display: flex;
     flex-direction: column;
     background: utils.$defaultGrey100;
     overflow: scroll;
+    will-change: transform;
   }
 
   .result {
@@ -134,6 +136,7 @@
     border-radius: 12px 0 0 12px;
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
     z-index: 1;
+    will-change: transform;
 
     &::-webkit-scrollbar {
       display: none;
@@ -361,6 +364,10 @@
   }
 }
 
+.result-transition {
+  transition: grid 0.3s ease;
+}
+
 .result-expand {
   grid-template-columns: 420px calc(100% - 400px - 20px);
 }
@@ -564,10 +571,12 @@
 
   .result-expand {
     grid-template-columns: 380px calc(100% - 360px - 20px);
+    transition: none;
   }
 
   .result-collapse {
     grid-template-columns: 380px calc(100% - 360px - 20px);
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
@@ -776,10 +785,12 @@
 
   .result-expand {
     grid-template-columns: 224px calc(100% - 204px - 20px);
+    transition: none;
   }
 
   .result-collapse {
     grid-template-columns: 224px calc(100% - 204px - 20px);
+    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
