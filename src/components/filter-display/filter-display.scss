@@ -1,6 +1,6 @@
 @use '../../utils/utils.scss';
 
-section.filter-display {
+.filter-display {
   display: grid;
   grid-template-rows: 84px;
   grid-column-gap: 20px;
@@ -10,14 +10,14 @@ section.filter-display {
   transition: all 0.3s ease;
 }
 
-div.pokemon-filter {
+.pokemon-filter {
   position: relative;
   width: 100%;
   background: utils.$defaultGrey700;
   border-radius: 12px;
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
 
-  div.scroll-wrapper {
+  .scroll-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
@@ -26,13 +26,13 @@ div.pokemon-filter {
     flex-direction: row;
     padding: 8px;
 
-    div.filter-container {
+    .filter-container {
       display: flex;
       flex-direction: column;
       gap: 8px;
       width: 100%;
 
-      div.filter-title {
+      .filter-title {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -72,7 +72,7 @@ div.pokemon-filter {
         }
       }
 
-      ul.filter-option-group {
+      .filter-option-group {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -84,7 +84,7 @@ div.pokemon-filter {
           display: none;
         }
 
-        li.filter-option {
+        .filter-option {
           display: flex;
           gap: 4px;
           justify-content: space-between;
@@ -123,7 +123,7 @@ div.pokemon-filter {
   }
 }
 
-div.species-filter {
+.species-filter {
   position: relative;
   width: 100%;
   background: utils.$defaultGrey700;
@@ -136,7 +136,7 @@ div.species-filter {
     display: none;
   }
 
-  div.scroll-wrapper {
+  .scroll-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
@@ -145,7 +145,7 @@ div.species-filter {
     flex-direction: row;
     padding: 8px;
 
-    div.filter-container {
+    .filter-container {
       display: flex;
       flex-direction: column;
       gap: 8px;
@@ -154,7 +154,7 @@ div.species-filter {
         padding-right: 8px;
       }
 
-      div.filter-title {
+      .filter-title {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -194,13 +194,13 @@ div.species-filter {
         }
       }
 
-      ul.filter-option-group {
+      .filter-option-group {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 8px;
 
-        li.filter-option {
+        .filter-option {
           display: flex;
           gap: 4px;
           justify-content: center;
@@ -241,57 +241,57 @@ div.species-filter {
     }
   }
 
-  div.types-filter {
-    div.filter-title {
+  .types-filter {
+    .filter-title {
       background: utils.$optionColorRed;
     }
 
-    ul.filter-option-group {
-      li.filter-option {
+    .filter-option-group {
+      .filter-option {
         border: 2px utils.$optionColorRed solid;
       }
     }
   }
 
-  div.abilities-filter {
-    div.filter-title {
+  .abilities-filter {
+    .filter-title {
       background: utils.$optionColorOrange;
     }
 
-    ul.filter-option-group {
-      li.filter-option {
+    .filter-option-group {
+      .filter-option {
         border: 2px utils.$optionColorOrange solid;
       }
     }
   }
 
-  div.stats-filter {
-    div.filter-title {
+  .stats-filter {
+    .filter-title {
       background: utils.$optionColorGreen;
     }
 
-    ul.filter-option-group {
-      li.filter-option {
+    .filter-option-group {
+      .filter-option {
         border: 2px utils.$optionColorGreen solid;
       }
     }
   }
 
-  div.moves-filter {
-    div.filter-title {
+  .moves-filter {
+    .filter-title {
       background: utils.$optionColorPurple;
     }
 
-    ul.filter-option-group {
-      li.filter-option {
+    .filter-option-group {
+      .filter-option {
         border: 2px utils.$optionColorPurple solid;
       }
     }
   }
 }
 
-div.filter-button-wrapper {
-  button.filter-button {
+.filter-button-wrapper {
+  .filter-button {
     width: 100%;
     height: 100%;
     background: utils.$defaultWhite;
@@ -307,8 +307,8 @@ div.filter-button-wrapper {
       transition: all 0.3s ease;
     }
 
-    i.fa-angle-left,
-    i.fa-angle-right {
+    .fa-angle-left,
+    .fa-angle-right {
       font-size: 24px;
     }
 
@@ -328,12 +328,12 @@ div.filter-button-wrapper {
   }
 }
 
-div.result-stats {
+.result-stats {
   position: relative;
   color: utils.$defaultWhite;
 }
 
-div.pokemon-search {
+.pokemon-search {
   label {
     position: relative;
 
@@ -344,7 +344,7 @@ div.pokemon-search {
       padding-left: 12px;
     }
 
-    button.search-pokemon-submit {
+    .search-pokemon-submit {
       position: absolute;
       right: 4px;
       top: 50%;
@@ -368,7 +368,7 @@ div.pokemon-search {
   }
 }
 
-div.content-view {
+.content-view {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -400,56 +400,54 @@ div.content-view {
   }
 }
 
-@media screen and (min-width: 1025px) {
-  section.filter-display {
-    div.filter-title {
-      display: flex;
-    }
-  }
-
-  div.filter-button-wrapper {
-    width: 82px;
-    height: 82px;
-  }
-
-  div.result-stats {
-    bottom: -8px;
-    font-size: 16px;
-  }
-
-  div.pokemon-search {
-    input {
-      width: 300px;
-    }
-  }
-
-  .display-expand {
-    grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
-  }
-
-  .display-collapse {
-    grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+.filter-display {
+  .filter-title {
+    display: flex;
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  section.filter-display {
-    div.filter-title {
+.filter-button-wrapper {
+  width: 82px;
+  height: 82px;
+}
+
+.result-stats {
+  bottom: -8px;
+  font-size: 16px;
+}
+
+.pokemon-search {
+  input {
+    width: 300px;
+  }
+}
+
+.display-expand {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
+}
+
+.display-collapse {
+  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+}
+
+@media screen and (max-width: 1024px) {
+  .filter-display {
+    .filter-title {
       display: flex;
     }
   }
 
-  div.filter-button-wrapper {
+  .filter-button-wrapper {
     width: 82px;
     height: 82px;
   }
 
-  div.result-stats {
+  .result-stats {
     bottom: -8px;
     font-size: 16px;
   }
 
-  div.pokemon-search {
+  .pokemon-search {
     input {
       width: 100%;
     }
@@ -467,34 +465,34 @@ div.content-view {
 }
 
 @media screen and (max-width: 767px) {
-  section.filter-display {
+  .filter-display {
     grid-template-rows: 46px;
     row-gap: 8px;
     column-gap: 12px;
     margin-bottom: 8px;
 
-    div.pokemon-filter {
+    .pokemon-filter {
       grid-column: 1;
       grid-row: 1;
     }
 
-    div.species-filter {
+    .species-filter {
       grid-column: 1;
       grid-row: 2;
     }
 
-    div.filter-button-wrapper {
+    .filter-button-wrapper {
       grid-column: 2;
       grid-row: 1 / span 2;
       height: 100%;
     }
 
-    div.pokemon-search {
+    .pokemon-search {
       grid-column: 1 / span 2;
       grid-row: 3;
     }
 
-    div.result-stats {
+    .result-stats {
       grid-column: 1 / span 2;
       grid-row: 4;
       position: relative;
@@ -505,32 +503,32 @@ div.content-view {
       }
     }
 
-    div.content-view {
+    .content-view {
       grid-column: 1 / span 2;
       grid-row: 4;
     }
 
-    div.pokemon-filter,
-    div.species-filter {
-      div.filter-container {
-        div.filter-title {
+    .pokemon-filter,
+    .species-filter {
+      .filter-container {
+        .filter-title {
           display: none;
         }
       }
     }
   }
 
-  div.filter-button-wrapper {
+  .filter-button-wrapper {
     width: 82px;
     height: 82px;
   }
 
-  div.result-stats {
+  .result-stats {
     bottom: -8px;
     font-size: 16px;
   }
 
-  div.pokemon-search {
+  .pokemon-search {
     input {
       width: 100%;
     }

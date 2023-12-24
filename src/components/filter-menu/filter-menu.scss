@@ -1,14 +1,14 @@
 @use '../../utils/utils.scss';
 
-section.filter-menu {
+.filter-menu {
   transition: all 0.3s ease;
 
-  div.filter-menu-wrapper {
+  .filter-menu-wrapper {
     position: relative;
     background: utils.$defaultGrey700;
     border-radius: 12px;
 
-    div.filter-menu-title {
+    .filter-menu-title {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -37,7 +37,7 @@ section.filter-menu {
       }
     }
 
-    div.scroll-wrapper {
+    .scroll-wrapper {
       position: absolute;
       width: 100%;
       bottom: 0;
@@ -47,7 +47,7 @@ section.filter-menu {
   }
 }
 
-div.filter-wrapper {
+.filter-wrapper {
   position: relative;
   padding: 16px;
   transition: all 0.3s ease;
@@ -74,13 +74,13 @@ div.filter-wrapper {
     background: utils.$defaultGrey200;
   }
 
-  div.filter-title {
+  .filter-title {
     display: grid;
     grid-template-columns: 1fr 40px 40px;
     gap: 12px;
     padding: 8px;
 
-    h4.option-visible-toggle {
+    .option-visible-toggle {
       display: flex;
       justify-content: start;
       align-items: center;
@@ -121,7 +121,7 @@ div.filter-wrapper {
   }
 }
 
-div.types-filter {
+.types-filter {
   &:after {
     background: utils.$optionColorRed;
   }
@@ -131,7 +131,7 @@ div.types-filter {
   }
 }
 
-div.abilities-filter {
+.abilities-filter {
   &:after {
     background: utils.$optionColorOrange;
   }
@@ -141,7 +141,7 @@ div.abilities-filter {
   }
 }
 
-div.stats-filter {
+.stats-filter {
   &:after {
     background: utils.$optionColorGreen;
   }
@@ -151,13 +151,39 @@ div.stats-filter {
   }
 }
 
-div.moves-filter {
+.moves-filter {
   &:after {
     background: utils.$optionColorPurple;
   }
 
   h4 {
     color: utils.$optionColorPurple;
+  }
+}
+
+.filter-menu {
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+
+  .filter-menu-wrapper {
+    width: 344px;
+    height: calc(100vh - 40px);
+
+    .filter-menu-title {
+      padding: 16px 32px;
+
+      .title-group {
+        .close-menu {
+          display: none;
+        }
+      }
+    }
+
+    .scroll-wrapper {
+      height: calc(100vh - 105px);
+      border-radius: 12px;
+    }
   }
 }
 
@@ -171,70 +197,32 @@ div.moves-filter {
   opacity: 1;
 }
 
-@media screen and (min-width: 1025px) {
-  section.filter-menu {
+@media screen and (max-width: 1024px) {
+  .filter-menu {
     position: absolute;
     top: 0;
     margin-top: 20px;
 
-    div.filter-menu-wrapper {
+    .filter-menu-wrapper {
       width: 344px;
       height: calc(100vh - 40px);
 
-      div.filter-menu-title {
-        padding: 16px 32px;
-
-        div.title-group {
-          button.close-menu {
-            display: none;
-          }
-        }
-      }
-
-      div.scroll-wrapper {
-        height: calc(100vh - 105px);
-        border-radius: 12px;
-      }
-    }
-  }
-
-  .menu-invisible {
-    right: -344px;
-    opacity: 0;
-  }
-
-  .menu-visible {
-    right: 0;
-    opacity: 1;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  section.filter-menu {
-    position: absolute;
-    top: 0;
-    margin-top: 20px;
-
-    div.filter-menu-wrapper {
-      width: 344px;
-      height: calc(100vh - 40px);
-
-      div.filter-menu-title {
+      .filter-menu-title {
         padding: 16px 32px 16px 8px;
 
-        div.title-group {
+        .title-group {
           display: flex;
           justify-content: space-between;
           align-items: center;
           gap: 8px;
 
-          button.close-menu {
+          .close-menu {
             display: block;
           }
         }
       }
 
-      div.scroll-wrapper {
+      .scroll-wrapper {
         height: calc(100vh - 105px);
         border-radius: 12px;
       }
@@ -253,32 +241,32 @@ div.moves-filter {
 }
 
 @media screen and (max-width: 767px) {
-  section.filter-menu {
+  .filter-menu {
     position: absolute;
     top: 0;
     margin: 0;
     z-index: 1;
 
-    div.filter-menu-wrapper {
+    .filter-menu-wrapper {
       width: 100vw;
       height: 100vh;
 
-      div.filter-menu-title {
+      .filter-menu-title {
         padding: 16px 32px 16px 8px;
 
-        div.title-group {
+        .title-group {
           display: flex;
           justify-content: space-between;
           align-items: center;
           gap: 8px;
 
-          button.close-menu {
+          .close-menu {
             display: block;
           }
         }
       }
 
-      div.scroll-wrapper {
+      .scroll-wrapper {
         height: calc(100vh - 72px);
         border-radius: 12px;
       }
