@@ -1,6 +1,6 @@
 @use '../../utils/utils.scss';
 
-div.result-scrollable-container {
+.result-scrollable-container {
   position: relative;
   width: 100%;
   overflow: scroll;
@@ -12,41 +12,41 @@ div.result-scrollable-container {
 }
 // FIXME: padding-right: 無法提供邊界，造成 result-species 會貼緊 container 的右側而不是 result-head-scrollable-container
 
-section.filter-result-head {
+.filter-result-head {
   position: relative;
   display: grid;
   transition: all 0.3s ease;
 
-  div.result-head-container {
+  .result-head-container {
     display: flex;
     flex-direction: row;
     background: utils.$defaultGrey100;
   }
 
-  div.result-head-fixed-container {
+  .result-head-fixed-container {
     position: relative;
     border-radius: 12px 0 0 12px;
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
     z-index: 1;
     display: grid;
 
-    div.result-title {
+    .result-title {
       display: flex;
       flex-direction: column;
 
-      div.table-title {
+      .table-title {
         display: flex;
         justify-content: center;
         align-items: center;
         background: utils.$defaultWhite;
       }
 
-      div.subtitle-group {
+      .subtitle-group {
         display: flex;
         justify-content: flex-start;
         align-items: center;
 
-        div.subtitle {
+        .subtitle {
           background: utils.$defaultWhite;
           text-align: center;
         }
@@ -54,24 +54,24 @@ section.filter-result-head {
     }
   }
 
-  div.result-scrollable-container {
-    div.result-title {
+  .result-scrollable-container {
+    .result-title {
       display: flex;
       flex-direction: column;
 
-      div.table-title {
+      .table-title {
         display: flex;
         justify-content: center;
         align-items: center;
         background: utils.$defaultWhite;
       }
 
-      div.subtitle-group {
+      .subtitle-group {
         display: flex;
         justify-content: flex-start;
         align-items: center;
 
-        div.subtitle {
+        .subtitle {
           position: relative;
           background: utils.$defaultWhite;
           text-align: center;
@@ -80,29 +80,29 @@ section.filter-result-head {
       }
     }
 
-    div.pokemon-types {
-      div.table-title {
+    .pokemon-types {
+      .table-title {
         background: utils.$optionColorRed;
         color: utils.$defaultWhite;
       }
     }
 
-    div.pokemon-abilities {
-      div.table-title {
+    .pokemon-abilities {
+      .table-title {
         background: utils.$optionColorOrange;
         color: utils.$defaultWhite;
       }
     }
 
-    div.pokemon-stats {
-      div.table-title {
+    .pokemon-stats {
+      .table-title {
         background: utils.$optionColorGreen;
         color: utils.$defaultWhite;
       }
     }
 
-    div.pokemon-moves {
-      div.table-title {
+    .pokemon-moves {
+      .table-title {
         background: utils.$optionColorPurple;
         color: utils.$defaultWhite;
       }
@@ -110,26 +110,26 @@ section.filter-result-head {
   }
 }
 
-section.filter-result-body {
+.filter-result-body {
   position: relative;
   display: grid;
   transition: all 0.3s ease;
 
-  div.result-body-container {
+  .result-body-container {
     display: flex;
     flex-direction: column;
     background: utils.$defaultGrey100;
     overflow: scroll;
   }
 
-  div.result {
+  .result {
     display: flex;
     justify-content: center;
     align-items: center;
     background: utils.$defaultWhite;
   }
 
-  div.result-body-scrollY-container {
+  .result-body-scrollY-container {
     position: relative;
     border-radius: 12px 0 0 12px;
     box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
@@ -139,11 +139,11 @@ section.filter-result-body {
       display: none;
     }
 
-    div.result-identify {
+    .result-identify {
       position: relative;
       display: grid;
 
-      div.result-pokemon-picture {
+      .result-pokemon-picture {
         overflow: hidden;
 
         img {
@@ -154,13 +154,13 @@ section.filter-result-body {
     }
   }
 
-  div.result-species {
+  .result-species {
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    div.result-species-group {
+    .result-species-group {
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -169,227 +169,225 @@ section.filter-result-body {
   }
 }
 
-@media screen and (min-width: 1025px) {
-  section.filter-result-head {
-    margin-bottom: 4px;
+.filter-result-head {
+  margin-bottom: 4px;
 
-    div.result-head-container {
+  .result-head-container {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .result-head-fixed-container {
+    grid-template-columns: 80px 308px;
+    grid-template-rows: 86px;
+    gap: 8px;
+
+    .result-title {
       gap: 8px;
-      padding: 12px;
-    }
+      width: 100%;
 
-    div.result-head-fixed-container {
-      grid-template-columns: 80px 308px;
-      grid-template-rows: 86px;
-      gap: 8px;
+      .table-title {
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 16px;
 
-      div.result-title {
+        &:first-child {
+          height: 86px;
+        }
+      }
+
+      .subtitle-group {
         gap: 8px;
-        width: 100%;
 
-        div.table-title {
+        .subtitle {
           padding: 8px;
           border-radius: 4px;
           font-size: 16px;
 
           &:first-child {
-            height: 86px;
+            width: 80px;
           }
-        }
 
-        div.subtitle-group {
-          gap: 8px;
+          &:nth-child(2) {
+            width: 128px;
+          }
 
-          div.subtitle {
-            padding: 8px;
-            border-radius: 4px;
-            font-size: 16px;
-
-            &:first-child {
-              width: 80px;
-            }
-
-            &:nth-child(2) {
-              width: 128px;
-            }
-
-            &:last-child {
-              width: 84px;
-            }
+          &:last-child {
+            width: 84px;
           }
         }
       }
     }
+  }
 
-    div.result-scrollable-container {
-      div.result-title {
+  .result-scrollable-container {
+    .result-title {
+      gap: 8px;
+
+      .table-title {
+        min-width: 90px;
+        width: auto;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+
+      .subtitle-group {
         gap: 8px;
 
-        div.table-title {
-          min-width: 90px;
-          width: auto;
+        .subtitle {
           padding: 8px;
           border-radius: 4px;
           font-size: 16px;
         }
-
-        div.subtitle-group {
-          gap: 8px;
-
-          div.subtitle {
-            padding: 8px;
-            border-radius: 4px;
-            font-size: 16px;
-          }
-        }
-      }
-
-      div.pokemon-types {
-        div.subtitle {
-          min-width: 100px;
-          width: auto;
-        }
-      }
-
-      div.pokemon-abilities {
-        div.subtitle {
-          min-width: 120px;
-          width: auto;
-        }
-      }
-
-      div.pokemon-stats {
-        div.subtitle {
-          min-width: 64px;
-          width: auto;
-        }
-      }
-
-      div.pokemon-moves {
-        div.subtitle {
-          min-width: 90px;
-          width: auto;
-        }
-      }
-    }
-  }
-
-  section.filter-result-body {
-    margin-bottom: 20px;
-    height: calc(100vh - 94px - 148px - 114px - 20px);
-
-    div.result-body-container {
-      gap: 8px;
-      padding: 12px;
-    }
-
-    div.result {
-      width: 100%;
-      height: 39px;
-      border-radius: 4px;
-    }
-
-    div.result-body-scrollY-container {
-      div.result-identify {
-        gap: 8px;
-        grid-template-columns: 80px 80px 128px 84px;
-
-        div.result-pokemon-picture {
-          img {
-            width: 40px;
-            height: auto;
-          }
-        }
       }
     }
 
-    div.result-species {
-      position: relative;
-      display: flex;
-      gap: 8px;
-      padding-right: 12px;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-
-      div.result-species-group {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+    .pokemon-types {
+      .subtitle {
+        min-width: 100px;
         width: auto;
-        gap: 8px;
       }
+    }
 
-      div.pokemon-types {
-        div.result-type-double {
-          width: 100px;
-        }
-
-        div.result-type-single {
-          width: 208px;
-        }
+    .pokemon-abilities {
+      .subtitle {
+        min-width: 120px;
+        width: auto;
       }
+    }
 
-      div.pokemon-abilities {
-        div.result-ability-double {
-          width: 120px;
-        }
-
-        div.result-ability-single {
-          width: 248px;
-        }
-
-        div.result-ability-hidden {
-          width: 120px;
-        }
+    .pokemon-stats {
+      .subtitle {
+        min-width: 64px;
+        width: auto;
       }
+    }
 
-      div.pokemon-stats {
-        div.result-stat {
-          width: 64px;
-        }
-      }
-
-      div.pokemon-move {
+    .pokemon-moves {
+      .subtitle {
         min-width: 90px;
         width: auto;
-
-        div.result-move-name {
-          min-width: 90px;
-          width: auto;
-        }
       }
     }
-  }
-
-  .result-expand {
-    grid-template-columns: 420px calc(100% - 400px - 20px);
-  }
-
-  .result-collapse {
-    grid-template-columns: 420px calc(100% - 408px - 344px - 20px - 12px);
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  section.filter-result-head {
+.filter-result-body {
+  margin-bottom: 20px;
+  height: calc(100vh - 94px - 148px - 114px - 20px);
+
+  .result-body-container {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .result {
+    width: 100%;
+    height: 39px;
+    border-radius: 4px;
+  }
+
+  .result-body-scrollY-container {
+    .result-identify {
+      gap: 8px;
+      grid-template-columns: 80px 80px 128px 84px;
+
+      .result-pokemon-picture {
+        img {
+          width: 40px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .result-species {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    padding-right: 12px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .result-species-group {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: auto;
+      gap: 8px;
+    }
+
+    .pokemon-types {
+      .result-type-double {
+        width: 100px;
+      }
+
+      .result-type-single {
+        width: 208px;
+      }
+    }
+
+    .pokemon-abilities {
+      .result-ability-double {
+        width: 120px;
+      }
+
+      .result-ability-single {
+        width: 248px;
+      }
+
+      .result-ability-hidden {
+        width: 120px;
+      }
+    }
+
+    .pokemon-stats {
+      .result-stat {
+        width: 64px;
+      }
+    }
+
+    .pokemon-move {
+      min-width: 90px;
+      width: auto;
+
+      .result-move-name {
+        min-width: 90px;
+        width: auto;
+      }
+    }
+  }
+}
+
+.result-expand {
+  grid-template-columns: 420px calc(100% - 400px - 20px);
+}
+
+.result-collapse {
+  grid-template-columns: 420px calc(100% - 408px - 344px - 20px - 12px);
+}
+
+@media screen and (max-width: 1024px) {
+  .filter-result-head {
     margin-bottom: 4px;
 
-    div.result-head-container {
+    .result-head-container {
       gap: 8px;
       padding: 12px;
     }
 
-    div.result-head-fixed-container {
+    .result-head-fixed-container {
       grid-template-columns: 64px 284px;
       grid-template-rows: 86px;
       gap: 8px;
 
-      div.result-title {
+      .result-title {
         gap: 8px;
         width: 100%;
 
-        div.table-title {
+        .table-title {
           padding: 8px;
           border-radius: 4px;
           font-size: 16px;
@@ -399,10 +397,10 @@ section.filter-result-body {
           }
         }
 
-        div.subtitle-group {
+        .subtitle-group {
           gap: 8px;
 
-          div.subtitle {
+          .subtitle {
             padding: 8px;
             border-radius: 4px;
             font-size: 16px;
@@ -423,11 +421,11 @@ section.filter-result-body {
       }
     }
 
-    div.result-scrollable-container {
-      div.result-title {
+    .result-scrollable-container {
+      .result-title {
         gap: 8px;
 
-        div.table-title {
+        .table-title {
           min-width: 90px;
           width: auto;
           padding: 8px;
@@ -435,10 +433,10 @@ section.filter-result-body {
           font-size: 16px;
         }
 
-        div.subtitle-group {
+        .subtitle-group {
           gap: 8px;
 
-          div.subtitle {
+          .subtitle {
             padding: 8px;
             border-radius: 4px;
             font-size: 16px;
@@ -446,29 +444,29 @@ section.filter-result-body {
         }
       }
 
-      div.pokemon-types {
-        div.subtitle {
+      .pokemon-types {
+        .subtitle {
           min-width: 100px;
           width: auto;
         }
       }
 
-      div.pokemon-abilities {
-        div.subtitle {
+      .pokemon-abilities {
+        .subtitle {
           min-width: 120px;
           width: auto;
         }
       }
 
-      div.pokemon-stats {
-        div.subtitle {
+      .pokemon-stats {
+        .subtitle {
           min-width: 64px;
           width: auto;
         }
       }
 
-      div.pokemon-moves {
-        div.subtitle {
+      .pokemon-moves {
+        .subtitle {
           min-width: 90px;
           width: auto;
         }
@@ -476,27 +474,27 @@ section.filter-result-body {
     }
   }
 
-  section.filter-result-body {
+  .filter-result-body {
     margin-bottom: 20px;
     height: calc(100vh - 94px - 148px - 114px - 20px);
 
-    div.result-body-container {
+    .result-body-container {
       gap: 8px;
       padding: 12px;
     }
 
-    div.result {
+    .result {
       width: 100%;
       height: 39px;
       border-radius: 4px;
     }
 
-    div.result-body-scrollY-container {
-      div.result-identify {
+    .result-body-scrollY-container {
+      .result-identify {
         gap: 8px;
         grid-template-columns: 64px 64px 120px 84px;
 
-        div.result-pokemon-picture {
+        .result-pokemon-picture {
           img {
             width: 40px;
             height: auto;
@@ -505,7 +503,7 @@ section.filter-result-body {
       }
     }
 
-    div.result-species {
+    .result-species {
       position: relative;
       display: flex;
       gap: 8px;
@@ -514,7 +512,7 @@ section.filter-result-body {
       justify-content: flex-start;
       align-items: center;
 
-      div.result-species-group {
+      .result-species-group {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -522,41 +520,41 @@ section.filter-result-body {
         gap: 8px;
       }
 
-      div.pokemon-types {
-        div.result-type-double {
+      .pokemon-types {
+        .result-type-double {
           width: 100px;
         }
 
-        div.result-type-single {
+        .result-type-single {
           width: 208px;
         }
       }
 
-      div.pokemon-abilities {
-        div.result-ability-double {
+      .pokemon-abilities {
+        .result-ability-double {
           width: 120px;
         }
 
-        div.result-ability-single {
+        .result-ability-single {
           width: 248px;
         }
 
-        div.result-ability-hidden {
+        .result-ability-hidden {
           width: 120px;
         }
       }
 
-      div.pokemon-stats {
-        div.result-stat {
+      .pokemon-stats {
+        .result-stat {
           width: 64px;
         }
       }
 
-      div.pokemon-move {
+      .pokemon-move {
         min-width: 90px;
         width: auto;
 
-        div.result-move-name {
+        .result-move-name {
           min-width: 90px;
           width: auto;
         }
@@ -575,7 +573,7 @@ section.filter-result-body {
 }
 
 @media screen and (max-width: 767px) {
-  div.main-title {
+  .main-title {
     margin: 18px;
 
     h1 {
@@ -583,45 +581,45 @@ section.filter-result-body {
     }
   }
 
-  section.filter-result-head {
+  .filter-result-head {
     margin-bottom: 4px;
 
-    div.result-head-container {
+    .result-head-container {
       gap: 8px;
       padding: 8px;
     }
 
-    div.result-head-fixed-container {
+    .result-head-fixed-container {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
       gap: 8px;
 
-      div.result-title {
+      .result-title {
         gap: 8px;
         width: 100%;
 
-        div.table-title {
+        .table-title {
           padding: 8px;
           border-radius: 4px;
           font-size: 14px;
           height: 100%;
         }
 
-        div.subtitle-group {
+        .subtitle-group {
           display: none;
         }
       }
 
-      div.serial-number {
+      .serial-number {
         display: none;
       }
     }
 
-    div.result-scrollable-container {
-      div.result-title {
+    .result-scrollable-container {
+      .result-title {
         gap: 6px;
 
-        div.table-title {
+        .table-title {
           min-width: 90px;
           width: auto;
           padding: 4px;
@@ -629,10 +627,10 @@ section.filter-result-body {
           font-size: 14px;
         }
 
-        div.subtitle-group {
+        .subtitle-group {
           gap: 4px;
 
-          div.subtitle {
+          .subtitle {
             padding: 8px;
             border-radius: 4px;
             font-size: 12px;
@@ -640,29 +638,29 @@ section.filter-result-body {
         }
       }
 
-      div.pokemon-types {
-        div.subtitle {
+      .pokemon-types {
+        .subtitle {
           min-width: 36px;
           width: auto;
         }
       }
 
-      div.pokemon-abilities {
-        div.subtitle {
+      .pokemon-abilities {
+        .subtitle {
           min-width: 76px;
           width: auto;
         }
       }
 
-      div.pokemon-stats {
-        div.subtitle {
+      .pokemon-stats {
+        .subtitle {
           min-width: 48px;
           width: auto;
         }
       }
 
-      div.pokemon-moves {
-        div.subtitle {
+      .pokemon-moves {
+        .subtitle {
           min-width: 90px;
           width: auto;
         }
@@ -670,16 +668,16 @@ section.filter-result-body {
     }
   }
 
-  section.filter-result-body {
+  .filter-result-body {
     margin-bottom: 20px;
     height: calc(100vh - 71px - 188px - 79.5px - 20px - 8px);
 
-    div.result-body-container {
+    .result-body-container {
       gap: 8px;
       padding: 8px;
     }
 
-    div.result {
+    .result {
       width: 100%;
       height: 32px;
       border-radius: 4px;
@@ -689,19 +687,19 @@ section.filter-result-body {
       }
     }
 
-    div.result-body-scrollY-container {
-      div.result-identify {
+    .result-body-scrollY-container {
+      .result-identify {
         gap: 4px;
         grid-template-columns: 40px 40px 76px 40px;
 
-        div.result-pokemon-picture {
+        .result-pokemon-picture {
           img {
             width: auto;
             height: 36px;
           }
         }
 
-        div.result-regional-form {
+        .result-regional-form {
           p {
             font-size: 8px;
           }
@@ -709,7 +707,7 @@ section.filter-result-body {
       }
     }
 
-    div.result-species {
+    .result-species {
       position: relative;
       display: flex;
       gap: 8px;
@@ -718,7 +716,7 @@ section.filter-result-body {
       justify-content: flex-start;
       align-items: center;
 
-      div.result-species-group {
+      .result-species-group {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -726,7 +724,7 @@ section.filter-result-body {
         gap: 4px;
       }
 
-      div.pokemon-types {
+      .pokemon-types {
         p {
           display: none;
         }
@@ -735,40 +733,40 @@ section.filter-result-body {
           padding: 0;
         }
 
-        div.result-type-double {
+        .result-type-double {
           width: 43px;
         }
 
-        div.result-type-single {
+        .result-type-single {
           width: 90px;
         }
       }
 
-      div.pokemon-abilities {
-        div.result-ability-double {
+      .pokemon-abilities {
+        .result-ability-double {
           width: 76px;
         }
 
-        div.result-ability-single {
+        .result-ability-single {
           width: 156px;
         }
 
-        div.result-ability-hidden {
+        .result-ability-hidden {
           width: 76px;
         }
       }
 
-      div.pokemon-stats {
-        div.result-stat {
+      .pokemon-stats {
+        .result-stat {
           width: 48px;
         }
       }
 
-      div.pokemon-move {
+      .pokemon-move {
         min-width: 90px;
         width: auto;
 
-        div.result-move-name {
+        .result-move-name {
           min-width: 90px;
           width: auto;
         }
