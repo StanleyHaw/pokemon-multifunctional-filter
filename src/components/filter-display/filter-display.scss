@@ -14,108 +14,98 @@
   width: 100%;
   background: utils.$defaultGrey700;
   border-radius: 12px;
-  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
   will-change: transform;
 
-  .scroll-wrapper {
+  .filter-container {
     position: relative;
-    width: 100%;
-    height: 100%;
     display: flex;
+    flex-direction: column;
     gap: 8px;
-    flex-direction: row;
     padding: 8px;
+    width: 100%;
 
-    .filter-container {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      width: 100%;
+    .filter-title {
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+      height: 30px;
+      padding: 1px 1px 1px 6px;
+      width: auto;
+      background: utils.$defaultGrey600;
 
-      .filter-title {
+      h5 {
+        color: utils.$defaultWhite;
+      }
+
+      button {
+        width: 25px;
+        height: 25px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        border-radius: 8px;
-        height: 30px;
-        padding: 1px 1px 1px 6px;
-        width: auto;
-        background: utils.$defaultGrey600;
+        background: transparent;
+        border: none;
 
-        h5 {
+        i {
+          font-size: 16px;
           color: utils.$defaultWhite;
         }
 
-        button {
-          width: 25px;
-          height: 25px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background: transparent;
-          border: none;
+        &:hover {
+          background: utils.$defaultWhite;
+          border-radius: 6px;
+          cursor: pointer;
 
           i {
-            font-size: 16px;
-            color: utils.$defaultWhite;
-          }
-
-          &:hover {
-            background: utils.$defaultWhite;
-            border-radius: 6px;
-            cursor: pointer;
-
-            i {
-              color: utils.$defaultRed;
-            }
+            color: utils.$defaultRed;
           }
         }
       }
+    }
 
-      .filter-option-group {
+    .scroll-wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      gap: 8px;
+      border-radius: 8px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .filter-option {
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        gap: 8px;
-        border-radius: 0 0 8px 8px;
+        gap: 4px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        background: utils.$defaultWhite;
+        width: auto;
+        height: 30px;
+        padding: 8px;
+        border-radius: 8px;
+        white-space: nowrap;
 
-        &::-webkit-scrollbar {
-          display: none;
-        }
-
-        .filter-option {
+        button {
+          width: 20px;
+          height: 20px;
           display: flex;
-          gap: 4px;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
-          font-size: 12px;
-          background: utils.$defaultWhite;
-          width: auto;
-          height: 30px;
-          padding: 8px;
-          border-radius: 8px;
-          white-space: nowrap;
+          border: none;
+          border-radius: 99px;
+          background: utils.$defaultGrey800;
+          color: utils.$defaultWhite;
 
-          button {
-            width: 20px;
-            height: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-            border-radius: 99px;
-            background: utils.$defaultGrey800;
-            color: utils.$defaultWhite;
+          i {
+            font-size: 14px;
+          }
 
-            i {
-              font-size: 14px;
-            }
-
-            &:hover {
-              background: utils.$defaultRed;
-              cursor: pointer;
-            }
+          &:hover {
+            background: utils.$defaultRed;
+            cursor: pointer;
           }
         }
       }
@@ -128,113 +118,117 @@
   width: 100%;
   background: utils.$defaultGrey700;
   border-radius: 12px;
-  overflow-x: scroll;
-  padding-right: 8px;
-  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+  overflow-x: hidden;
   will-change: transform;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
 
   .scroll-wrapper {
     position: relative;
-    width: 100%;
-    height: 100%;
     display: flex;
-    gap: 8px;
     flex-direction: row;
-    padding: 8px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin: 8px;
+    gap: 8px;
+    border-radius: 8px;
 
-    .filter-container {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .filters-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
       display: flex;
-      flex-direction: column;
       gap: 8px;
+      flex-direction: row;
+      border-radius: 8px;
 
-      &:last-child {
-        padding-right: 8px;
-      }
-
-      .filter-title {
+      .filter-container {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 8px;
-        height: 30px;
-        padding: 1px 1px 1px 6px;
-        min-width: 120px;
-        width: auto;
+        flex-direction: column;
+        gap: 8px;
 
-        h5 {
-          color: utils.$defaultWhite;
-        }
-
-        button {
-          width: 25px;
-          height: 25px;
-          display: flex;
-          justify-content: center;
+        .filter-title {
+          justify-content: space-between;
           align-items: center;
-          background: transparent;
-          border: none;
+          border-radius: 8px;
+          height: 30px;
+          padding: 1px 1px 1px 6px;
+          min-width: 120px;
+          width: auto;
 
-          i {
-            font-size: 16px;
+          h5 {
             color: utils.$defaultWhite;
           }
 
-          &:hover {
-            background: utils.$defaultWhite;
-            border-radius: 6px;
-            cursor: pointer;
-
-            i {
-              color: utils.$defaultRed;
-            }
-          }
-        }
-      }
-
-      .filter-option-group {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 8px;
-
-        .filter-option {
-          display: flex;
-          gap: 4px;
-          justify-content: center;
-          align-items: center;
-          font-size: 12px;
-          background: utils.$defaultWhite;
-          width: auto;
-          height: 30px;
-          padding: 8px;
-          border-radius: 8px;
-          flex-grow: 1;
-          flex-wrap: nowrap;
-          min-width: 64px;
-          white-space: nowrap;
-
           button {
-            width: 20px;
-            height: 20px;
+            width: 25px;
+            height: 25px;
             display: flex;
             justify-content: center;
             align-items: center;
+            background: transparent;
             border: none;
-            border-radius: 99px;
-            background: utils.$defaultGrey800;
-            color: utils.$defaultWhite;
 
             i {
-              font-size: 14px;
+              font-size: 16px;
+              color: utils.$defaultWhite;
             }
 
             &:hover {
-              background: utils.$defaultRed;
+              background: utils.$defaultWhite;
+              border-radius: 6px;
               cursor: pointer;
+
+              i {
+                color: utils.$defaultRed;
+              }
+            }
+          }
+        }
+
+        .filter-option-group {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+
+          .filter-option {
+            display: flex;
+            gap: 4px;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            background: utils.$defaultWhite;
+            width: auto;
+            height: 30px;
+            padding: 8px;
+            border-radius: 8px;
+            flex-grow: 1;
+            flex-wrap: nowrap;
+            min-width: 64px;
+            white-space: nowrap;
+
+            button {
+              width: 20px;
+              height: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: none;
+              border-radius: 99px;
+              background: utils.$defaultGrey800;
+              color: utils.$defaultWhite;
+
+              i {
+                font-size: 14px;
+              }
+
+              &:hover {
+                background: utils.$defaultRed;
+                cursor: pointer;
+              }
             }
           }
         }
@@ -432,7 +426,53 @@
 }
 
 .display-collapse {
-  grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px) 82px;
+  grid-template-columns:
+    408px calc(100% - 408px - 20px - 82px - 20px - 344px - 20px)
+    82px;
+}
+
+.scroll-inset-shadow-left {
+  position: absolute;
+  left: 8px;
+  bottom: 0;
+  width: 16px;
+  background: linear-gradient(
+    to left,
+    rgba(utils.$defaultGrey700, 0),
+    rgba(utils.$defaultGrey700, 1)
+  );
+  z-index: 1;
+}
+
+.scroll-inset-shadow-right {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+  width: 16px;
+  background: linear-gradient(
+    to right,
+    rgba(utils.$defaultGrey700, 0),
+    rgba(utils.$defaultGrey700, 1)
+  );
+  z-index: 1;
+}
+
+.pokemon-filter {
+  .scroll-inset-shadow-left,
+  .scroll-inset-shadow-right {
+    height: 46px;
+  }
+}
+
+.species-filter {
+  .scroll-inset-shadow-left,
+  .scroll-inset-shadow-right {
+    height: 100%;
+  }
+}
+
+.shadow-invisible {
+  opacity: 0;
 }
 
 @media screen and (max-width: 1024px) {
