@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -20,113 +20,119 @@
       </div>
       <section class="filter-display display-expand">
         <div class="pokemon-filter">
-          <div class="scroll-wrapper">
-            <div class="filter-container">
-              <div class="filter-title">
-                <h5>寶可夢</h5>
-                <button>
-                  <i class="fa-solid fa-eraser"></i>
-                </button>
-              </div>
-              <ul class="filter-option-group">
-                <li class="filter-option">
-                  <p>碧之假面北上鄉圖鑑內的寶可夢</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-                <li class="filter-option">
-                  <p>藍之圓盤藍莓學院圖鑑內的寶可夢</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-              </ul>
+          <div class="filter-container">
+            <div class="filter-title">
+              <h5>寶可夢</h5>
+              <button>
+                <i class="fa-solid fa-eraser"></i>
+              </button>
             </div>
+            <div class="scroll-inset-shadow-left shadow-invisible"></div>
+            <div class="scroll-inset-shadow-right"></div>
+            <ul class="scroll-wrapper">
+              <li class="filter-option">
+                <p>碧之假面北上鄉圖鑑內的寶可夢</p>
+                <button><i class="fa-solid fa-xmark"></i></button>
+              </li>
+              <li class="filter-option">
+                <p>藍之圓盤藍莓學院圖鑑內的寶可夢</p>
+                <button><i class="fa-solid fa-xmark"></i></button>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="species-filter">
+          <div class="scroll-inset-shadow-left shadow-invisible"></div>
+          <div class="scroll-inset-shadow-right"></div>
           <div class="scroll-wrapper">
-            <div class="types-filter filter-container">
-              <div class="filter-title">
-                <h5>屬性篩選器</h5>
-                <button>
-                  <i class="fa-solid fa-eraser"></i>
-                </button>
+            <div class="filters-container">
+              <div class="types-filter filter-container">
+                <div class="filter-title">
+                  <h5>屬性篩選器</h5>
+                  <button>
+                    <i class="fa-solid fa-eraser"></i>
+                  </button>
+                </div>
+                <ul class="filter-option-group">
+                  <li class="filter-option">
+                    <p>所有屬性</p>
+                  </li>
+                  <li class="filter-option">
+                    <p>篩選所選屬性的所有組合</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                </ul>
               </div>
-              <ul class="filter-option-group">
-                <li class="filter-option">
-                  <p>所有屬性</p>
-                </li>
-                <li class="filter-option">
-                  <p>篩選所選屬性的所有組合</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-              </ul>
-            </div>
-            <div class="abilities-filter filter-container">
-              <div class="filter-title">
-                <h5>特性篩選器</h5>
-                <button>
-                  <i class="fa-solid fa-eraser"></i>
-                </button>
+              <div class="abilities-filter filter-container">
+                <div class="filter-title">
+                  <h5>特性篩選器</h5>
+                  <button>
+                    <i class="fa-solid fa-eraser"></i>
+                  </button>
+                </div>
+                <ul class="filter-option-group">
+                  <li class="filter-option">
+                    <p>所有特性</p>
+                  </li>
+                </ul>
               </div>
-              <ul class="filter-option-group">
-                <li class="filter-option">
-                  <p>所有特性</p>
-                </li>
-              </ul>
-            </div>
-            <div class="stats-filter filter-container">
-              <div class="filter-title">
-                <h5>種族值篩選器</h5>
-                <button>
-                  <i class="fa-solid fa-eraser"></i>
-                </button>
+              <div class="stats-filter filter-container">
+                <div class="filter-title">
+                  <h5>種族值篩選器</h5>
+                  <button>
+                    <i class="fa-solid fa-eraser"></i>
+                  </button>
+                </div>
+                <ul class="filter-option-group">
+                  <li class="filter-option">
+                    <p>HP介於 1 ~ 255 之間</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                  <li class="filter-option">
+                    <p>攻擊介於 10 ~ 180 之間</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                  <li class="filter-option">
+                    <p>防禦介於 10 ~ 180 之間</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                </ul>
               </div>
-              <ul class="filter-option-group">
-                <li class="filter-option">
-                  <p>HP介於 1 ~ 255 之間</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-                <li class="filter-option">
-                  <p>攻擊介於 10 ~ 180 之間</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-                <li class="filter-option">
-                  <p>防禦介於 10 ~ 180 之間</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-              </ul>
-            </div>
-            <div class="moves-filter filter-container">
-              <div class="filter-title">
-                <h5>招式篩選器</h5>
-                <button>
-                  <i class="fa-solid fa-eraser"></i>
-                </button>
+              <div class="moves-filter filter-container">
+                <div class="filter-title">
+                  <h5>招式篩選器</h5>
+                  <button>
+                    <i class="fa-solid fa-eraser"></i>
+                  </button>
+                </div>
+                <ul class="filter-option-group">
+                  <li class="filter-option">
+                    <p>守住</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                  <li class="filter-option">
+                    <p>僅篩選同時都能習得所輸入的招式之寶可夢</p>
+                    <button><i class="fa-solid fa-xmark"></i></button>
+                  </li>
+                </ul>
               </div>
-              <ul class="filter-option-group">
-                <li class="filter-option">
-                  <p>守住</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-                <li class="filter-option">
-                  <p>僅篩選同時都能習得所輸入的招式之寶可夢</p>
-                  <button><i class="fa-solid fa-xmark"></i></button>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
         <div class="filter-button-wrapper">
           <button class="filter-button">
-            <i class="fa-solid fa-angle-left"></i><i class="fa-solid fa-filter-circle-xmark"></i>
+            <i class="fa-solid fa-angle-left"></i
+            ><i class="fa-solid fa-filter-circle-xmark"></i>
           </button>
         </div>
         <div class="result-stats"><p>一共搜尋到 100 隻符合條件的寶可夢</p></div>
         <div class="pokemon-search">
           <label for="search-pokemon">
-            <input type="text" id="search-pokemon" placeholder="快速搜尋寶可夢" /><button
-              type="button"
-              class="search-pokemon-submit"
-            >
+            <input
+              type="text"
+              id="search-pokemon"
+              placeholder="快速搜尋寶可夢"
+            /><button type="button" class="search-pokemon-submit">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </label>
@@ -194,73 +200,97 @@
         <div class="result-body-scrollY-container result-body-container">
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0004</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/004.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/004.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>小火龍</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0005</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/005.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/005.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>火恐龍</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0006</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/006.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/006.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>噴火龍</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0023</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/023.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/023.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>阿柏蛇</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0024</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/024.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/024.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>阿柏怪</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0025</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/025.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/025.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>皮卡丘</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0026</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/026.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/026.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>雷丘</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0026</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/026-a.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/026-a.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>雷丘</p></div>
             <div class="result result-regional-form"><p>阿羅拉</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0027</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/027.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/027.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>穿山鼠</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0027</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/027-a.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/027-a.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>穿山鼠</p></div>
             <div class="result result-regional-form"><p>阿羅拉</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0028</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/028.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/028.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>穿山王</p></div>
             <div class="result result-regional-form"><p>-</p></div>
           </div>
           <div class="result-identify">
             <div class="result result-serial-number"><p>#0028</p></div>
-            <div class="result result-pokemon-picture"><img src="./src/assets/img/028-a.png" alt="" /></div>
+            <div class="result result-pokemon-picture">
+              <img src="./src/assets/img/028-a.png" alt="" />
+            </div>
             <div class="result result-pokemon-name"><p>穿山王</p></div>
             <div class="result result-regional-form"><p>阿羅拉</p></div>
           </div>
@@ -598,7 +628,9 @@
         <div class="filter-menu-wrapper">
           <div class="filter-menu-title">
             <div class="title-group">
-              <button class="close-menu"><i class="fa-solid fa-xmark"></i></button>
+              <button class="close-menu">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
               <h3>篩選功能列</h3>
             </div>
             <button>
