@@ -1,35 +1,66 @@
 @use '../../utils/utils.scss';
 
-.result-scrollable-container {
-  position: relative;
-  width: 100%;
-  overflow: scroll;
-  border-radius: 0 12px 12px 0;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
-// FIXME: padding-right: 無法提供邊界，造成 result-species 會貼緊 container 的右側而不是 result-head-scrollable-container
-
 .filter-result-head {
   position: relative;
   display: grid;
+  will-change: transform;
 
-  .result-head-container {
+  .result-head-fixed {
+    position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    border-radius: 8px 0 0 8px;
     background: utils.$defaultGrey100;
+    will-change: transform;
   }
 
-  .result-head-fixed-container {
+  .result-head-scrollX {
     position: relative;
-    border-radius: 12px 0 0 12px;
-    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
-    z-index: 1;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    border-radius: 0 8px 8px 0;
+    background: utils.$defaultGrey100;
     will-change: transform;
 
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 8px;
+      height: 100%;
+      background: linear-gradient(
+        to left,
+        rgba(utils.$defaultGrey700, 0),
+        rgba(utils.$defaultGrey700, 0.15)
+      );
+      z-index: 1;
+    }
+  }
+
+  .head-scroll-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    margin: 12px 12px 12px 0;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .result-head-container {
+      display: flex;
+      flex-direction: row;
+      border-radius: 8px;
+      height: 100%;
+    }
+  }
+
+  .result-fixed {
     .result-title {
       display: flex;
       flex-direction: column;
@@ -54,9 +85,7 @@
     }
   }
 
-  .result-scrollable-container {
-    will-change: transform;
-
+  .result-scrollX {
     .result-title {
       display: flex;
       flex-direction: column;
@@ -116,11 +145,60 @@
   position: relative;
   display: grid;
 
+  .result-body-scrollY {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 8px;
+    border-radius: 8px 0 0 8px;
+    background: #f2f2f2;
+    will-change: transform;
+  }
+
+  .result-body-scrollXY {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 8px;
+    border-radius: 0 8px 8px 0;
+    background: #f2f2f2;
+    will-change: transform;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 8px;
+      height: 100%;
+      background: linear-gradient(
+        to left,
+        rgba(utils.$defaultGrey700, 0),
+        rgba(utils.$defaultGrey700, 0.15)
+      );
+      z-index: 1;
+    }
+  }
+
+  .body-scroll-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    margin: 12px 12px 12px 0;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
   .result-body-container {
     display: flex;
     flex-direction: column;
     background: utils.$defaultGrey100;
-    overflow: scroll;
     will-change: transform;
   }
 
@@ -131,10 +209,8 @@
     background: utils.$defaultWhite;
   }
 
-  .result-body-scrollY-container {
+  .result-scrollY {
     position: relative;
-    border-radius: 12px 0 0 12px;
-    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.15);
     z-index: 1;
     will-change: transform;
 
@@ -177,17 +253,16 @@
 
   .result-head-container {
     gap: 8px;
-    padding: 12px;
+    padding-left: 12px;
   }
 
-  .result-head-fixed-container {
-    grid-template-columns: 80px 308px;
-    grid-template-rows: 86px;
+  .result-fixed {
     gap: 8px;
 
     .result-title {
-      gap: 8px;
       width: 100%;
+      height: 100%;
+      gap: 8px;
 
       .table-title {
         padding: 8px;
@@ -195,7 +270,7 @@
         font-size: 16px;
 
         &:first-child {
-          height: 86px;
+          height: 100%;
         }
       }
 
@@ -223,7 +298,7 @@
     }
   }
 
-  .result-scrollable-container {
+  .result-scrollX {
     .result-title {
       gap: 8px;
 
@@ -282,7 +357,7 @@
 
   .result-body-container {
     gap: 8px;
-    padding: 12px;
+    padding-left: 12px;
   }
 
   .result {
@@ -291,7 +366,7 @@
     border-radius: 4px;
   }
 
-  .result-body-scrollY-container {
+  .result-scrollY {
     .result-identify {
       gap: 8px;
       grid-template-columns: 80px 80px 128px 84px;
@@ -382,26 +457,20 @@
 
     .result-head-container {
       gap: 8px;
-      padding: 12px;
+      padding-left: 12px;
     }
 
-    .result-head-fixed-container {
-      grid-template-columns: 64px 284px;
-      grid-template-rows: 86px;
+    .result-fixed {
       gap: 8px;
 
       .result-title {
-        gap: 8px;
         width: 100%;
+        height: 100%;
 
         .table-title {
           padding: 8px;
           border-radius: 4px;
           font-size: 16px;
-
-          &:first-child {
-            height: 86px;
-          }
         }
 
         .subtitle-group {
@@ -428,7 +497,7 @@
       }
     }
 
-    .result-scrollable-container {
+    .result-scrollX {
       .result-title {
         gap: 8px;
 
@@ -487,7 +556,7 @@
 
     .result-body-container {
       gap: 8px;
-      padding: 12px;
+      padding-left: 12px;
     }
 
     .result {
@@ -496,7 +565,7 @@
       border-radius: 4px;
     }
 
-    .result-body-scrollY-container {
+    .result-scrollY {
       .result-identify {
         gap: 8px;
         grid-template-columns: 64px 64px 120px 84px;
@@ -593,25 +662,26 @@
   .filter-result-head {
     margin-bottom: 4px;
 
-    .result-head-container {
-      gap: 8px;
-      padding: 8px;
+    .head-scroll-wrapper {
+      margin: 8px 8px 8px 0;
     }
 
-    .result-head-fixed-container {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
+    .result-head-container {
+      gap: 8px;
+      padding-left: 8px;
+    }
+
+    .result-fixed {
       gap: 8px;
 
       .result-title {
-        gap: 8px;
         width: 100%;
+        height: 100%;
 
         .table-title {
           padding: 8px;
           border-radius: 4px;
           font-size: 14px;
-          height: 100%;
         }
 
         .subtitle-group {
@@ -624,14 +694,14 @@
       }
     }
 
-    .result-scrollable-container {
+    .result-scrollX {
       .result-title {
         gap: 6px;
 
         .table-title {
           min-width: 90px;
           width: auto;
-          padding: 4px;
+          padding: 8px;
           border-radius: 4px;
           font-size: 14px;
         }
@@ -681,9 +751,13 @@
     margin-bottom: 20px;
     height: calc(100vh - 71px - 188px - 79.5px - 20px - 8px);
 
+    .body-scroll-wrapper {
+      margin: 8px 8px 8px 0;
+    }
+
     .result-body-container {
       gap: 8px;
-      padding: 8px;
+      padding-left: 8px;
     }
 
     .result {
@@ -696,7 +770,7 @@
       }
     }
 
-    .result-body-scrollY-container {
+    .result-scrollY {
       .result-identify {
         gap: 4px;
         grid-template-columns: 40px 40px 76px 40px;
