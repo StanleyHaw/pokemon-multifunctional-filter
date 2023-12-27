@@ -439,11 +439,7 @@
   }
 }
 
-.result-transition {
-  transition: grid 0.3s ease;
-}
-
-.result-expand {
+.result-default-size {
   grid-template-columns: 420px calc(100% - 400px - 20px);
 }
 
@@ -638,14 +634,12 @@
     }
   }
 
-  .result-expand {
+  .result-default-size {
     grid-template-columns: 380px calc(100% - 360px - 20px);
-    transition: none;
   }
 
   .result-collapse {
     grid-template-columns: 380px calc(100% - 360px - 20px);
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
@@ -857,14 +851,12 @@
     }
   }
 
-  .result-expand {
+  .result-default-size {
     grid-template-columns: 224px calc(100% - 204px - 20px);
-    transition: none;
   }
 
   .result-collapse {
     grid-template-columns: 224px calc(100% - 204px - 20px);
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
