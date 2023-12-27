@@ -417,11 +417,7 @@
   }
 }
 
-.display-transition {
-  transition: grid 0.3s ease;
-}
-
-.display-expand {
+.display-default-size {
   grid-template-columns: 408px calc(100% - 408px - 20px - 82px - 20px) 82px;
 }
 
@@ -498,15 +494,13 @@
     }
   }
 
-  .display-expand {
+  .display-default-size {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
@@ -581,15 +575,13 @@
     }
   }
 
-  .display-expand {
+  .display-default-size {
     grid-template-columns: calc(100% - 94px) 82px;
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: calc(100% - 94px) 82px;
-    transition: none;
   }
   // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
