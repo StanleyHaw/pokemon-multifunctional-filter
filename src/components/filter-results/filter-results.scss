@@ -45,8 +45,10 @@
   .head-scroll-wrapper {
     position: relative;
     width: 100%;
-    overflow: scroll;
     margin: 12px 12px 12px 0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
     &::-webkit-scrollbar {
       display: none;
@@ -187,8 +189,10 @@
   .body-scroll-wrapper {
     position: relative;
     width: 100%;
-    overflow: scroll;
     margin: 12px 12px 12px 0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
     &::-webkit-scrollbar {
       display: none;
@@ -213,6 +217,8 @@
     position: relative;
     z-index: 1;
     will-change: transform;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
     &::-webkit-scrollbar {
       display: none;
