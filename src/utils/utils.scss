@@ -14,8 +14,10 @@ $optionColorRed: #ff3c12;
 $optionColorOrange: #ff9314;
 $optionColorGreen: #13b440;
 $optionColorPurple: #7e60fd;
-$optionColorCycle: $optionColorRed, $optionColorOrange, $optionColorGreen, $optionColorPurple;
-$optionColorCycleLighten: lighten($optionColorRed, 35), lighten($optionColorOrange, 35), lighten($optionColorGreen, 55),
+$optionColorCycle: $optionColorRed, $optionColorOrange, $optionColorGreen,
+  $optionColorPurple;
+$optionColorCycleLighten: lighten($optionColorRed, 35),
+  lighten($optionColorOrange, 35), lighten($optionColorGreen, 55),
   lighten($optionColorPurple, 25);
 
 $typeFire: #e62829;
@@ -213,6 +215,7 @@ body {
     padding-right: 6px;
   }
 }
+
 button {
   appearance: none;
   border: none;
@@ -225,6 +228,7 @@ button {
     outline: none;
   }
 }
+
 .button-md {
   padding: 4px;
   width: auto;
@@ -241,4 +245,8 @@ button {
   &:active {
     background: $defaultGrey200;
   }
+}
+
+.run-transition {
+  transition: all 0.3s ease;
 }

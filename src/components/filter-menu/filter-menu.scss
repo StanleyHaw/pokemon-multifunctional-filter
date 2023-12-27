@@ -48,7 +48,6 @@
 .filter-wrapper {
   position: relative;
   padding: 16px;
-  transition: all 0.3s ease;
 
   &:after {
     position: absolute;
@@ -186,13 +185,11 @@
 }
 
 .menu-invisible {
-  transition: all 0.3s ease;
   right: -364px;
   opacity: 0;
 }
 
 .menu-visible {
-  transition: all 0.3s ease;
   right: 0;
   opacity: 1;
 }
