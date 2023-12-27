@@ -51,7 +51,14 @@ $typeNormal: #9fa19f;
 body {
   position: relative;
   background: $defaultGrey600;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .type-fire {
