@@ -15,33 +15,41 @@ function toggleTransition(item) {
   }, 300);
 }
 
-function toggleCollapse(item, transitionClass, menuVisible) {
-  item.classList.toggle(`${transitionClass}-default-size`, !menuVisible);
-  item.classList.toggle(`${transitionClass}-collapse`, menuVisible);
-  toggleTransition(item);
+function toggleFilterDisplayCollapse(menuVisible) {
+  filterDisplay.classList.toggle('display-default-size', !menuVisible);
+  filterDisplay.classList.toggle('display-collapse', menuVisible);
+  toggleTransition(filterDisplay);
 }
 
-function toggleVisibleAndInvisible(item, transitionClass, menuVisible) {
-  item.classList.toggle(`${transitionClass}-invisible`, !menuVisible);
-  item.classList.toggle(`${transitionClass}-visible`, menuVisible);
-  toggleTransition(item);
+function toggleFilterResultCollapse(menuVisible) {
+  filterResultHead.classList.toggle('result-default-size', !menuVisible);
+  filterResultHead.classList.toggle('result-collapse', menuVisible);
+  toggleTransition(filterResultHead);
+
+  filterResultBody.classList.toggle('result-default-size', !menuVisible);
+  filterResultBody.classList.toggle('result-collapse', menuVisible);
+  toggleTransition(filterResultBody);
+}
+
+function toggleMenuVisible(menuVisible) {
+  filterMenu.classList.toggle('menu-invisible', !menuVisible);
+  filterMenu.classList.toggle('menu-visible', menuVisible);
+  toggleTransition(filterMenu);
 }
 
 function toggleFilterMenu() {
   const menuVisible = filterMenu.classList.contains('menu-invisible');
 
-  toggleCollapse(filterDisplay, 'display', menuVisible);
-  toggleCollapse(filterResultHead, 'result', menuVisible);
-  toggleCollapse(filterResultBody, 'result', menuVisible);
-  toggleVisibleAndInvisible(filterMenu, 'menu', menuVisible);
+  toggleFilterDisplayCollapse(menuVisible);
+  toggleFilterResultCollapse(menuVisible);
+  toggleMenuVisible(menuVisible);
   filterArrowIcon.classList.toggle('fa-angle-left', !menuVisible);
   filterArrowIcon.classList.toggle('fa-angle-right', menuVisible);
 }
 
 function closeFilterMenu() {
-  toggleCollapse(filterResultHead, 'result', false);
-  toggleCollapse(filterResultBody, 'result', false);
-  toggleVisibleAndInvisible(filterMenu, 'menu', false);
+  toggleFilterResultCollapse(false);
+  toggleMenuVisible(false);
   filterDisplay.classList.remove('display-collapse');
   filterDisplay.classList.add('display-default-size');
 
