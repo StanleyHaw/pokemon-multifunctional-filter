@@ -22,7 +22,7 @@ $optionColorCycleLighten: lighten($optionColorRed, 35),
 
 $typeFire: #e62829;
 $typeFighting: #ff8001;
-$typeEletric: #fac000;
+$typeelectric: #fac000;
 $typeBug: #91a219;
 $typeGrass: #3fa129;
 $typeFlying: #81b9ef;
@@ -79,8 +79,8 @@ main {
   }
 }
 
-.type-eletric {
-  background: $typeEletric !important;
+.type-electric {
+  background: $typeelectric !important;
   color: $defaultWhite;
 
   img {
