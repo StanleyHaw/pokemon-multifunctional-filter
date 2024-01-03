@@ -14,11 +14,6 @@ $optionColorRed: #ff3c12;
 $optionColorOrange: #ff9314;
 $optionColorGreen: #13b440;
 $optionColorPurple: #7e60fd;
-$optionColorCycle: $optionColorRed, $optionColorOrange, $optionColorGreen,
-  $optionColorPurple;
-$optionColorCycleLighten: lighten($optionColorRed, 35),
-  lighten($optionColorOrange, 35), lighten($optionColorGreen, 55),
-  lighten($optionColorPurple, 25);
 
 $typeFire: #e62829;
 $typeFighting: #ff8001;
@@ -38,28 +33,6 @@ $typeGround: #915120;
 $typeDark: #50423e;
 $typeRock: #afa981;
 $typeNormal: #9fa19f;
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'noto sans TC', sans-serif;
-}
-
-body {
-  position: relative;
-  background: $defaultGrey600;
-  overflow: hidden;
-}
-
-main {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 
 .type-fire {
   background: $typeFire !important;
@@ -223,19 +196,6 @@ main {
   }
 }
 
-button {
-  appearance: none;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-
-  &:active,
-  &:focus {
-    outline: none;
-  }
-}
-
 .button-md {
   padding: 4px;
   width: auto;
@@ -256,4 +216,8 @@ button {
 
 .run-transition {
   transition: all 0.3s ease;
+}
+
+.main-title {
+  margin: 24px auto;
 }

@@ -1,4 +1,4 @@
-@use '../../utils/utils.scss';
+@use '../../global.scss';
 
 .filter-display {
   display: grid;
@@ -12,7 +12,7 @@
 .pokemon-filter {
   position: relative;
   width: 100%;
-  background: utils.$defaultGrey700;
+  background: global.$defaultGrey700;
   border-radius: 12px;
   will-change: transform;
 
@@ -31,10 +31,10 @@
       height: 30px;
       padding: 1px 1px 1px 6px;
       width: auto;
-      background: utils.$defaultGrey600;
+      background: global.$defaultGrey600;
 
       h5 {
-        color: utils.$defaultWhite;
+        color: global.$defaultWhite;
       }
 
       button {
@@ -48,16 +48,16 @@
 
         i {
           font-size: 16px;
-          color: utils.$defaultWhite;
+          color: global.$defaultWhite;
         }
 
         &:hover {
-          background: utils.$defaultWhite;
+          background: global.$defaultWhite;
           border-radius: 6px;
           cursor: pointer;
 
           i {
-            color: utils.$defaultRed;
+            color: global.$defaultRed;
           }
         }
       }
@@ -83,7 +83,7 @@
         justify-content: space-between;
         align-items: center;
         font-size: 12px;
-        background: utils.$defaultWhite;
+        background: global.$defaultWhite;
         width: auto;
         height: 30px;
         padding: 8px;
@@ -98,15 +98,15 @@
           align-items: center;
           border: none;
           border-radius: 99px;
-          background: utils.$defaultGrey800;
-          color: utils.$defaultWhite;
+          background: global.$defaultGrey800;
+          color: global.$defaultWhite;
 
           i {
             font-size: 14px;
           }
 
           &:hover {
-            background: utils.$defaultRed;
+            background: global.$defaultRed;
             cursor: pointer;
           }
         }
@@ -118,7 +118,7 @@
 .species-filter {
   position: relative;
   width: 100%;
-  background: utils.$defaultGrey700;
+  background: global.$defaultGrey700;
   border-radius: 12px;
   overflow-x: hidden;
   will-change: transform;
@@ -163,7 +163,7 @@
           width: auto;
 
           h5 {
-            color: utils.$defaultWhite;
+            color: global.$defaultWhite;
           }
 
           button {
@@ -177,16 +177,16 @@
 
             i {
               font-size: 16px;
-              color: utils.$defaultWhite;
+              color: global.$defaultWhite;
             }
 
             &:hover {
-              background: utils.$defaultWhite;
+              background: global.$defaultWhite;
               border-radius: 6px;
               cursor: pointer;
 
               i {
-                color: utils.$defaultRed;
+                color: global.$defaultRed;
               }
             }
           }
@@ -204,7 +204,7 @@
             justify-content: center;
             align-items: center;
             font-size: 12px;
-            background: utils.$defaultWhite;
+            background: global.$defaultWhite;
             width: auto;
             height: 30px;
             padding: 8px;
@@ -222,15 +222,15 @@
               align-items: center;
               border: none;
               border-radius: 99px;
-              background: utils.$defaultGrey800;
-              color: utils.$defaultWhite;
+              background: global.$defaultGrey800;
+              color: global.$defaultWhite;
 
               i {
                 font-size: 14px;
               }
 
               &:hover {
-                background: utils.$defaultRed;
+                background: global.$defaultRed;
                 cursor: pointer;
               }
             }
@@ -242,48 +242,48 @@
 
   .types-filter {
     .filter-title {
-      background: utils.$optionColorRed;
+      background: global.$optionColorRed;
     }
 
     .filter-option-group {
       .filter-option {
-        border: 2px utils.$optionColorRed solid;
+        border: 2px global.$optionColorRed solid;
       }
     }
   }
 
   .abilities-filter {
     .filter-title {
-      background: utils.$optionColorOrange;
+      background: global.$optionColorOrange;
     }
 
     .filter-option-group {
       .filter-option {
-        border: 2px utils.$optionColorOrange solid;
+        border: 2px global.$optionColorOrange solid;
       }
     }
   }
 
   .stats-filter {
     .filter-title {
-      background: utils.$optionColorGreen;
+      background: global.$optionColorGreen;
     }
 
     .filter-option-group {
       .filter-option {
-        border: 2px utils.$optionColorGreen solid;
+        border: 2px global.$optionColorGreen solid;
       }
     }
   }
 
   .moves-filter {
     .filter-title {
-      background: utils.$optionColorPurple;
+      background: global.$optionColorPurple;
     }
 
     .filter-option-group {
       .filter-option {
-        border: 2px utils.$optionColorPurple solid;
+        border: 2px global.$optionColorPurple solid;
       }
     }
   }
@@ -293,7 +293,7 @@
   .filter-button {
     width: 100%;
     height: 100%;
-    background: utils.$defaultWhite;
+    background: global.$defaultWhite;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -301,7 +301,7 @@
     border-radius: 12px;
 
     i {
-      color: utils.$defaultGrey700;
+      color: global.$defaultGrey700;
       font-size: 32px;
       transition: color 0.3s ease;
     }
@@ -313,15 +313,15 @@
 
     &:hover {
       i {
-        color: utils.$defaultBlue;
+        color: global.$defaultBlue;
       }
     }
 
     &:active {
-      background: utils.$defaultGrey200;
+      background: global.$defaultGrey200;
 
       i {
-        color: utils.$defaultBlue;
+        color: global.$defaultBlue;
       }
     }
   }
@@ -329,7 +329,7 @@
 
 .result-stats {
   position: relative;
-  color: utils.$defaultWhite;
+  color: global.$defaultWhite;
 }
 
 .pokemon-search {
@@ -360,7 +360,7 @@
       }
 
       &:hover {
-        background: utils.$defaultGrey200;
+        background: global.$defaultGrey200;
         cursor: pointer;
       }
     }
@@ -374,7 +374,7 @@
   width: 60px;
   height: 32px;
   margin-left: auto;
-  background: utils.$defaultGrey200;
+  background: global.$defaultGrey200;
   border-radius: 12px;
 
   button {
@@ -390,12 +390,12 @@
     }
 
     &:hover {
-      background: utils.$defaultGrey100;
+      background: global.$defaultGrey100;
     }
   }
 
   .content-view-active {
-    background: utils.$defaultWhite;
+    background: global.$defaultWhite;
   }
 }
 
@@ -438,8 +438,8 @@
   width: 16px;
   background: linear-gradient(
     to left,
-    rgba(utils.$defaultGrey700, 0),
-    rgba(utils.$defaultGrey700, 1)
+    rgba(global.$defaultGrey700, 0),
+    rgba(global.$defaultGrey700, 1)
   );
   z-index: 1;
 }
@@ -451,8 +451,8 @@
   width: 16px;
   background: linear-gradient(
     to right,
-    rgba(utils.$defaultGrey700, 0),
-    rgba(utils.$defaultGrey700, 1)
+    rgba(global.$defaultGrey700, 0),
+    rgba(global.$defaultGrey700, 1)
   );
   z-index: 1;
 }
