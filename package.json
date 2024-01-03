@@ -20,7 +20,7 @@
     "sass": "^1.69.5",
     "vite": "^5.0.8"
   },
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "esbuild": "^0.19.9",
     "fsevents": "^2.3.3",
