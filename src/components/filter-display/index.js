@@ -1,3 +1,4 @@
+import './filter-display.scss';
 import './scroll-inset-shadow.js';
 
 const filterMenuToggleButton = document.querySelector('.filter-button');

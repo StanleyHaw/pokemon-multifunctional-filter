@@ -1,4 +1,4 @@
-@use '../../utils/utils.scss';
+@use '../../global.scss';
 
 .filter-result-head {
   position: relative;
@@ -12,7 +12,7 @@
     flex-wrap: nowrap;
     gap: 8px;
     border-radius: 8px 0 0 8px;
-    background: utils.$defaultGrey100;
+    background: global.$defaultGrey100;
     will-change: transform;
   }
 
@@ -23,7 +23,7 @@
     flex-wrap: nowrap;
     gap: 8px;
     border-radius: 0 8px 8px 0;
-    background: utils.$defaultGrey100;
+    background: global.$defaultGrey100;
     will-change: transform;
 
     &:after {
@@ -35,8 +35,8 @@
       height: 100%;
       background: linear-gradient(
         to left,
-        rgba(utils.$defaultGrey700, 0),
-        rgba(utils.$defaultGrey700, 0.15)
+        rgba(global.$defaultGrey700, 0),
+        rgba(global.$defaultGrey700, 0.15)
       );
       z-index: 1;
     }
@@ -71,7 +71,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: utils.$defaultWhite;
+        background: global.$defaultWhite;
       }
 
       .subtitle-group {
@@ -80,7 +80,7 @@
         align-items: center;
 
         .subtitle {
-          background: utils.$defaultWhite;
+          background: global.$defaultWhite;
           text-align: center;
         }
       }
@@ -96,7 +96,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: utils.$defaultWhite;
+        background: global.$defaultWhite;
       }
 
       .subtitle-group {
@@ -106,7 +106,7 @@
 
         .subtitle {
           position: relative;
-          background: utils.$defaultWhite;
+          background: global.$defaultWhite;
           text-align: center;
           flex-grow: 1;
         }
@@ -115,29 +115,29 @@
 
     .pokemon-types {
       .table-title {
-        background: utils.$optionColorRed;
-        color: utils.$defaultWhite;
+        background: global.$optionColorRed;
+        color: global.$defaultWhite;
       }
     }
 
     .pokemon-abilities {
       .table-title {
-        background: utils.$optionColorOrange;
-        color: utils.$defaultWhite;
+        background: global.$optionColorOrange;
+        color: global.$defaultWhite;
       }
     }
 
     .pokemon-stats {
       .table-title {
-        background: utils.$optionColorGreen;
-        color: utils.$defaultWhite;
+        background: global.$optionColorGreen;
+        color: global.$defaultWhite;
       }
     }
 
     .pokemon-moves {
       .table-title {
-        background: utils.$optionColorPurple;
-        color: utils.$defaultWhite;
+        background: global.$optionColorPurple;
+        color: global.$defaultWhite;
       }
     }
   }
@@ -179,8 +179,8 @@
       height: 100%;
       background: linear-gradient(
         to left,
-        rgba(utils.$defaultGrey700, 0),
-        rgba(utils.$defaultGrey700, 0.15)
+        rgba(global.$defaultGrey700, 0),
+        rgba(global.$defaultGrey700, 0.15)
       );
       z-index: 1;
     }
@@ -202,7 +202,7 @@
   .result-body-container {
     display: flex;
     flex-direction: column;
-    background: utils.$defaultGrey100;
+    background: global.$defaultGrey100;
     will-change: transform;
   }
 
@@ -210,7 +210,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: utils.$defaultWhite;
+    background: global.$defaultWhite;
   }
 
   .result-scrollY {

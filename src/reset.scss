@@ -1,0 +1,62 @@
+@use './global.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'noto sans TC', sans-serif;
+}
+
+body {
+  position: relative;
+  background: global.$defaultGrey600;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: global.$defaultWhite;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: global.$defaultWhite;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+section {
+  margin: 0 20px;
+}
