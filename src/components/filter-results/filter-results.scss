@@ -47,18 +47,21 @@
     width: 100%;
     margin: 12px 12px 12px 0;
     overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
 
     .result-head-container {
       display: flex;
       flex-direction: row;
       border-radius: 8px;
       height: 100%;
+    }
+  }
+
+  #result-scrollX {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 
@@ -191,6 +194,9 @@
     width: 100%;
     margin: 12px 12px 12px 0;
     overflow: scroll;
+  }
+
+  #result-scrollY {
     -ms-overflow-style: none;
     scrollbar-width: none;
 
@@ -217,12 +223,7 @@
     position: relative;
     z-index: 1;
     will-change: transform;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    overflow: hidden;
 
     .result-identify {
       position: relative;
