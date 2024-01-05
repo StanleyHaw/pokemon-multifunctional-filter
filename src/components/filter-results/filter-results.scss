@@ -219,6 +219,12 @@
     background: global.$defaultWhite;
   }
 
+  .null-value {
+    background: global.$defaultGrey200;
+    color: global.$defaultGrey200;
+    pointer-events: none;
+  }
+
   .result-scrollY {
     position: relative;
     z-index: 1;

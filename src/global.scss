@@ -1,6 +1,8 @@
 $defaultWhite: #ffffff;
 $defaultGrey100: #f2f2f2;
 $defaultGrey200: #d9d9d9;
+$defaultGrey300: #acacac;
+$defaultGrey400: #7f7f7f;
 $defaultGrey500: #50504f;
 $defaultGrey600: #3c3c3c;
 $defaultGrey700: #282828;
@@ -17,7 +19,7 @@ $optionColorPurple: #7e60fd;
 
 $typeFire: #e62829;
 $typeFighting: #ff8001;
-$typeelectric: #fac000;
+$typeElectric: #fac000;
 $typeBug: #91a219;
 $typeGrass: #3fa129;
 $typeFlying: #81b9ef;
@@ -53,7 +55,7 @@ $typeNormal: #9fa19f;
 }
 
 .type-electric {
-  background: $typeelectric !important;
+  background: $typeElectric !important;
   color: $defaultWhite;
 
   img {
