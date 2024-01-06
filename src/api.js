@@ -3,6 +3,7 @@ import {
   createPokemonSpeciesElement,
 } from './components/filter-results/create-pokemon-list.js';
 import INVALID_FORMS from './invalid-forms.js';
+import { showLoadingState, hideLoadingState } from './components/loading-overlay/index.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 
@@ -11,6 +12,7 @@ function isValidPokemon(serialNumber, name) {
 }
 
 async function getAllPokemonData() {
+  showLoadingState();
   try {
     const response = await fetch(POKEMON_SOURCE);
     const data = await response.json();
@@ -18,6 +20,8 @@ async function getAllPokemonData() {
   } catch (error) {
     console.error('Fetch error:', error);
     throw error;
+  } finally {
+    hideLoadingState();
   }
 }
 
