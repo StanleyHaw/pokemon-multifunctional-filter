@@ -291,6 +291,7 @@
 
 .filter-button-wrapper {
   .filter-button {
+    position: relative;
     width: 100%;
     height: 100%;
     background: global.$defaultWhite;

@@ -1,5 +1,6 @@
 @use './global.scss';
 @use './reset.scss';
+@use './components/loading-overlay/loading-overlay.scss';
 
 main {
   width: 100vw;
