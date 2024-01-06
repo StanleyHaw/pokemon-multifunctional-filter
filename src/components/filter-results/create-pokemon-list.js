@@ -1,7 +1,7 @@
-import { createSingleTypeElement, createDoubleTypesElement } from './type-element-creator.js';
+import { createSingleType, createDoubleTypes } from './create-type-element.js';
 import {
-  createSingleAbilityElement,
-  createDoubleAbilitiesElement,
+  createSingleAbility,
+  createDoubleAbilities,
   createHiddenAbilityElement,
 } from './create-ability-element.js';
 import { judgeNullValue } from './judge-forme-value.js';
@@ -56,10 +56,10 @@ export function createPokemonSpeciesElement(data) {
   const firstType = data.types[0]?.toLowerCase();
   const secondType = data.types[1]?.toLowerCase();
   if (!secondType) {
-    const pokemonSingleType = createSingleTypeElement(firstType);
+    const pokemonSingleType = createSingleType(firstType);
     pokemonTypesWrapper.appendChild(pokemonSingleType);
   } else if (secondType) {
-    const [pokemonFirstType, pokemonSecondType] = createDoubleTypesElement(firstType, secondType);
+    const [pokemonFirstType, pokemonSecondType] = createDoubleTypes(firstType, secondType);
     pokemonTypesWrapper.appendChild(pokemonFirstType);
     pokemonTypesWrapper.appendChild(pokemonSecondType);
   }
@@ -70,13 +70,13 @@ export function createPokemonSpeciesElement(data) {
   const secondAbility = data.abilities[1]?.toLowerCase();
   const hiddenAbility = data.abilities['H']?.toLowerCase();
   if (firstAbility && !secondAbility && !hiddenAbility) {
-    const pokemonSingleAbility = createSingleAbilityElement(firstAbility);
+    const pokemonSingleAbility = createSingleAbility(firstAbility);
     const pokemonHiddenAbility = createHiddenAbilityElement('');
 
     pokemonAbilitiesWrapper.appendChild(pokemonSingleAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonHiddenAbility);
   } else if (firstAbility && secondAbility && hiddenAbility) {
-    const [pokemonFirstAbility, pokemonSecondAbility] = createDoubleAbilitiesElement(
+    const [pokemonFirstAbility, pokemonSecondAbility] = createDoubleAbilities(
       firstAbility,
       secondAbility,
     );
@@ -85,7 +85,7 @@ export function createPokemonSpeciesElement(data) {
     pokemonAbilitiesWrapper.appendChild(pokemonSecondAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonHiddenAbility);
   } else if (firstAbility && !secondAbility && hiddenAbility) {
-    const pokemonFirstAbility = createSingleAbilityElement(firstAbility);
+    const pokemonFirstAbility = createSingleAbility(firstAbility);
     const pokemonHiddenAbility = createHiddenAbilityElement(hiddenAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonFirstAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonHiddenAbility);
