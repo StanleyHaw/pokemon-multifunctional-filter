@@ -1,4 +1,4 @@
-export function createSingleTypeElement(type) {
+export function createSingleType(type) {
   const pokemonType = document.createElement('div');
   pokemonType.classList.add('result', `type-${type}`, 'result-type-single');
 
@@ -14,7 +14,7 @@ export function createSingleTypeElement(type) {
   return pokemonType;
 }
 
-export function createDoubleTypesElement(type1, type2) {
+export function createDoubleTypes(type1, type2) {
   const pokemonType1 = document.createElement('div');
   pokemonType1.classList.add('result', `type-${type1}`, 'result-type-double');
 

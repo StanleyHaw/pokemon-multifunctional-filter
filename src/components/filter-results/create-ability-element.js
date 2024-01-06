@@ -1,6 +1,6 @@
 import { judgeNullValue } from './judge-forme-value.js';
 
-export function createSingleAbilityElement(ability) {
+export function createSingleAbility(ability) {
   const pokemonAbility = document.createElement('div');
   pokemonAbility.classList.add('result', 'result-ability-single');
 
@@ -12,7 +12,7 @@ export function createSingleAbilityElement(ability) {
   return pokemonAbility;
 }
 
-export function createDoubleAbilitiesElement(ability1, ability2) {
+export function createDoubleAbilities(ability1, ability2) {
   const pokemonAbility1 = document.createElement('div');
   pokemonAbility1.classList.add('result', 'result-ability-double');
 
