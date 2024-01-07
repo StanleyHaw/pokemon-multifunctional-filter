@@ -1,35 +1,41 @@
 import { createSingleType, createDoubleTypes } from './create-type-element.js';
-import {
-  createSingleAbility,
-  createDoubleAbilities,
-  createHiddenAbilityElement,
-} from './create-ability-element.js';
+import { createSingleAbility, createDoubleAbilities, createHiddenAbilityElement } from './create-ability-element.js';
 import { judgeNullValue } from './judge-forme-value.js';
 import { createPokemonStat, createPokemonStatsTotal } from './create-stat-element.js';
+import { createPokemonMoveInfo } from './create-move-element.js';
 
-export function createPokemonIdentifyElement(data) {
-  const resultIdentifyWrapper = document.createElement('div');
-  resultIdentifyWrapper.classList.add('result-identify');
-
+function serialNumberElement(data) {
   const serialNumberWrapper = document.createElement('div');
   serialNumberWrapper.classList.add('result', 'result-serial-number');
   const serialNumberResult = document.createElement('p');
   serialNumberResult.textContent = `#${data.num.toString().padStart(4, '0')}`;
   serialNumberWrapper.appendChild(serialNumberResult);
 
-  const pokemonPictureWrapper = document.createElement('div');
-  pokemonPictureWrapper.classList.add('result', 'result-pokemon-picture');
-  const pokemonPictureResult = document.createElement('div');
-  pokemonPictureResult.classList.add('pokemon-image');
-  //   pokemonPictureResult.id = `${data.img}-image`;
-  pokemonPictureWrapper.appendChild(pokemonPictureResult);
+  return serialNumberWrapper;
+}
 
+function pokemonImageElement() {
+  const pokemonImageWrapper = document.createElement('div');
+  pokemonImageWrapper.classList.add('result', 'result-pokemon-image');
+  const pokemonImageResult = document.createElement('div');
+  pokemonImageResult.classList.add('pokemon-image');
+  //   pokemonImageResult.id = `${data.img}-image`;
+  pokemonImageWrapper.appendChild(pokemonImageResult);
+
+  return pokemonImageWrapper;
+}
+
+function pokemonNameElement(data) {
   const pokemonNameWrapper = document.createElement('div');
   pokemonNameWrapper.classList.add('result', 'result-pokemon-name');
   const pokemonNameResult = document.createElement('p');
   pokemonNameResult.textContent = `${data.name}`;
   pokemonNameWrapper.appendChild(pokemonNameResult);
 
+  return pokemonNameWrapper;
+}
+
+function pokemonFormElement(data) {
   const pokemonFormWrapper = document.createElement('div');
   pokemonFormWrapper.classList.add('result', 'result-regional-form');
   const pokemonFormResult = document.createElement('p');
@@ -37,20 +43,10 @@ export function createPokemonIdentifyElement(data) {
   judgeNullValue(pokemonFormResult.textContent, pokemonFormWrapper);
   pokemonFormWrapper.appendChild(pokemonFormResult);
 
-  resultIdentifyWrapper.appendChild(serialNumberWrapper);
-  resultIdentifyWrapper.appendChild(pokemonPictureWrapper);
-  resultIdentifyWrapper.appendChild(pokemonNameWrapper);
-  resultIdentifyWrapper.appendChild(pokemonFormWrapper);
-
-  const resultIdentifyContainer = document.getElementById('result-identifies');
-  resultIdentifyContainer.appendChild(resultIdentifyWrapper);
-  return resultIdentifyWrapper;
+  return pokemonFormWrapper;
 }
 
-export function createPokemonSpeciesElement(data) {
-  const resultSpeciesWrapper = document.createElement('div');
-  resultSpeciesWrapper.classList.add('result-species');
-
+function typeElement(data) {
   const pokemonTypesWrapper = document.createElement('div');
   pokemonTypesWrapper.classList.add('result-species-group', 'pokemon-types');
   const firstType = data.types[0]?.toLowerCase();
@@ -64,6 +60,10 @@ export function createPokemonSpeciesElement(data) {
     pokemonTypesWrapper.appendChild(pokemonSecondType);
   }
 
+  return pokemonTypesWrapper;
+}
+
+function abilityElement(data) {
   const pokemonAbilitiesWrapper = document.createElement('div');
   pokemonAbilitiesWrapper.classList.add('result-species-group', 'pokemon-abilities');
   const firstAbility = data.abilities[0]?.toLowerCase();
@@ -72,14 +72,10 @@ export function createPokemonSpeciesElement(data) {
   if (firstAbility && !secondAbility && !hiddenAbility) {
     const pokemonSingleAbility = createSingleAbility(firstAbility);
     const pokemonHiddenAbility = createHiddenAbilityElement('');
-
     pokemonAbilitiesWrapper.appendChild(pokemonSingleAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonHiddenAbility);
   } else if (firstAbility && secondAbility && hiddenAbility) {
-    const [pokemonFirstAbility, pokemonSecondAbility] = createDoubleAbilities(
-      firstAbility,
-      secondAbility,
-    );
+    const [pokemonFirstAbility, pokemonSecondAbility] = createDoubleAbilities(firstAbility, secondAbility);
     const pokemonHiddenAbility = createHiddenAbilityElement(hiddenAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonFirstAbility);
     pokemonAbilitiesWrapper.appendChild(pokemonSecondAbility);
@@ -91,6 +87,10 @@ export function createPokemonSpeciesElement(data) {
     pokemonAbilitiesWrapper.appendChild(pokemonHiddenAbility);
   }
 
+  return pokemonAbilitiesWrapper;
+}
+
+function statElement(data) {
   const pokemonStatsWrapper = document.createElement('div');
   pokemonStatsWrapper.classList.add('result-species-group', 'pokemon-stats');
   pokemonStatsWrapper.appendChild(createPokemonStat(data, 'hp'));
@@ -101,10 +101,54 @@ export function createPokemonSpeciesElement(data) {
   pokemonStatsWrapper.appendChild(createPokemonStat(data, 'spe'));
   pokemonStatsWrapper.appendChild(createPokemonStatsTotal(data, ''));
 
+  return pokemonStatsWrapper;
+}
+
+export function moveElement(moveInfo) {
+  const pokemonMovesWrapper = document.createElement('div');
+  pokemonMovesWrapper.classList.add('result-species-group', 'pokemon-moves');
+
+  pokemonMovesWrapper.appendChild(createPokemonMoveInfo(moveInfo));
+
+  return pokemonMovesWrapper;
+}
+
+export function createPokemonIdentifyElement(data) {
+  const resultIdentifyWrapper = document.createElement('div');
+  resultIdentifyWrapper.classList.add('result-identify');
+
+  const serialNumberWrapper = serialNumberElement(data);
+  resultIdentifyWrapper.appendChild(serialNumberWrapper);
+
+  const pokemonImageWrapper = pokemonImageElement(data);
+  resultIdentifyWrapper.appendChild(pokemonImageWrapper);
+
+  const pokemonNameWrapper = pokemonNameElement(data);
+  resultIdentifyWrapper.appendChild(pokemonNameWrapper);
+
+  const pokemonFormWrapper = pokemonFormElement(data);
+  resultIdentifyWrapper.appendChild(pokemonFormWrapper);
+
+  const resultIdentifyContainer = document.getElementById('result-identifies');
+  resultIdentifyContainer.appendChild(resultIdentifyWrapper);
+  return resultIdentifyWrapper;
+}
+
+export function createPokemonSpeciesElement(data, moveInfo) {
+  const resultSpeciesWrapper = document.createElement('div');
+  resultSpeciesWrapper.classList.add('result-species');
+
+  const pokemonTypesWrapper = typeElement(data);
   resultSpeciesWrapper.appendChild(pokemonTypesWrapper);
+
+  const pokemonAbilitiesWrapper = abilityElement(data);
   resultSpeciesWrapper.appendChild(pokemonAbilitiesWrapper);
+
+  const pokemonStatsWrapper = statElement(data);
   resultSpeciesWrapper.appendChild(pokemonStatsWrapper);
-  // resultSpeciesWrapper.appendChild(pokemonMovesWrapper);
+
+  const pokemonMovesWrapper = moveElement(moveInfo);
+  resultSpeciesWrapper.appendChild(pokemonMovesWrapper);
 
   const resultSpeciesContainer = document.getElementById('result-species');
   resultSpeciesContainer.appendChild(resultSpeciesWrapper);

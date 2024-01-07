@@ -220,6 +220,10 @@ $typeNormal: #9fa19f;
   transition: all 0.3s ease;
 }
 
+.hide-element {
+  display: none !important;
+}
+
 .main-title {
   margin: 24px auto;
 }
