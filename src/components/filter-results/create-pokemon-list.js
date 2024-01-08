@@ -20,11 +20,7 @@ function pokemonImageElement(data) {
   const pokemonImageWrapper = document.createElement('div');
   pokemonImageWrapper.classList.add('result', 'result-pokemon-image');
   const pokemonImageResult = document.createElement('div');
-  pokemonImageResult.classList.add('pokemon-image');
-  const pokemonImage = document.createElement('img');
-  pokemonImage.src = `./src/assets/img/pokemon/${imgNameSource}.png`;
-  pokemonImage.loading = 'lazy';
-  pokemonImageResult.appendChild(pokemonImage);
+  pokemonImageResult.classList.add('pokemon-sprites', `bg-${imgNameSource}`);
   pokemonImageWrapper.appendChild(pokemonImageResult);
 
   return pokemonImageWrapper;
