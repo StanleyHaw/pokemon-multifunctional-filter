@@ -2,8 +2,8 @@ export function createSingleType(type) {
   const pokemonType = document.createElement('div');
   pokemonType.classList.add('result', `type-${type}`, 'result-type-single');
 
-  const pokemonTypeIcon = document.createElement('img');
-  pokemonTypeIcon.src = `./src/assets/img/type/pokemon-type-${type}.png`;
+  const pokemonTypeIcon = document.createElement('div');
+  pokemonTypeIcon.classList.add('type-sprites', `bg-type-${type}`);
 
   const pokemonTypeParagraph = document.createElement('p');
   pokemonTypeParagraph.textContent = type;
@@ -18,8 +18,8 @@ export function createDoubleTypes(type1, type2) {
   const pokemonType1 = document.createElement('div');
   pokemonType1.classList.add('result', `type-${type1}`, 'result-type-double');
 
-  const pokemonTypeIcon1 = document.createElement('img');
-  pokemonTypeIcon1.src = `./src/assets/img/type/pokemon-type-${type1}.png`;
+  const pokemonTypeIcon1 = document.createElement('div');
+  pokemonTypeIcon1.classList.add('type-sprites', `bg-type-${type1}`);
 
   const pokemonTypeParagraph1 = document.createElement('p');
   pokemonTypeParagraph1.textContent = type1;
@@ -27,8 +27,8 @@ export function createDoubleTypes(type1, type2) {
   const pokemonType2 = document.createElement('div');
   pokemonType2.classList.add('result', `type-${type2}`, 'result-type-double');
 
-  const pokemonTypeIcon2 = document.createElement('img');
-  pokemonTypeIcon2.src = `./src/assets/img/type/pokemon-type-${type2}.png`;
+  const pokemonTypeIcon2 = document.createElement('div');
+  pokemonTypeIcon2.classList.add('type-sprites', `bg-type-${type2}`);
 
   const pokemonTypeParagraph2 = document.createElement('p');
   pokemonTypeParagraph2.textContent = type2;
