@@ -14,12 +14,17 @@ function serialNumberElement(data) {
   return serialNumberWrapper;
 }
 
-function pokemonImageElement() {
+function pokemonImageElement(data) {
+  const imgNameSource = data.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+
   const pokemonImageWrapper = document.createElement('div');
   pokemonImageWrapper.classList.add('result', 'result-pokemon-image');
   const pokemonImageResult = document.createElement('div');
   pokemonImageResult.classList.add('pokemon-image');
-  //   pokemonImageResult.id = `${data.img}-image`;
+  const pokemonImage = document.createElement('img');
+  pokemonImage.src = `./src/assets/img/pokemon/${imgNameSource}.png`;
+  pokemonImage.loading = 'lazy';
+  pokemonImageResult.appendChild(pokemonImage);
   pokemonImageWrapper.appendChild(pokemonImageResult);
 
   return pokemonImageWrapper;
