@@ -2,7 +2,7 @@ import {
   createPokemonIdentifyElement,
   createPokemonSpeciesElement,
 } from './components/filter-results/create-pokemon-list.js';
-import INVALID_FORMS from './invalid-forms.js';
+import filteredInvalidForms from './invalid-forms.js';
 import { showLoadingState, hideLoadingState } from './components/loading-overlay/index.js';
 import {
   toggleMoveFilterResult,
@@ -15,7 +15,7 @@ const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 const LEARN_SETS_SOURCE = 'https://play.pokemonshowdown.com/data/learnsets.json';
 
 function isValidPokemon(name, serialNumber) {
-  return serialNumber > 0 && !INVALID_FORMS.some((form) => name.includes(form));
+  return serialNumber > 0 && !filteredInvalidForms.some((form) => name.includes(form));
 }
 
 async function getAllPokemonData() {

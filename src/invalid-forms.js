@@ -84,5 +84,7 @@ const INVALID_FORMS = [
   'xerneasneutral',
   'zarudedada',
 ];
+const EXCEPTIONS = ['yanmega', 'meganium'];
+const filteredInvalidForms = INVALID_FORMS.filter((form) => !EXCEPTIONS.includes(form));
 
-export default INVALID_FORMS;
+export default filteredInvalidForms;
