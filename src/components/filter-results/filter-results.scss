@@ -379,8 +379,8 @@
 
       .result-pokemon-image {
         img {
-          width: 40px;
-          height: auto;
+          width: auto;
+          height: 40px;
         }
       }
     }
@@ -581,8 +581,8 @@
 
         .result-pokemon-image {
           img {
-            width: 40px;
-            height: auto;
+            width: auto;
+            height: 40px;
           }
         }
       }
@@ -780,7 +780,7 @@
     .result-scrollY {
       .result-identify {
         gap: 4px;
-        grid-template-columns: 40px 40px 76px 40px;
+        grid-template-columns: 36px 44px 76px 40px;
 
         .result-pokemon-image {
           img {
