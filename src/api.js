@@ -1,6 +1,6 @@
 import {
   createPokemonIdentifyElement,
-  createPokemonSpeciesElement,
+  createPokemonSpeciesElement
 } from './components/filter-results/create-pokemon-list.js';
 import filteredInvalidForms from './invalid-forms.js';
 import { showLoadingState, hideLoadingState } from './components/loading-overlay/index.js';
@@ -8,7 +8,7 @@ import {
   toggleMoveFilterResult,
   createMoveResultTitle,
   getTextAfterNumber,
-  findPriorityString,
+  findPriorityString
 } from './components/filter-results/create-move-element.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
