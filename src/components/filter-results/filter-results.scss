@@ -33,11 +33,7 @@
       bottom: 0;
       width: 8px;
       height: 100%;
-      background: linear-gradient(
-        to left,
-        rgba(global.$defaultGrey700, 0),
-        rgba(global.$defaultGrey700, 0.15)
-      );
+      background: linear-gradient(to left, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 0.15));
       z-index: 1;
     }
   }
@@ -47,18 +43,21 @@
     width: 100%;
     margin: 12px 12px 12px 0;
     overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
 
     .result-head-container {
       display: flex;
       flex-direction: row;
       border-radius: 8px;
       height: 100%;
+    }
+  }
+
+  #result-scrollX {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 
@@ -177,11 +176,7 @@
       bottom: 0;
       width: 8px;
       height: 100%;
-      background: linear-gradient(
-        to left,
-        rgba(global.$defaultGrey700, 0),
-        rgba(global.$defaultGrey700, 0.15)
-      );
+      background: linear-gradient(to left, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 0.15));
       z-index: 1;
     }
   }
@@ -191,6 +186,9 @@
     width: 100%;
     margin: 12px 12px 12px 0;
     overflow: scroll;
+  }
+
+  #result-scrollY {
     -ms-overflow-style: none;
     scrollbar-width: none;
 
@@ -213,22 +211,23 @@
     background: global.$defaultWhite;
   }
 
+  .null-value {
+    background: global.$defaultGrey200;
+    color: global.$defaultGrey200;
+    pointer-events: none;
+  }
+
   .result-scrollY {
     position: relative;
     z-index: 1;
     will-change: transform;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    overflow: hidden;
 
     .result-identify {
       position: relative;
       display: grid;
 
-      .result-pokemon-picture {
+      .result-pokemon-image {
         overflow: hidden;
 
         img {
@@ -323,6 +322,7 @@
           padding: 8px;
           border-radius: 4px;
           font-size: 16px;
+          height: 39px;
         }
       }
     }
@@ -377,10 +377,10 @@
       gap: 8px;
       grid-template-columns: 80px 80px 128px 84px;
 
-      .result-pokemon-picture {
+      .result-pokemon-image {
         img {
-          width: 40px;
-          height: auto;
+          width: auto;
+          height: 40px;
         }
       }
     }
@@ -406,40 +406,47 @@
     .pokemon-types {
       .result-type-double {
         width: 100px;
+        overflow: hidden;
       }
 
       .result-type-single {
         width: 208px;
+        overflow: hidden;
       }
     }
 
     .pokemon-abilities {
       .result-ability-double {
         width: 120px;
+        overflow: hidden;
       }
 
       .result-ability-single {
         width: 248px;
+        overflow: hidden;
       }
 
       .result-ability-hidden {
         width: 120px;
+        overflow: hidden;
       }
     }
 
     .pokemon-stats {
       .result-stat {
         width: 64px;
+        overflow: hidden;
       }
     }
 
-    .pokemon-move {
+    .pokemon-moves {
       min-width: 90px;
       width: auto;
 
-      .result-move-name {
+      .result-move-info {
         min-width: 90px;
         width: auto;
+        overflow: hidden;
       }
     }
   }
@@ -572,10 +579,10 @@
         gap: 8px;
         grid-template-columns: 64px 64px 120px 84px;
 
-        .result-pokemon-picture {
+        .result-pokemon-image {
           img {
-            width: 40px;
-            height: auto;
+            width: auto;
+            height: 40px;
           }
         }
       }
@@ -628,11 +635,11 @@
         }
       }
 
-      .pokemon-move {
+      .pokemon-moves {
         min-width: 90px;
         width: auto;
 
-        .result-move-name {
+        .result-move-info {
           min-width: 90px;
           width: auto;
         }
@@ -773,9 +780,9 @@
     .result-scrollY {
       .result-identify {
         gap: 4px;
-        grid-template-columns: 40px 40px 76px 40px;
+        grid-template-columns: 36px 44px 76px 40px;
 
-        .result-pokemon-picture {
+        .result-pokemon-image {
           img {
             width: auto;
             height: 36px;
@@ -845,11 +852,11 @@
         }
       }
 
-      .pokemon-move {
+      .pokemon-moves {
         min-width: 90px;
         width: auto;
 
-        .result-move-name {
+        .result-move-info {
           min-width: 90px;
           width: auto;
         }
