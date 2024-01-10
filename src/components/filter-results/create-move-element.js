@@ -36,9 +36,9 @@ export function getTextAfterNumber(inputString) {
   const index = 1;
   const textAfter9 = inputString.charAt(index);
   const text = {
-    E: () => 'egg move', // TODO: debug can't learn egg move after pokemon evolution
+    E: () => 'egg move',
     L: () => getNumberAfterL(inputString),
-    M: () => 'TM',
+    M: () => 'TM'
   };
   return text[textAfter9]();
 }
