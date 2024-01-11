@@ -1,4 +1,4 @@
-import { judgeNullValue } from './judge-forme-value.js';
+import { judgeNullValue } from '../judge-forme-value.js';
 
 export function toggleMoveFilterResult() {
   const moveHeadingTitle = document.querySelector('.pokemon-moves');
