@@ -1,8 +1,8 @@
 import { createSingleType, createDoubleTypes } from './create-type-element.js';
 import { createSingleAbility, createDoubleAbilities, createHiddenAbilityElement } from './create-ability-element.js';
-import { judgeNullValue } from './judge-forme-value.js';
 import { createPokemonStat, createPokemonStatsTotal } from './create-stat-element.js';
 import { createPokemonMoveInfo } from './create-move-element.js';
+import { judgeNullValue } from '../judge-forme-value.js';
 
 function serialNumberElement(data) {
   const serialNumberWrapper = document.createElement('div');
@@ -41,6 +41,13 @@ function pokemonFormElement(data) {
   pokemonFormWrapper.classList.add('result', 'result-regional-form');
   const pokemonFormResult = document.createElement('p');
   pokemonFormResult.textContent = `${data.forme}`;
+  // if (data.baseForme) {
+  //   pokemonFormResult.textContent = data.baseForme;
+  // } else if (data.forme) {
+  //   pokemonFormResult.textContent = data.forme;
+  // } else {
+  //   pokemonFormResult.textContent = '';
+  // }
   judgeNullValue(pokemonFormResult.textContent, pokemonFormWrapper);
   pokemonFormWrapper.appendChild(pokemonFormResult);
 
@@ -100,7 +107,7 @@ function statElement(data) {
   pokemonStatsWrapper.appendChild(createPokemonStat(data, 'spa'));
   pokemonStatsWrapper.appendChild(createPokemonStat(data, 'spd'));
   pokemonStatsWrapper.appendChild(createPokemonStat(data, 'spe'));
-  pokemonStatsWrapper.appendChild(createPokemonStatsTotal(data, ''));
+  pokemonStatsWrapper.appendChild(createPokemonStatsTotal(data, 'bst'));
 
   return pokemonStatsWrapper;
 }
@@ -114,9 +121,9 @@ export function moveElement(moveInfo) {
   return pokemonMovesWrapper;
 }
 
-export function createPokemonIdentifyElement(data) {
+export function createPokemonIdentifyElement(data, pokemonName) {
   const resultIdentifyWrapper = document.createElement('div');
-  resultIdentifyWrapper.classList.add('result-identify');
+  resultIdentifyWrapper.classList.add('result-identify', `${pokemonName}`);
 
   const serialNumberWrapper = serialNumberElement(data);
   resultIdentifyWrapper.appendChild(serialNumberWrapper);
@@ -135,9 +142,9 @@ export function createPokemonIdentifyElement(data) {
   return resultIdentifyWrapper;
 }
 
-export function createPokemonSpeciesElement(data, moveInfo) {
+export function createPokemonSpeciesElement(data, pokemonName, moveInfo) {
   const resultSpeciesWrapper = document.createElement('div');
-  resultSpeciesWrapper.classList.add('result-species');
+  resultSpeciesWrapper.classList.add('result-species', `${pokemonName}`);
 
   const pokemonTypesWrapper = typeElement(data);
   resultSpeciesWrapper.appendChild(pokemonTypesWrapper);

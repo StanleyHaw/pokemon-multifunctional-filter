@@ -21,10 +21,10 @@ export function calculateTotalBaseStats(data) {
   return totalStats;
 }
 
-export function createPokemonStatsTotal(data) {
+export function createPokemonStatsTotal(data, bst) {
   const statsTotal = calculateTotalBaseStats(data);
   const statsWrapper = document.createElement('div');
-  statsWrapper.classList.add('result', 'result-stat', 'stat-sum');
+  statsWrapper.classList.add('result', 'result-stat', `stat-${bst}`);
   const statsTotalWrapper = document.createElement('p');
   const boldFont = document.createElement('b');
   boldFont.textContent = statsTotal;

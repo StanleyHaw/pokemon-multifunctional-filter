@@ -227,3 +227,21 @@ $typeNormal: #9fa19f;
 .main-title {
   margin: 24px auto;
 }
+
+.sort-ascending {
+  .fa-sort {
+    margin-left: 4px;
+    background: linear-gradient($defaultGreen 45%, $defaultGrey200 55%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.sort-descending {
+  .fa-sort {
+    margin-left: 4px;
+    background: linear-gradient($defaultGrey200 45%, $defaultRed 55%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

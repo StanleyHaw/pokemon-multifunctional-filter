@@ -1,4 +1,4 @@
-import { judgeNullValue } from './judge-forme-value.js';
+import { judgeNullValue } from '../judge-forme-value.js';
 
 export function createSingleAbility(ability) {
   const pokemonAbility = document.createElement('div');

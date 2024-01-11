@@ -1,23 +1,19 @@
 import {
   createPokemonIdentifyElement,
   createPokemonSpeciesElement
-} from './components/filter-results/create-pokemon-list.js';
-import filteredInvalidForms from './invalid-forms.js';
+} from './components/filter-results/create-element/create-pokemon-list.js';
+import { isValidPokemon } from './filtered-pokemon-list.js';
 import { showLoadingState, hideLoadingState } from './components/loading-overlay/index.js';
 import {
   toggleMoveFilterResult,
   createMoveResultTitle,
   getTextAfterNumber,
   findPriorityString
-} from './components/filter-results/create-move-element.js';
+} from './components/filter-results/create-element/create-move-element.js';
 import { convertToLowerCaseWithoutHyphen } from './utils/utils.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 const LEARN_SETS_SOURCE = 'https://play.pokemonshowdown.com/data/learnsets.json';
-
-function isValidPokemon(name, serialNumber) {
-  return serialNumber > 0 && !filteredInvalidForms.some((form) => name.includes(form));
-}
 
 async function getAllPokemonData() {
   try {
@@ -51,7 +47,7 @@ async function getValidPokemons() {
       const pokemonData = allPokemonData[pokemonName];
       const validSerialNumber = pokemonData.num;
 
-      if (isValidPokemon(pokemonName, validSerialNumber)) {
+      if (isValidPokemon(pokemonName, validSerialNumber) && pokemonData.tier !== 'Illegal') {
         validPokemonList.push(pokemonName);
         validPokemonElement.push(pokemonData);
       }
