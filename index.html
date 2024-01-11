@@ -237,6 +237,121 @@
                   <i class="fa-solid fa-eraser"></i>
                 </button>
               </div>
+              <div class="filter-option-container option-visible">
+                <div class="choose-type">
+                  <label for="type-fire" class="toggle-button type-fire">
+                    <input type="checkbox" id="type-fire" class="type-button" />
+                    <div class="type-sprites bg-type-fire"></div>
+                    <p>火</p>
+                  </label>
+                  <label for="type-fighting" class="toggle-button type-fighting">
+                    <input type="checkbox" id="type-fighting" class="type-button" />
+                    <div class="type-sprites bg-type-fighting"></div>
+                    <p>格鬥</p>
+                  </label>
+                  <label for="type-electric" class="toggle-button type-electric">
+                    <input type="checkbox" id="type-electric" class="type-button" />
+                    <div class="type-sprites bg-type-electric"></div>
+                    <p>電</p>
+                  </label>
+                  <label for="type-bug" class="toggle-button type-bug">
+                    <input type="checkbox" id="type-bug" class="type-button" />
+                    <div class="type-sprites bg-type-bug"></div>
+                    <p>蟲</p>
+                  </label>
+                  <label for="type-grass" class="toggle-button type-grass">
+                    <input type="checkbox" id="type-grass" class="type-button" />
+                    <div class="type-sprites bg-type-grass"></div>
+                    <p>草</p>
+                  </label>
+                  <label for="type-flying" class="toggle-button type-flying">
+                    <input type="checkbox" id="type-flying" class="type-button" />
+                    <div class="type-sprites bg-type-flying"></div>
+                    <p>飛行</p>
+                  </label>
+                  <label for="type-steel" class="toggle-button type-steel">
+                    <input type="checkbox" id="type-steel" class="type-button" />
+                    <div class="type-sprites bg-type-steel"></div>
+                    <p>鋼</p>
+                  </label>
+                  <label for="type-ice" class="toggle-button type-ice">
+                    <input type="checkbox" id="type-ice" class="type-button" />
+                    <div class="type-sprites bg-type-ice"></div>
+                    <p>冰</p>
+                  </label>
+                  <label for="type-water" class="toggle-button type-water">
+                    <input type="checkbox" id="type-water" class="type-button" />
+                    <div class="type-sprites bg-type-water"></div>
+                    <p>水</p>
+                  </label>
+                  <label for="type-dragon" class="toggle-button type-dragon">
+                    <input type="checkbox" id="type-dragon" class="type-button" />
+                    <div class="type-sprites bg-type-dragon"></div>
+                    <p>龍</p>
+                  </label>
+                  <label for="type-poison" class="toggle-button type-poison">
+                    <input type="checkbox" id="type-poison" class="type-button" />
+                    <div class="type-sprites bg-type-poison"></div>
+                    <p>毒</p>
+                  </label>
+                  <label for="type-ghost" class="toggle-button type-ghost">
+                    <input type="checkbox" id="type-ghost" class="type-button" />
+                    <div class="type-sprites bg-type-ghost"></div>
+                    <p>幽靈</p>
+                  </label>
+                  <label for="type-psychic" class="toggle-button type-psychic">
+                    <input type="checkbox" id="type-psychic" class="type-button" />
+                    <div class="type-sprites bg-type-psychic"></div>
+                    <p>超能力</p>
+                  </label>
+                  <label for="type-fairy" class="toggle-button type-fairy">
+                    <input type="checkbox" id="type-fairy" class="type-button" />
+                    <div class="type-sprites bg-type-fairy"></div>
+                    <p>妖精</p>
+                  </label>
+                  <label for="type-ground" class="toggle-button type-ground">
+                    <input type="checkbox" id="type-ground" class="type-button" />
+                    <div class="type-sprites bg-type-ground"></div>
+                    <p>地面</p>
+                  </label>
+                  <label for="type-dark" class="toggle-button type-dark">
+                    <input type="checkbox" id="type-dark" class="type-button" />
+                    <div class="type-sprites bg-type-dark"></div>
+                    <p>惡</p>
+                  </label>
+                  <label for="type-rock" class="toggle-button type-rock">
+                    <input type="checkbox" id="type-rock" class="type-button" />
+                    <div class="type-sprites bg-type-rock"></div>
+                    <p>岩石</p>
+                  </label>
+                  <label for="type-normal" class="toggle-button type-normal">
+                    <input type="checkbox" id="type-normal" class="type-button" />
+                    <div class="type-sprites bg-type-normal"></div>
+                    <p>一般</p>
+                  </label>
+                  <button class="selected-cleared-all-toggle button-md">選取全部屬性</button>
+                </div>
+                <div class="combinations-options additional-setting">
+                  <label for="all-type-combinations" class="setting-option">
+                    <input type="radio" name="combinations-filter" id="all-type-combinations" class="" checked />
+                    <p>篩選所選屬性的所有組合</p>
+                  </label>
+                  <label for="selected-type-combinations" class="setting-option">
+                    <input type="radio" name="combinations-filter" id="selected-type-combinations" class="" />
+                    <p>僅篩選所選屬性的組合</p>
+                  </label>
+                </div>
+                <div class="quantity-options additional-setting">
+                  <label for="single-type" class="setting-option">
+                    <input type="checkbox" name="amount-filter" id="single-type" class="" checked />
+                    <p>僅篩選單一屬性寶可夢</p>
+                  </label>
+                  <label for="dual-types" class="setting-option">
+                    <input type="checkbox" name="amount-filter" id="dual-types" class="" checked />
+                    <p>僅篩選雙屬性寶可夢</p>
+                  </label>
+                </div>
+              </div>
             </div>
             <div class="abilities-filter filter-wrapper">
               <div class="filter-title">
@@ -247,6 +362,71 @@
                 <button>
                   <i class="fa-solid fa-eraser"></i>
                 </button>
+              </div>
+              <div class="filter-option-container option-visible">
+                <div class="all-abilities">
+                  <label for="all-abilities" class="setting-option">
+                    <input type="radio" name="abilities-filter" id="all-abilities" class="" checked />
+                    <p class="radio-option">所有特性</p>
+                  </label>
+                </div>
+                <div class="classify-by-quantity">
+                  <label for="classify-by-quantity" class="setting-option">
+                    <input type="radio" name="abilities-filter" id="classify-by-quantity" class="" />
+                    <p class="radio-option">選擇特定種類</p>
+                  </label>
+                  <div class="classify-by-quantity-option">
+                    <label for="classify-by-quantity" class="toggle-button button-md checkbox-selected">
+                      <input
+                        type="checkbox"
+                        name="abilities-classify-filter"
+                        id="classify-by-quantity"
+                        class=""
+                        checked
+                      />
+                      <p>只有一種特性</p>
+                    </label>
+                    <label for="classify-by-quantity" class="toggle-button button-md">
+                      <input
+                        type="checkbox"
+                        name="abilities-classify-filter"
+                        id="classify-by-quantity"
+                        class=""
+                        checked
+                      />
+                      <p>擁有兩種特性</p>
+                    </label>
+                    <label for="classify-by-quantity" class="toggle-button button-md">
+                      <input
+                        type="checkbox"
+                        name="abilities-classify-filter"
+                        id="classify-by-quantity"
+                        class=""
+                        checked
+                      />
+                      <p>擁有三種特性</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="ability-search">
+                  <div class="option-title-group">
+                    <label for="search-abilities" class="setting-option">
+                      <input type="radio" name="abilities-filter" id="search-abilities" class="" />
+                      <p class="radio-option">輸入特性名稱</p>
+                    </label>
+                    <button class="button-md"><i class="fa-solid fa-plus"></i></button>
+                  </div>
+                  <div class="additional-setting">
+                    <label for="standard-ability" class="setting-option">
+                      <input type="checkbox" name="standard-hidden-option" id="standard-ability" class="" checked />
+                      <p>僅篩選此特性為一般特性的寶可夢</p>
+                    </label>
+                    <label for="hidden-ability" class="setting-option">
+                      <input type="checkbox" name="standard-hidden-option" id="hidden-ability" class="" checked />
+                      <p>僅篩選此特性為隱藏特性的寶可夢</p>
+                    </label>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="stats-filter filter-wrapper">
@@ -259,6 +439,16 @@
                   <i class="fa-solid fa-eraser"></i>
                 </button>
               </div>
+              <div class="filter-option-container option-visible">
+                <div class="option-title-group">
+                  <p>種族值篩選</p>
+                  <button class="button-md"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="option-title-group">
+                  <p>種族值篩選</p>
+                  <button class="button-md"><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
             </div>
             <div class="moves-filter filter-wrapper">
               <div class="filter-title">
@@ -269,6 +459,18 @@
                 <button>
                   <i class="fa-solid fa-eraser"></i>
                 </button>
+              </div>
+              <div class="filter-option-container option-visible">
+                <div class="option-button-group">
+                  <button class="button-md"><i class="fa-solid fa-filter"></i>&ensp;招式搜尋庫</button>
+                  <button class="button-md"><i class="fa-solid fa-plus"></i>&ensp;輸入招式</button>
+                </div>
+                <div class="moves-intersections-options additional-setting">
+                  <label for="learnable-all-pick" class="setting-option">
+                    <input type="checkbox" name="learnable-all-pick-option" id="learnable-all-pick" class="" checked />
+                    <p>僅篩選所選招式都能學習的寶可夢</p>
+                  </label>
+                </div>
               </div>
             </div>
           </div>
