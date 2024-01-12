@@ -10,14 +10,11 @@ function syncScrollY() {
   resultScrollXY.scrollTop = resultScrollY.scrollTop;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  resultScrollXY.addEventListener('scroll', syncScrollXY);
-
-  function syncScrollXY() {
-    resultScrollX.scrollLeft = resultScrollXY.scrollLeft;
-    resultScrollY.scrollTop = resultScrollXY.scrollTop;
-  }
-});
+function syncScrollXY() {
+  resultScrollX.scrollLeft = resultScrollXY.scrollLeft;
+  resultScrollY.scrollTop = resultScrollXY.scrollTop;
+}
 
 resultScrollX.addEventListener('scroll', syncScrollX);
 resultScrollY.addEventListener('scroll', syncScrollY);
+resultScrollXY.addEventListener('scroll', syncScrollXY);

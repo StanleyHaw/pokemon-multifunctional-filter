@@ -1,135 +1,88 @@
-import {
-  createPokemonIdentifyElement,
-  createPokemonSpeciesElement
-} from './components/filter-results/create-element/create-pokemon-list.js';
 import { isValidPokemon } from './filtered-pokemon-list.js';
-import { showLoadingState, hideLoadingState } from './components/loading-overlay/index.js';
 import {
-  toggleMoveFilterResult,
-  createMoveResultTitle,
-  getTextAfterNumber,
-  findPriorityString
+  getContentAfterNumber,
+  findPriorityMove
 } from './components/filter-results/create-element/create-move-element.js';
-import { convertToLowerCaseWithoutHyphen } from './utils/utils.js';
+import { fetchApiData, convertToCleanString } from './utils/utils.js';
+import { MOVE } from './components/filter-menu/move-filter.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 const LEARN_SETS_SOURCE = 'https://play.pokemonshowdown.com/data/learnsets.json';
 
-async function getAllPokemonData() {
-  try {
-    const response = await fetch(POKEMON_SOURCE);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Fetch error:', error);
-    throw error;
-  }
-}
+fetchApiData(POKEMON_SOURCE);
+fetchApiData(LEARN_SETS_SOURCE);
 
-async function getLearnSetsData() {
-  try {
-    const response = await fetch(LEARN_SETS_SOURCE);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Fetch error:', error);
-    throw error;
-  }
-}
-
-async function getValidPokemons() {
-  const allPokemonData = await getAllPokemonData();
-  const validPokemonList = [];
-  const validPokemonElement = [];
+export async function getValidPokemons() {
+  const allPokemonData = await fetchApiData(POKEMON_SOURCE);
+  const rawPokemonData = [];
+  const rawPokemonNameList = [];
+  const validPokemonData = [];
+  const validPokemonNameList = [];
 
   for (const pokemonName in allPokemonData) {
-    if (allPokemonData[pokemonName]) {
-      const pokemonData = allPokemonData[pokemonName];
-      const validSerialNumber = pokemonData.num;
+    if (!allPokemonData[pokemonName]) return;
+    const pokemonData = allPokemonData[pokemonName];
+    const serialNumber = pokemonData.num;
 
-      if (isValidPokemon(pokemonName, validSerialNumber) && pokemonData.tier !== 'Illegal') {
-        validPokemonList.push(pokemonName);
-        validPokemonElement.push(pokemonData);
-      }
+    if (isValidPokemon(pokemonName, serialNumber) && pokemonData.tier !== 'Illegal') {
+      rawPokemonData.push(pokemonData);
+      rawPokemonNameList.push(pokemonName);
     }
   }
-  return { validPokemonList, validPokemonElement };
+
+  rawPokemonNameList.forEach((pokemonName) => {
+    validPokemonNameList[convertToCleanString(pokemonName)] = pokemonName;
+  });
+
+  rawPokemonData.forEach((pokemon) => {
+    validPokemonData[convertToCleanString(pokemon.name)] = pokemon;
+  });
+
+  return { validPokemonData, validPokemonNameList };
 }
 
-async function getPokemonMoveInfo() {
-  const learnSetsData = await getLearnSetsData();
-  const validPokemonData = await getValidPokemons();
-  const validPokemonsArray = validPokemonData.validPokemonElement.reduce((result, pokemon) => {
-    const lowerCaseName = convertToLowerCaseWithoutHyphen(pokemon.name);
-    result[lowerCaseName] = pokemon;
-    return result;
-  }, {});
-  const moveInfoData = [];
-  const move = 'yawn';
+export async function getPokemonMoveInfo() {
+  const learnSetsData = await fetchApiData(LEARN_SETS_SOURCE);
+  const { validPokemonData } = await getValidPokemons();
+  const rawMoveInfoData = [];
+  const validMoveInfoData = [];
 
-  createMoveResultTitle(move);
-  toggleMoveFilterResult();
-  let moveInfoResult;
+  let moveInfoResult = [];
 
   for (const pokemonName in learnSetsData) {
-    if (learnSetsData && learnSetsData[pokemonName]) {
-      const pokemon = learnSetsData[pokemonName];
+    if (!learnSetsData[pokemonName]) return;
+    const pokemonMove = learnSetsData[pokemonName].learnset;
+    const selectedMove = pokemonMove?.[MOVE];
 
-      if (pokemon.learnset && pokemon.learnset?.[move]) {
-        const selectedMove = pokemon.learnset?.[move];
-        const nodesWith9 = selectedMove.filter((node) => node.startsWith('9'));
-        const foundData = findPriorityString(nodesWith9);
+    if (pokemonMove && selectedMove) {
+      const GEN_VERSION = '9';
+      const MoveWithCurrentGen = selectedMove.filter((node) => node.startsWith(GEN_VERSION));
+      const foundMoveData = findPriorityMove(MoveWithCurrentGen);
 
-        if (foundData) {
-          moveInfoResult = getTextAfterNumber(foundData);
-          moveInfoData.push({ pokemonName, moveInfoResult });
-        }
-
-        inheritEggMoveToEvos(validPokemonsArray, pokemonName, (pokemonAfterEvo) => {
-          learnSetsData[pokemonAfterEvo].learnset[move] = learnSetsData[pokemonName].learnset[move];
-        });
+      if (foundMoveData) {
+        moveInfoResult = getContentAfterNumber(foundMoveData);
+        rawMoveInfoData.push({ pokemonName, moveInfoResult });
       }
+
+      inheritEggMoveToEvos(validPokemonData, pokemonName, function evolutionHandler(pokemonAfterEvo) {
+        learnSetsData[pokemonAfterEvo].learnset[MOVE] = learnSetsData[pokemonName].learnset[MOVE];
+      });
     }
   }
 
-  return moveInfoData;
+  rawMoveInfoData.forEach((pokemon) => {
+    validMoveInfoData[convertToCleanString(pokemon.pokemonName)] = pokemon;
+  });
+  return validMoveInfoData;
 }
 
-function inheritEggMoveToEvos(validPokemonsArray, pokemonName, evolutionHandler) {
+function inheritEggMoveToEvos(validPokemonData, pokemonName, evolutionHandler) {
   const numMaxEvos = 8;
   for (let i = 0; i < numMaxEvos; i++) {
-    const pokemonAfterEvo = convertToLowerCaseWithoutHyphen(validPokemonsArray[pokemonName]?.evos?.[i]);
-    const parentPokemonBeforeEvo = convertToLowerCaseWithoutHyphen(validPokemonsArray[pokemonAfterEvo]?.prevo);
+    const pokemonAfterEvo = convertToCleanString(validPokemonData[pokemonName]?.evos?.[i]);
+    const parentPokemonBeforeEvo = convertToCleanString(validPokemonData[pokemonAfterEvo]?.prevo);
 
-    if (parentPokemonBeforeEvo === pokemonName) {
-      evolutionHandler(pokemonAfterEvo);
-    }
+    if (parentPokemonBeforeEvo !== pokemonName) return;
+    evolutionHandler(pokemonAfterEvo);
   }
 }
-
-async function displayValidPokemons() {
-  showLoadingState();
-  try {
-    const { validPokemonList, validPokemonElement } = await getValidPokemons();
-    const moveInfoData = await getPokemonMoveInfo();
-
-    for (let i = 0; i < validPokemonList.length; i++) {
-      const pokemonName = validPokemonList[i];
-      const pokemonData = validPokemonElement[i];
-
-      const moveInfoForPokemon = moveInfoData.find((info) => info.pokemonName === pokemonName);
-      createPokemonIdentifyElement(pokemonData, pokemonName);
-      createPokemonSpeciesElement(
-        pokemonData,
-        pokemonName,
-        moveInfoForPokemon && moveInfoForPokemon.moveInfoResult ? moveInfoForPokemon.moveInfoResult : ''
-      );
-    }
-  } catch (error) {
-    console.error('Display pokemon error', error);
-  } finally {
-    hideLoadingState();
-  }
-}
-
-displayValidPokemons();
