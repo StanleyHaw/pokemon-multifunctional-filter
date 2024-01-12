@@ -1,4 +1,4 @@
-import { judgeNullValue } from '../judge-forme-value.js';
+import { judgeNullValue } from '../../../utils/utils.js';
 
 export function toggleMoveFilterResult() {
   const moveHeadingTitle = document.querySelector('.pokemon-moves');
@@ -32,7 +32,7 @@ export function createPokemonMoveInfo(moveInfo) {
   return pokemonMoveInfo;
 }
 
-export function getTextAfterNumber(inputString) {
+export function getContentAfterNumber(inputString) {
   const index = 1;
   const textAfter9 = inputString.charAt(index);
   const text = {
@@ -48,15 +48,15 @@ export function getNumberAfterL(inputString) {
   return substringAfterL;
 }
 
-export function findPriorityString(array) {
-  const priorityStringWithL = array.find((item) => item.includes('L'));
-  if (priorityStringWithL) {
-    return priorityStringWithL;
+export function findPriorityMove(array) {
+  const priorityMoveWithL = array.find((item) => item.includes('L'));
+  if (priorityMoveWithL) {
+    return priorityMoveWithL;
   }
-  const priorityStringWithE = array.find((item) => item.includes('E'));
-  if (priorityStringWithE) {
-    return priorityStringWithE;
+  const priorityMoveWithE = array.find((item) => item.includes('E'));
+  if (priorityMoveWithE) {
+    return priorityMoveWithE;
   }
-  const priorityStringWithM = array.find((item) => item.includes('M'));
-  return priorityStringWithM;
+  const priorityMoveWithM = array.find((item) => item.includes('M'));
+  return priorityMoveWithM;
 }
