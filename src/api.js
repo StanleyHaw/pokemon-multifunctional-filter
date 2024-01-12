@@ -10,7 +10,7 @@ import {
   getTextAfterNumber,
   findPriorityString
 } from './components/filter-results/create-element/create-move-element.js';
-import { convertToLowerCaseWithoutHyphen } from './utils/utils.js';
+import { convertToLowerCaseWithoutHyphen } from './utils/convert-format.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 const LEARN_SETS_SOURCE = 'https://play.pokemonshowdown.com/data/learnsets.json';

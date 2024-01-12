@@ -66,6 +66,7 @@ const RESTRICTED_LEGENGARY = [
   'palkia',
   'palkiaorigin',
   'giratina',
+  'giratinaorigin',
   'reshiram',
   'zekrom',
   'kyurem',

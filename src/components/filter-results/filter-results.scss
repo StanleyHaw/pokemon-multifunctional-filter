@@ -654,7 +654,6 @@
   .result-collapse {
     grid-template-columns: 380px calc(100% - 360px - 20px);
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
 
 @media screen and (max-width: 767px) {
@@ -871,5 +870,4 @@
   .result-collapse {
     grid-template-columns: 224px calc(100% - 204px - 20px);
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }

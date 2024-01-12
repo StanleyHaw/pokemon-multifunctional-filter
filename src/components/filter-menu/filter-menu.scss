@@ -84,6 +84,7 @@
       display: flex;
       justify-content: start;
       align-items: center;
+      width: 100%;
       border-radius: 8px;
       user-select: none;
       -webkit-user-select: none;
@@ -125,9 +126,10 @@
 }
 
 .filter-option-container {
+  position: relative;
+  display: flex;
   flex-direction: column;
   gap: 14px;
-  padding: 16px;
 
   .additional-setting {
     display: flex;
@@ -307,13 +309,23 @@
 }
 
 .option-invisible {
-  display: none;
+  padding: 0 16px;
+}
+
+.option-invisible {
   opacity: 0;
+  max-height: 0px;
+  height: auto;
 }
 
 .option-visible {
-  display: flex;
+  padding: 16px;
+}
+
+.option-visible {
   opacity: 1;
+  max-height: 1920px;
+  height: auto;
 }
 
 .checkbox-selected {
@@ -389,17 +401,15 @@
     padding: 16px;
 
     .filter-title {
-      padding: 8px 8px 8px 14px;
+      padding: 8px;
     }
 
     .option-visible-toggle {
-      padding-left: 16px;
+      padding-left: 8px;
     }
   }
 
   .filter-option-container {
-    padding: 16px;
-
     .setting-option {
       input {
         width: auto;
@@ -446,6 +456,14 @@
   .menu-visible {
     right: 0;
     opacity: 1;
+  }
+
+  .option-invisible {
+    padding: 0 16px;
+  }
+
+  .option-visible {
+    padding: 16px;
   }
 
   .toggle-button {
@@ -495,14 +513,16 @@
   .filter-wrapper {
     padding: 16px 6px;
 
+    .filter-title {
+      padding: 8px 8px 8px 14px;
+    }
+
     .option-visible-toggle {
       padding-left: 16px;
     }
   }
 
   .filter-option-container {
-    padding: 16px 24px;
-
     .setting-option {
       input {
         width: 20px;
@@ -544,6 +564,14 @@
   .menu-visible {
     right: 0;
     opacity: 1;
+  }
+
+  .option-invisible {
+    padding: 0 24px;
+  }
+
+  .option-visible {
+    padding: 16px 24px;
   }
 
   .toggle-button {

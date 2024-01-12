@@ -1,0 +1,35 @@
+const toggleButtons = document.querySelectorAll('.option-visible-toggle');
+const filterOptionContainers = document.querySelectorAll('.filter-option-container');
+
+function toggleVisibility(button, index, filterOptionContainers) {
+  const filterTitle = button.closest('.filter-title');
+  const filterOptionContainer = filterTitle.nextElementSibling;
+
+  if (filterOptionContainer.classList.contains('option-visible')) {
+    filterOptionContainer.classList.replace('option-visible', 'option-invisible');
+  } else {
+    filterOptionContainer.classList.replace('option-invisible', 'option-visible');
+  }
+
+  filterOptionContainers.forEach((container, i) => {
+    if (i !== index) {
+      container.classList.remove('option-visible');
+      container.classList.add('option-invisible');
+    }
+  });
+}
+
+toggleButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    toggleVisibility(button, index, filterOptionContainers);
+  });
+});
+
+export function invisibleAllOption(containers) {
+  if (containers && containers.length) {
+    containers.forEach((container) => {
+      container.classList.remove('option-visible');
+      container.classList.add('option-invisible');
+    });
+  }
+}

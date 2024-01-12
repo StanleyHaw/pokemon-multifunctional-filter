@@ -1,5 +1,7 @@
 import './filter-display.scss';
 import './scroll-inset-shadow.js';
+import { toggleTransition } from '../../utils/add-transition.js';
+import { invisibleAllOption } from '../filter-menu/toggle-options-UI.js';
 
 const filterMenuToggleButton = document.querySelector('.filter-button');
 const filterDisplay = document.querySelector('.filter-display');
@@ -8,13 +10,7 @@ const filterMenu = document.querySelector('.filter-menu');
 const filterResultHead = document.querySelector('.filter-result-head');
 const filterResultBody = document.querySelector('.filter-result-body');
 const filterMenuCloseButton = document.querySelector('.close-menu');
-
-function toggleTransition(item) {
-  item.classList.add('run-transition');
-  setTimeout(function () {
-    item.classList.remove('run-transition');
-  }, 300);
-}
+const filterOptionContainers = document.querySelectorAll('.filter-option-container');
 
 function toggleFilterDisplayCollapse(menuVisible) {
   filterDisplay.classList.toggle('display-default-size', !menuVisible);
@@ -46,6 +42,10 @@ function toggleFilterMenu() {
   toggleMenuVisible(menuVisible);
   filterArrowIcon.classList.toggle('fa-angle-left', !menuVisible);
   filterArrowIcon.classList.toggle('fa-angle-right', menuVisible);
+
+  if (menuVisible) {
+    invisibleAllOption(filterOptionContainers);
+  }
 }
 
 function closeFilterMenu() {
@@ -62,5 +62,3 @@ function closeFilterMenu() {
 
 filterMenuToggleButton.addEventListener('click', toggleFilterMenu);
 filterMenuCloseButton.addEventListener('click', closeFilterMenu);
-// TODO: At resolutions of 1024px or below, pressing the `filterMenuToggleButton` will display an overlay.
-// Pressing the `filterMenuCloseButton` will make the overlay disappear.
