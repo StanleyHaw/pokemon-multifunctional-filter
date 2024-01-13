@@ -1,6 +1,8 @@
 @use '../../global.scss';
 
 .filter-menu {
+  z-index: 2;
+
   .filter-menu-wrapper {
     position: relative;
     background: global.$defaultGrey700;
@@ -316,6 +318,10 @@
   opacity: 0;
   max-height: 0px;
   height: auto;
+  transition:
+    opacity 0.15s ease,
+    padding 0.3s ease,
+    max-height 0.03s ease;
 }
 
 .option-visible {
@@ -326,6 +332,7 @@
   opacity: 1;
   max-height: 1920px;
   height: auto;
+  transition: all 0.3s ease;
 }
 
 .checkbox-selected {

@@ -8,3 +8,41 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.menu-overlay-invisible {
+  display: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.menu-overlay-visible {
+  display: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-overlay-invisible {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  .menu-overlay-visible {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+}
