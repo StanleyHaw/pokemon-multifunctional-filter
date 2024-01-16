@@ -1,0 +1,47 @@
+import { createPokemonStatElement, createPokemonStatsTotal } from './create-stat-element.js';
+import { createPokemonMoveInfo } from '../species-result/create-move-element.js';
+import { judgeTypeAmount } from '../../../../utils/components/judge-type-amount.js';
+import { judgeAbilityAmount } from '../../../../utils/components/judge-ability-amount.js';
+
+export function speciesTypeElement(data) {
+  const pokemonTypesWrapper = document.createElement('div');
+
+  pokemonTypesWrapper.classList.add('result-species-group', 'pokemon-types');
+
+  judgeTypeAmount(data, pokemonTypesWrapper);
+
+  return pokemonTypesWrapper;
+}
+
+export function speciesAbilityElement(data) {
+  const pokemonAbilitiesWrapper = document.createElement('div');
+
+  pokemonAbilitiesWrapper.classList.add('result-species-group', 'pokemon-abilities');
+
+  judgeAbilityAmount(data, pokemonAbilitiesWrapper);
+
+  return pokemonAbilitiesWrapper;
+}
+
+export function baseStatElement(data) {
+  const pokemonStatsWrapper = document.createElement('div');
+  const statNames = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+
+  statNames.forEach((stat) => {
+    pokemonStatsWrapper.appendChild(createPokemonStatElement(data, stat));
+  });
+
+  pokemonStatsWrapper.appendChild(createPokemonStatsTotal(data, 'bst'));
+  pokemonStatsWrapper.classList.add('result-species-group', 'pokemon-stats');
+
+  return pokemonStatsWrapper;
+}
+
+export function moveElement(moveInfo) {
+  const pokemonMovesWrapper = document.createElement('div');
+
+  pokemonMovesWrapper.appendChild(createPokemonMoveInfo(moveInfo));
+  pokemonMovesWrapper.classList.add('result-species-group', 'pokemon-moves');
+
+  return pokemonMovesWrapper;
+}
