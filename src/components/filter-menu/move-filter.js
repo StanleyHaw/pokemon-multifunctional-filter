@@ -1,1 +1,1 @@
-export const MOVE = 'yawn';
+export let move = 'yawn';
