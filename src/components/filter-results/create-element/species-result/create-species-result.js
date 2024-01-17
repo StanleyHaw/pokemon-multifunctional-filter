@@ -1,22 +1,33 @@
-import { createPokemonStatElement, createPokemonStatsTotal } from './create-stat-element.js';
+import {
+  createPokemonStatElement,
+  createPokemonStatsTotal,
+} from './create-stat-element.js';
+import { renderTypeElement } from './create-type-element.js';
 import { createPokemonMoveInfo } from '../species-result/create-move-element.js';
-import { judgeTypeAmount } from '../../../../utils/components/judge-type-amount.js';
 import { judgeAbilityAmount } from '../../../../utils/components/judge-ability-amount.js';
 
-export function speciesTypeElement(data) {
+export function renderSpeciesTypeElement(wrapper, data) {
   const pokemonTypesWrapper = document.createElement('div');
-
   pokemonTypesWrapper.classList.add('result-species-group', 'pokemon-types');
 
-  judgeTypeAmount(data, pokemonTypesWrapper);
+  data.types.forEach((type) => {
+    const content = {
+      type: type.toLowerCase(),
+      length: data.types.length,
+    };
+    renderTypeElement(pokemonTypesWrapper, content);
+  });
 
-  return pokemonTypesWrapper;
+  wrapper.appendChild(pokemonTypesWrapper);
 }
 
 export function speciesAbilityElement(data) {
   const pokemonAbilitiesWrapper = document.createElement('div');
 
-  pokemonAbilitiesWrapper.classList.add('result-species-group', 'pokemon-abilities');
+  pokemonAbilitiesWrapper.classList.add(
+    'result-species-group',
+    'pokemon-abilities'
+  );
 
   judgeAbilityAmount(data, pokemonAbilitiesWrapper);
 

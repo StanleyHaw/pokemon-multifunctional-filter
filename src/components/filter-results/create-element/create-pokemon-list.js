@@ -3,13 +3,13 @@ import {
   serialNumberElement,
   pokemonImageElement,
   pokemonNameElement,
-  pokemonFormElement
+  pokemonFormElement,
 } from './idenfity-result/create-identify-result.js';
 import {
-  speciesTypeElement,
+  renderSpeciesTypeElement,
   speciesAbilityElement,
   baseStatElement,
-  moveElement
+  moveElement,
 } from './species-result/create-species-result.js';
 
 export function createPokemonIdentifyElement(data) {
@@ -34,7 +34,7 @@ export function createPokemonSpeciesElement(data, moveInfo) {
   const pokemonName = convertToCleanString(data.name);
 
   resultSpeciesContainer.appendChild(resultSpeciesWrapper);
-  resultSpeciesWrapper.appendChild(speciesTypeElement(data));
+  renderSpeciesTypeElement(resultSpeciesWrapper, data);
   resultSpeciesWrapper.appendChild(speciesAbilityElement(data));
   resultSpeciesWrapper.appendChild(baseStatElement(data));
   resultSpeciesWrapper.appendChild(moveElement(moveInfo));
