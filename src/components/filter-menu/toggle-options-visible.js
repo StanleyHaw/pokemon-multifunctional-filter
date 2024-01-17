@@ -30,6 +30,9 @@ export function invisibleAllOption(containers) {
     containers.forEach((container) => {
       container.classList.remove('option-visible');
       container.classList.add('option-invisible');
+      setTimeout(() => {
+        container.style.transition = '0';
+      }, 300);
     });
   }
 }

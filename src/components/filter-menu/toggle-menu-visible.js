@@ -11,26 +11,23 @@ const filterResultBody = document.querySelector('.filter-result-body');
 const filterMenuCloseButton = document.querySelector('.close-menu');
 const filterOptionContainers = document.querySelectorAll('.filter-option-container');
 
+function toggleElementClassName(element, className1, className2, menuVisible) {
+  element.classList.toggle(className1, !menuVisible);
+  element.classList.toggle(className2, menuVisible);
+  toggleTransition(element);
+}
+
 function toggleFilterDisplayCollapse(menuVisible) {
-  filterDisplay.classList.toggle('display-default-size', !menuVisible);
-  filterDisplay.classList.toggle('display-collapse', menuVisible);
-  toggleTransition(filterDisplay);
+  toggleElementClassName(filterDisplay, 'display-default-size', 'display-collapse', menuVisible);
 }
 
 function toggleFilterResultCollapse(menuVisible) {
-  filterResultHead.classList.toggle('result-default-size', !menuVisible);
-  filterResultHead.classList.toggle('result-collapse', menuVisible);
-  toggleTransition(filterResultHead);
-
-  filterResultBody.classList.toggle('result-default-size', !menuVisible);
-  filterResultBody.classList.toggle('result-collapse', menuVisible);
-  toggleTransition(filterResultBody);
+  toggleElementClassName(filterResultHead, 'result-default-size', 'result-collapse', menuVisible);
+  toggleElementClassName(filterResultBody, 'result-default-size', 'result-collapse', menuVisible);
 }
 
 function toggleMenuVisible(menuVisible) {
-  filterMenu.classList.toggle('menu-invisible', !menuVisible);
-  filterMenu.classList.toggle('menu-visible', menuVisible);
-  toggleTransition(filterMenu);
+  toggleElementClassName(filterMenu, 'menu-invisible', 'menu-visible', menuVisible);
 }
 
 function toggleFilterMenu() {
@@ -40,26 +37,22 @@ function toggleFilterMenu() {
   toggleFilterResultCollapse(menuVisible);
   toggleMenuVisible(menuVisible);
   toggleFullScreenOverlay(menuVisible, 'menu-overlay');
+  invisibleAllOption(filterOptionContainers);
+
   filterArrowIcon.classList.toggle('fa-angle-left', !menuVisible);
   filterArrowIcon.classList.toggle('fa-angle-right', menuVisible);
-
-  if (menuVisible) {
-    invisibleAllOption(filterOptionContainers);
-  }
 }
 
 export function closeFilterMenu() {
   toggleFilterResultCollapse(false);
   toggleMenuVisible(false);
   toggleFullScreenOverlay(false, 'menu-overlay');
-  // HACK: This function is used in closeFilterMenu(), but it also appears within this function.
+  invisibleAllOption(filterOptionContainers);
 
-  filterDisplay.classList.remove('display-collapse');
-  filterDisplay.classList.add('display-default-size');
+  filterDisplay.classList.replace('display-collapse', 'display-default-size');
 
   if (filterArrowIcon.classList.contains('fa-angle-right')) {
-    filterArrowIcon.classList.remove('fa-angle-right');
-    filterArrowIcon.classList.add('fa-angle-left');
+    filterArrowIcon.classList.replace('fa-angle-right', 'fa-angle-left');
   }
 }
 
