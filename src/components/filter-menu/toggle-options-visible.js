@@ -7,14 +7,15 @@ function toggleVisibility(button, index, filterOptionContainers) {
 
   if (filterOptionContainer.classList.contains('option-visible')) {
     filterOptionContainer.classList.replace('option-visible', 'option-invisible');
+    filterOptionContainer.disabled = true;
   } else {
     filterOptionContainer.classList.replace('option-invisible', 'option-visible');
+    filterOptionContainer.disabled = false;
   }
 
   filterOptionContainers.forEach((container, i) => {
     if (i !== index) {
-      container.classList.remove('option-visible');
-      container.classList.add('option-invisible');
+      container.classList.replace('option-visible', 'option-invisible');
     }
   });
 }

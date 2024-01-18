@@ -244,3 +244,11 @@ $typeNormal: #9fa19f;
     -webkit-text-fill-color: transparent;
   }
 }
+
+.button-disabled {
+  background: $defaultGrey100;
+  color: $defaultGrey200;
+  pointer-events: none;
+  cursor: default;
+  box-shadow: 0 0 0 0;
+}
