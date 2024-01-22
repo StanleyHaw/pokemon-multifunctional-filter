@@ -62,5 +62,3 @@ function closeFilterMenu() {
 
 filterMenuToggleButton.addEventListener('click', toggleFilterMenu);
 filterMenuCloseButton.addEventListener('click', closeFilterMenu);
-// TODO: At resolutions of 1024px or below, pressing the `filterMenuToggleButton` will display an overlay.
-// Pressing the `filterMenuCloseButton` will make the overlay disappear.

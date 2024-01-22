@@ -1,6 +1,6 @@
 import { isValidPokemon } from './filtered-pokemon-list.js';
-import { convertMoveInfoFormat, inheritEggMove } from './utils/components/convert-move-data.js';
-import { move } from './components/filter-menu/move-filter.js';
+import { convertMoveInfoFormat, inheritEggMove } from './utils/convert-move-data.js';
+import { moveList } from './components/filter-menu/move-filter.js';
 
 const POKEMON_SOURCE = 'https://play.pokemonshowdown.com/data/pokedex.json';
 const LEARN_SETS_SOURCE = 'https://play.pokemonshowdown.com/data/learnsets.json';
@@ -31,18 +31,25 @@ export async function getValidPokemonData() {
   return validPokemonData;
 }
 
-function getMoveInfo(validPokemonData, moveName) {
-  inheritEggMove(validPokemonData, moveName);
-  const validMoveInfo = validPokemonData.map((pokemonData) => {
-    const moveData = pokemonData.learnset && pokemonData.learnset[moveName];
+function getMoveInfo(validPokemonData, moveList) {
+  const validMoveInfoList = [];
 
-    return moveData ? convertMoveInfoFormat(moveData) : '';
+  moveList.forEach((moveName) => {
+    inheritEggMove(validPokemonData, moveName);
+    // TODO: debug different move in pokemon same forme (ex. Ogerpon's Quick Attack and Squawkabilly's Parting Shot)
+    const validMoveInfo = validPokemonData.map((pokemonData) => {
+      const moveData = pokemonData.learnset && pokemonData.learnset[moveName];
+
+      return moveData ? convertMoveInfoFormat(moveData) : '';
+    });
+
+    validMoveInfoList.push(validMoveInfo);
   });
 
-  return validMoveInfo;
+  return validMoveInfoList;
 }
 
 export async function getMoveData() {
   const validPokemonData = await getValidPokemonData();
-  return getMoveInfo(validPokemonData, move);
+  return getMoveInfo(validPokemonData, moveList);
 }

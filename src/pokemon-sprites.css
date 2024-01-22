@@ -1,6974 +1,6974 @@
-.pokemon-sprite {
+.pokemon-image {
   background-image: url('./assets/img/pokemon_sprites.png');
 }
 
-.bg-abomasnow {
+.img-abomasnow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -10px;
 }
 
-.bg-abra {
+.img-abra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -10px;
 }
 
-.bg-absol {
+.img-absol {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -69px;
 }
 
-.bg-accelgor {
+.img-accelgor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -69px;
 }
 
-.bg-aegislash {
+.img-aegislash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -10px;
 }
 
-.bg-aegislashblade {
+.img-aegislashblade {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -69px;
 }
 
-.bg-aerodactyl {
+.img-aerodactyl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -128px;
 }
 
-.bg-aggron {
+.img-aggron {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -128px;
 }
 
-.bg-aipom {
+.img-aipom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -128px;
 }
 
-.bg-alakazam {
+.img-alakazam {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -10px;
 }
 
-.bg-alomomola {
+.img-alomomola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -69px;
 }
 
-.bg-alcremie {
+.img-alcremie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -128px;
 }
 
-.bg-altaria {
+.img-altaria {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -187px;
 }
 
-.bg-amaura {
+.img-amaura {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -187px;
 }
 
-.bg-ambipom {
+.img-ambipom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -187px;
 }
 
-.bg-amoonguss {
+.img-amoonguss {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -187px;
 }
 
-.bg-annihilape {
+.img-annihilape {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -10px;
 }
 
-.bg-ampharos {
+.img-ampharos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -69px;
 }
 
-.bg-anorith {
+.img-anorith {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -128px;
 }
 
-.bg-appletun {
+.img-appletun {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -187px;
 }
 
-.bg-applin {
+.img-applin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -246px;
 }
 
-.bg-araquanid {
+.img-araquanid {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -246px;
 }
 
-.bg-arbok {
+.img-arbok {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -246px;
 }
 
-.bg-arboliva {
+.img-arboliva {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -246px;
 }
 
-.bg-arcanine {
+.img-arcanine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -246px;
 }
 
-.bg-arcaninehisui {
+.img-arcaninehisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -10px;
 }
 
-.bg-arceus {
+.img-arceus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -69px;
 }
 
-.bg-archaludon {
+.img-archaludon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -128px;
 }
 
-.bg-archeops {
+.img-archeops {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -187px;
 }
 
-.bg-archen {
+.img-archen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -246px;
 }
 
-.bg-arctibax {
+.img-arctibax {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -305px;
 }
 
-.bg-arctovish {
+.img-arctovish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -305px;
 }
 
-.bg-arctozolt {
+.img-arctozolt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -305px;
 }
 
-.bg-ariados {
+.img-ariados {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -305px;
 }
 
-.bg-armaldo {
+.img-armaldo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -305px;
 }
 
-.bg-armarouge {
+.img-armarouge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -305px;
 }
 
-.bg-aromatisse {
+.img-aromatisse {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -10px;
 }
 
-.bg-aron {
+.img-aron {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -69px;
 }
 
-.bg-arrokuda {
+.img-arrokuda {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -128px;
 }
 
-.bg-articuno {
+.img-articuno {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -187px;
 }
 
-.bg-articunogalar {
+.img-articunogalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -246px;
 }
 
-.bg-audino {
+.img-audino {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -305px;
 }
 
-.bg-aurorus {
+.img-aurorus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -364px;
 }
 
-.bg-avalugg {
+.img-avalugg {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -364px;
 }
 
-.bg-avalugghisui {
+.img-avalugghisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -364px;
 }
 
-.bg-axew {
+.img-axew {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -364px;
 }
 
-.bg-azelf {
+.img-azelf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -364px;
 }
 
-.bg-azumarill {
+.img-azumarill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -364px;
 }
 
-.bg-azurill {
+.img-azurill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -364px;
 }
 
-.bg-baltoy {
+.img-baltoy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -10px;
 }
 
-.bg-bagon {
+.img-bagon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -69px;
 }
 
-.bg-banette {
+.img-banette {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -128px;
 }
 
-.bg-barboach {
+.img-barboach {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -187px;
 }
 
-.bg-barraskewda {
+.img-barraskewda {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -246px;
 }
 
-.bg-basculegion {
+.img-basculegion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -305px;
 }
 
-.bg-basculegionf {
+.img-basculegionf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -364px;
 }
 
-.bg-barbaracle {
+.img-barbaracle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -423px;
 }
 
-.bg-basculin {
+.img-basculin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -423px;
 }
 
-.bg-basculinbluestriped {
+.img-basculinbluestriped {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -423px;
 }
 
-.bg-basculinwhitestriped {
+.img-basculinwhitestriped {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -423px;
 }
 
-.bg-bastiodon {
+.img-bastiodon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -423px;
 }
 
-.bg-baxcalibur {
+.img-baxcalibur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -423px;
 }
 
-.bg-bayleef {
+.img-bayleef {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -423px;
 }
 
-.bg-beartic {
+.img-beartic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -423px;
 }
 
-.bg-beautifly {
+.img-beautifly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -10px;
 }
 
-.bg-beedrill {
+.img-beedrill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -69px;
 }
 
-.bg-beheeyem {
+.img-beheeyem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -128px;
 }
 
-.bg-beldum {
+.img-beldum {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -187px;
 }
 
-.bg-bellibolt {
+.img-bellibolt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -246px;
 }
 
-.bg-bellsprout {
+.img-bellsprout {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -305px;
 }
 
-.bg-bergmite {
+.img-bergmite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -364px;
 }
 
-.bg-bewear {
+.img-bewear {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -423px;
 }
 
-.bg-bibarel {
+.img-bibarel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -482px;
 }
 
-.bg-bellossom {
+.img-bellossom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -482px;
 }
 
-.bg-bisharp {
+.img-bisharp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -482px;
 }
 
-.bg-bidoof {
+.img-bidoof {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -482px;
 }
 
-.bg-binacle {
+.img-binacle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -482px;
 }
 
-.bg-blacephalon {
+.img-blacephalon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -482px;
 }
 
-.bg-blastoise {
+.img-blastoise {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -482px;
 }
 
-.bg-blaziken {
+.img-blaziken {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -482px;
 }
 
-.bg-blissey {
+.img-blissey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -482px;
 }
 
-.bg-blipbug {
+.img-blipbug {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -10px;
 }
 
-.bg-boldore {
+.img-boldore {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -69px;
 }
 
-.bg-blitzle {
+.img-blitzle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -128px;
 }
 
-.bg-bombirdier {
+.img-bombirdier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -187px;
 }
 
-.bg-boltund {
+.img-boltund {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -246px;
 }
 
-.bg-bonsly {
+.img-bonsly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -305px;
 }
 
-.bg-bounsweet {
+.img-bounsweet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -364px;
 }
 
-.bg-braixen {
+.img-braixen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -423px;
 }
 
-.bg-bramblin {
+.img-bramblin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -482px;
 }
 
-.bg-braviary {
+.img-braviary {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -541px;
 }
 
-.bg-bouffalant {
+.img-bouffalant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -541px;
 }
 
-.bg-braviaryhisui {
+.img-braviaryhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -541px;
 }
 
-.bg-brionne {
+.img-brionne {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -541px;
 }
 
-.bg-bronzor {
+.img-bronzor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -541px;
 }
 
-.bg-bronzong {
+.img-bronzong {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -541px;
 }
 
-.bg-brambleghast {
+.img-brambleghast {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -541px;
 }
 
-.bg-brutebonnet {
+.img-brutebonnet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -541px;
 }
 
-.bg-bruxish {
+.img-bruxish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -541px;
 }
 
-.bg-breloom {
+.img-breloom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -541px;
 }
 
-.bg-budew {
+.img-budew {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -10px;
 }
 
-.bg-buizel {
+.img-buizel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -69px;
 }
 
-.bg-bulbasaur {
+.img-bulbasaur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -128px;
 }
 
-.bg-buneary {
+.img-buneary {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -187px;
 }
 
-.bg-bunnelby {
+.img-bunnelby {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -246px;
 }
 
-.bg-burmy_1 {
+.img-burmy_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -305px;
 }
 
-.bg-burmy_2 {
+.img-burmy_2 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -364px;
 }
 
-.bg-burmy {
+.img-burmy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -423px;
 }
 
-.bg-butterfree {
+.img-butterfree {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -482px;
 }
 
-.bg-buzzwole {
+.img-buzzwole {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -541px;
 }
 
-.bg-cacnea {
+.img-cacnea {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -600px;
 }
 
-.bg-cacturne {
+.img-cacturne {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -600px;
 }
 
-.bg-calyrex {
+.img-calyrex {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -600px;
 }
 
-.bg-calyrexice {
+.img-calyrexice {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -600px;
 }
 
-.bg-calyrexshadow {
+.img-calyrexshadow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -600px;
 }
 
-.bg-camerupt {
+.img-camerupt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -600px;
 }
 
-.bg-capsakid {
+.img-capsakid {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -600px;
 }
 
-.bg-carbink {
+.img-carbink {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -600px;
 }
 
-.bg-carkol {
+.img-carkol {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -600px;
 }
 
-.bg-carnivine {
+.img-carnivine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -600px;
 }
 
-.bg-carracosta {
+.img-carracosta {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -600px;
 }
 
-.bg-carvanha {
+.img-carvanha {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -10px;
 }
 
-.bg-cascoon {
+.img-cascoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -69px;
 }
 
-.bg-castform {
+.img-castform {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -128px;
 }
 
-.bg-castformrainy {
+.img-castformrainy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -187px;
 }
 
-.bg-castformsnowy {
+.img-castformsnowy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -246px;
 }
 
-.bg-castformsunny {
+.img-castformsunny {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -305px;
 }
 
-.bg-caterpie {
+.img-caterpie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -364px;
 }
 
-.bg-celebi {
+.img-celebi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -423px;
 }
 
-.bg-celesteela {
+.img-celesteela {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -482px;
 }
 
-.bg-centiskorch {
+.img-centiskorch {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -541px;
 }
 
-.bg-ceruledge {
+.img-ceruledge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -600px;
 }
 
-.bg-cetitan {
+.img-cetitan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -659px;
 }
 
-.bg-cetoddle {
+.img-cetoddle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -659px;
 }
 
-.bg-chandelure {
+.img-chandelure {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -659px;
 }
 
-.bg-chansey {
+.img-chansey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -659px;
 }
 
-.bg-charcadet {
+.img-charcadet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -659px;
 }
 
-.bg-charizard {
+.img-charizard {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -659px;
 }
 
-.bg-charjabug {
+.img-charjabug {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -659px;
 }
 
-.bg-charmander {
+.img-charmander {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -659px;
 }
 
-.bg-charmeleon {
+.img-charmeleon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -659px;
 }
 
-.bg-chatot {
+.img-chatot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -659px;
 }
 
-.bg-cherrim {
+.img-cherrim {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -659px;
 }
 
-.bg-cherrimsunshine {
+.img-cherrimsunshine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -659px;
 }
 
-.bg-cherubi {
+.img-cherubi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -10px;
 }
 
-.bg-chesnaught {
+.img-chesnaught {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -69px;
 }
 
-.bg-chespin {
+.img-chespin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -128px;
 }
 
-.bg-chienpao {
+.img-chienpao {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -187px;
 }
 
-.bg-chewtle {
+.img-chewtle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -246px;
 }
 
-.bg-chikorita {
+.img-chikorita {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -305px;
 }
 
-.bg-chimchar {
+.img-chimchar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -364px;
 }
 
-.bg-chimecho {
+.img-chimecho {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -423px;
 }
 
-.bg-chinchou {
+.img-chinchou {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -482px;
 }
 
-.bg-chingling {
+.img-chingling {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -541px;
 }
 
-.bg-chiyu {
+.img-chiyu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -600px;
 }
 
-.bg-cinccino {
+.img-cinccino {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -659px;
 }
 
-.bg-cinderace {
+.img-cinderace {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -718px;
 }
 
-.bg-clamperl {
+.img-clamperl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -718px;
 }
 
-.bg-clauncher {
+.img-clauncher {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -718px;
 }
 
-.bg-clawitzer {
+.img-clawitzer {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -718px;
 }
 
-.bg-claydol {
+.img-claydol {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -718px;
 }
 
-.bg-clefable {
+.img-clefable {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -718px;
 }
 
-.bg-clefairy {
+.img-clefairy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -718px;
 }
 
-.bg-cleffa {
+.img-cleffa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -718px;
 }
 
-.bg-clobbopus {
+.img-clobbopus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -718px;
 }
 
-.bg-clodsire {
+.img-clodsire {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -718px;
 }
 
-.bg-cloyster {
+.img-cloyster {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -718px;
 }
 
-.bg-coalossal {
+.img-coalossal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -718px;
 }
 
-.bg-cobalion {
+.img-cobalion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -718px;
 }
 
-.bg-cofagrigus {
+.img-cofagrigus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -10px;
 }
 
-.bg-combee {
+.img-combee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -69px;
 }
 
-.bg-combusken {
+.img-combusken {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -128px;
 }
 
-.bg-comfey {
+.img-comfey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -187px;
 }
 
-.bg-conkeldurr {
+.img-conkeldurr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -246px;
 }
 
-.bg-copperajah {
+.img-copperajah {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -305px;
 }
 
-.bg-corphish {
+.img-corphish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -364px;
 }
 
-.bg-corsola {
+.img-corsola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -423px;
 }
 
-.bg-corsolagalar {
+.img-corsolagalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -482px;
 }
 
-.bg-corviknight {
+.img-corviknight {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -541px;
 }
 
-.bg-corvisquire {
+.img-corvisquire {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -600px;
 }
 
-.bg-cosmoem {
+.img-cosmoem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -659px;
 }
 
-.bg-cosmog {
+.img-cosmog {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -718px;
 }
 
-.bg-cottonee {
+.img-cottonee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -777px;
 }
 
-.bg-crabominable {
+.img-crabominable {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -777px;
 }
 
-.bg-crabrawler {
+.img-crabrawler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -777px;
 }
 
-.bg-cradily {
+.img-cradily {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -777px;
 }
 
-.bg-cramorant {
+.img-cramorant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -777px;
 }
 
-.bg-cranidos {
+.img-cranidos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -777px;
 }
 
-.bg-crawdaunt {
+.img-crawdaunt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -777px;
 }
 
-.bg-cresselia {
+.img-cresselia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -777px;
 }
 
-.bg-croagunk {
+.img-croagunk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -777px;
 }
 
-.bg-crobat {
+.img-crobat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -777px;
 }
 
-.bg-crocalor {
+.img-crocalor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -777px;
 }
 
-.bg-croconaw {
+.img-croconaw {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -777px;
 }
 
-.bg-crustle {
+.img-crustle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -777px;
 }
 
-.bg-cryogonal {
+.img-cryogonal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -777px;
 }
 
-.bg-cubchoo {
+.img-cubchoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -10px;
 }
 
-.bg-cubone {
+.img-cubone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -69px;
 }
 
-.bg-cufant {
+.img-cufant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -128px;
 }
 
-.bg-cursola {
+.img-cursola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -187px;
 }
 
-.bg-cutiefly {
+.img-cutiefly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -246px;
 }
 
-.bg-cyclizar {
+.img-cyclizar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -305px;
 }
 
-.bg-cyndaquil {
+.img-cyndaquil {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -364px;
 }
 
-.bg-dachsbun {
+.img-dachsbun {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -423px;
 }
 
-.bg-darkrai {
+.img-darkrai {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -482px;
 }
 
-.bg-darmanitan {
+.img-darmanitan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -541px;
 }
 
-.bg-darmanitangalar {
+.img-darmanitangalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -600px;
 }
 
-.bg-darmanitangalarzen {
+.img-darmanitangalarzen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -659px;
 }
 
-.bg-darmanitanzen {
+.img-darmanitanzen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -718px;
 }
 
-.bg-dartrix {
+.img-dartrix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -777px;
 }
 
-.bg-darumaka {
+.img-darumaka {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -836px;
 }
 
-.bg-darumakagalar {
+.img-darumakagalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -836px;
 }
 
-.bg-decidueye {
+.img-decidueye {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -836px;
 }
 
-.bg-decidueyehisui {
+.img-decidueyehisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -836px;
 }
 
-.bg-dedenne {
+.img-dedenne {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -836px;
 }
 
-.bg-deerling {
+.img-deerling {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -836px;
 }
 
-.bg-deino {
+.img-deino {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -836px;
 }
 
-.bg-delcatty {
+.img-delcatty {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -836px;
 }
 
-.bg-delibird {
+.img-delibird {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -836px;
 }
 
-.bg-delphox {
+.img-delphox {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -836px;
 }
 
-.bg-deoxys {
+.img-deoxys {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -836px;
 }
 
-.bg-deoxysattack {
+.img-deoxysattack {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -836px;
 }
 
-.bg-deoxysdefense {
+.img-deoxysdefense {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -836px;
 }
 
-.bg-deoxysspeed {
+.img-deoxysspeed {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -836px;
 }
 
-.bg-dewgong {
+.img-dewgong {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -836px;
 }
 
-.bg-dewott {
+.img-dewott {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -10px;
 }
 
-.bg-dewpider {
+.img-dewpider {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -69px;
 }
 
-.bg-dhelmise {
+.img-dhelmise {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -128px;
 }
 
-.bg-dialga {
+.img-dialga {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -187px;
 }
 
-.bg-dialgaorigin {
+.img-dialgaorigin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -246px;
 }
 
-.bg-diancie {
+.img-diancie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -305px;
 }
 
-.bg-diggersby {
+.img-diggersby {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -364px;
 }
 
-.bg-diglett {
+.img-diglett {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -423px;
 }
 
-.bg-diglettalola {
+.img-diglettalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -482px;
 }
 
-.bg-dipplin {
+.img-dipplin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -541px;
 }
 
-.bg-ditto {
+.img-ditto {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -600px;
 }
 
-.bg-dodrio {
+.img-dodrio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -659px;
 }
 
-.bg-doduo {
+.img-doduo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -718px;
 }
 
-.bg-dolliv {
+.img-dolliv {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -777px;
 }
 
-.bg-dondozo {
+.img-dondozo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -836px;
 }
 
-.bg-donphan {
+.img-donphan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -895px;
 }
 
-.bg-dottler {
+.img-dottler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -895px;
 }
 
-.bg-doublade {
+.img-doublade {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -895px;
 }
 
-.bg-dracovish {
+.img-dracovish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -895px;
 }
 
-.bg-dracozolt {
+.img-dracozolt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -895px;
 }
 
-.bg-dragalge {
+.img-dragalge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -895px;
 }
 
-.bg-dragapult {
+.img-dragapult {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -895px;
 }
 
-.bg-dragonair {
+.img-dragonair {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -895px;
 }
 
-.bg-dragonite {
+.img-dragonite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -895px;
 }
 
-.bg-drakloak {
+.img-drakloak {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -895px;
 }
 
-.bg-drampa {
+.img-drampa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -895px;
 }
 
-.bg-drapion {
+.img-drapion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -895px;
 }
 
-.bg-dratini {
+.img-dratini {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -895px;
 }
 
-.bg-drednaw {
+.img-drednaw {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -895px;
 }
 
-.bg-dreepy {
+.img-dreepy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -895px;
 }
 
-.bg-drifblim {
+.img-drifblim {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -895px;
 }
 
-.bg-drifloon {
+.img-drifloon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -10px;
 }
 
-.bg-drilbur {
+.img-drilbur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -69px;
 }
 
-.bg-drizzile {
+.img-drizzile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -128px;
 }
 
-.bg-drowzee {
+.img-drowzee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -187px;
 }
 
-.bg-druddigon {
+.img-druddigon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -246px;
 }
 
-.bg-dubwool {
+.img-dubwool {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -305px;
 }
 
-.bg-ducklett {
+.img-ducklett {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -364px;
 }
 
-.bg-dudunsparce {
+.img-dudunsparce {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -423px;
 }
 
-.bg-dugtrio {
+.img-dugtrio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -482px;
 }
 
-.bg-dugtrioalola {
+.img-dugtrioalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -541px;
 }
 
-.bg-dunsparce {
+.img-dunsparce {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -600px;
 }
 
-.bg-duosion {
+.img-duosion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -659px;
 }
 
-.bg-duraludon {
+.img-duraludon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -718px;
 }
 
-.bg-durant {
+.img-durant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -777px;
 }
 
-.bg-dusclops {
+.img-dusclops {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -836px;
 }
 
-.bg-dusknoir {
+.img-dusknoir {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -895px;
 }
 
-.bg-duskull {
+.img-duskull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -954px;
 }
 
-.bg-dustox {
+.img-dustox {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -954px;
 }
 
-.bg-dwebble {
+.img-dwebble {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -954px;
 }
 
-.bg-eelektross {
+.img-eelektross {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -954px;
 }
 
-.bg-eelektrik {
+.img-eelektrik {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -954px;
 }
 
-.bg-eevee {
+.img-eevee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -954px;
 }
 
-.bg-eiscue {
+.img-eiscue {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -954px;
 }
 
-.bg-eiscuenoice {
+.img-eiscuenoice {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -954px;
 }
 
-.bg-ekans {
+.img-ekans {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -954px;
 }
 
-.bg-electabuzz {
+.img-electabuzz {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -954px;
 }
 
-.bg-eldegoss {
+.img-eldegoss {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -954px;
 }
 
-.bg-electivire {
+.img-electivire {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -954px;
 }
 
-.bg-electrike {
+.img-electrike {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -954px;
 }
 
-.bg-electrode {
+.img-electrode {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -954px;
 }
 
-.bg-electrodehisui {
+.img-electrodehisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -954px;
 }
 
-.bg-elekid {
+.img-elekid {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -954px;
 }
 
-.bg-elgyem {
+.img-elgyem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -954px;
 }
 
-.bg-emboar {
+.img-emboar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -10px;
 }
 
-.bg-emolga {
+.img-emolga {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -69px;
 }
 
-.bg-empoleon {
+.img-empoleon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -128px;
 }
 
-.bg-enamorus {
+.img-enamorus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -187px;
 }
 
-.bg-enamorustherian {
+.img-enamorustherian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -246px;
 }
 
-.bg-entei {
+.img-entei {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -305px;
 }
 
-.bg-escavalier {
+.img-escavalier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -364px;
 }
 
-.bg-espathra {
+.img-espathra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -423px;
 }
 
-.bg-espeon {
+.img-espeon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -482px;
 }
 
-.bg-espurr {
+.img-espurr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -541px;
 }
 
-.bg-eternatus {
+.img-eternatus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -600px;
 }
 
-.bg-excadrill {
+.img-excadrill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -659px;
 }
 
-.bg-exeggcute {
+.img-exeggcute {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -718px;
 }
 
-.bg-exeggutor {
+.img-exeggutor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -777px;
 }
 
-.bg-exeggutoralola {
+.img-exeggutoralola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -836px;
 }
 
-.bg-exploud {
+.img-exploud {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -895px;
 }
 
-.bg-falinks {
+.img-falinks {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -954px;
 }
 
-.bg-farfetchd {
+.img-farfetchd {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1013px;
 }
 
-.bg-farfetchdgalar {
+.img-farfetchdgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1013px;
 }
 
-.bg-farigiraf {
+.img-farigiraf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1013px;
 }
 
-.bg-fearow {
+.img-fearow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1013px;
 }
 
-.bg-feebas {
+.img-feebas {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1013px;
 }
 
-.bg-fennekin {
+.img-fennekin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1013px;
 }
 
-.bg-feraligatr {
+.img-feraligatr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1013px;
 }
 
-.bg-ferroseed {
+.img-ferroseed {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1013px;
 }
 
-.bg-ferrothorn {
+.img-ferrothorn {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1013px;
 }
 
-.bg-fezandipiti {
+.img-fezandipiti {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1013px;
 }
 
-.bg-fidough {
+.img-fidough {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1013px;
 }
 
-.bg-finizen {
+.img-finizen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1013px;
 }
 
-.bg-finneon {
+.img-finneon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1013px;
 }
 
-.bg-flaaffy {
+.img-flaaffy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1013px;
 }
 
-.bg-flabebe {
+.img-flabebe {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1013px;
 }
 
-.bg-flamigo {
+.img-flamigo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1013px;
 }
 
-.bg-flapple {
+.img-flapple {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1013px;
 }
 
-.bg-flareon {
+.img-flareon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1013px;
 }
 
-.bg-fletchinder {
+.img-fletchinder {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -10px;
 }
 
-.bg-fletchling {
+.img-fletchling {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -69px;
 }
 
-.bg-flittle {
+.img-flittle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -128px;
 }
 
-.bg-floatzel {
+.img-floatzel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -187px;
 }
 
-.bg-floette {
+.img-floette {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -246px;
 }
 
-.bg-floragato {
+.img-floragato {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -305px;
 }
 
-.bg-florges {
+.img-florges {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -364px;
 }
 
-.bg-fluttermane {
+.img-fluttermane {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -423px;
 }
 
-.bg-flygon {
+.img-flygon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -482px;
 }
 
-.bg-fomantis {
+.img-fomantis {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -541px;
 }
 
-.bg-foongus {
+.img-foongus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -600px;
 }
 
-.bg-forretress {
+.img-forretress {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -659px;
 }
 
-.bg-fraxure {
+.img-fraxure {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -718px;
 }
 
-.bg-frigibax {
+.img-frigibax {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -777px;
 }
 
-.bg-frillish_1 {
+.img-frillish_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -836px;
 }
 
-.bg-frillish {
+.img-frillish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -895px;
 }
 
-.bg-froakie {
+.img-froakie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -954px;
 }
 
-.bg-frogadier {
+.img-frogadier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1013px;
 }
 
-.bg-froslass {
+.img-froslass {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1072px;
 }
 
-.bg-frosmoth {
+.img-frosmoth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1072px;
 }
 
-.bg-fuecoco {
+.img-fuecoco {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1072px;
 }
 
-.bg-furfrou {
+.img-furfrou {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1072px;
 }
 
-.bg-furret {
+.img-furret {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1072px;
 }
 
-.bg-gabite {
+.img-gabite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1072px;
 }
 
-.bg-gallade {
+.img-gallade {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1072px;
 }
 
-.bg-galvantula {
+.img-galvantula {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1072px;
 }
 
-.bg-garbodor {
+.img-garbodor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1072px;
 }
 
-.bg-garchomp {
+.img-garchomp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1072px;
 }
 
-.bg-gardevoir {
+.img-gardevoir {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1072px;
 }
 
-.bg-garganacl {
+.img-garganacl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1072px;
 }
 
-.bg-gastly {
+.img-gastly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1072px;
 }
 
-.bg-gastrodon_1 {
+.img-gastrodon_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1072px;
 }
 
-.bg-gastrodon {
+.img-gastrodon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1072px;
 }
 
-.bg-genesect {
+.img-genesect {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1072px;
 }
 
-.bg-gengar {
+.img-gengar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1072px;
 }
 
-.bg-geodude {
+.img-geodude {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1072px;
 }
 
-.bg-geodudealola {
+.img-geodudealola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1072px;
 }
 
-.bg-gholdengo {
+.img-gholdengo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -10px;
 }
 
-.bg-gible {
+.img-gible {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -69px;
 }
 
-.bg-gigalith {
+.img-gigalith {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -128px;
 }
 
-.bg-gimmighoul {
+.img-gimmighoul {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -187px;
 }
 
-.bg-gimmighoulroaming {
+.img-gimmighoulroaming {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -246px;
 }
 
-.bg-girafarig {
+.img-girafarig {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -305px;
 }
 
-.bg-giratina {
+.img-giratina {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -364px;
 }
 
-.bg-giratinaorigin {
+.img-giratinaorigin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -423px;
 }
 
-.bg-glaceon {
+.img-glaceon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -482px;
 }
 
-.bg-glalie {
+.img-glalie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -541px;
 }
 
-.bg-glameow {
+.img-glameow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -600px;
 }
 
-.bg-glastrier {
+.img-glastrier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -659px;
 }
 
-.bg-gligar {
+.img-gligar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -718px;
 }
 
-.bg-glimmet {
+.img-glimmet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -777px;
 }
 
-.bg-glimmora {
+.img-glimmora {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -836px;
 }
 
-.bg-gliscor {
+.img-gliscor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -895px;
 }
 
-.bg-gloom {
+.img-gloom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -954px;
 }
 
-.bg-gogoat {
+.img-gogoat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1013px;
 }
 
-.bg-golbat {
+.img-golbat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1072px;
 }
 
-.bg-goldeen {
+.img-goldeen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1131px;
 }
 
-.bg-golduck {
+.img-golduck {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1131px;
 }
 
-.bg-golem {
+.img-golem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1131px;
 }
 
-.bg-golemalola {
+.img-golemalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1131px;
 }
 
-.bg-golett {
+.img-golett {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1131px;
 }
 
-.bg-golisopod {
+.img-golisopod {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1131px;
 }
 
-.bg-golurk {
+.img-golurk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1131px;
 }
 
-.bg-goodra {
+.img-goodra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1131px;
 }
 
-.bg-goodrahisui {
+.img-goodrahisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1131px;
 }
 
-.bg-goomy {
+.img-goomy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1131px;
 }
 
-.bg-gorebyss {
+.img-gorebyss {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1131px;
 }
 
-.bg-gossifleur {
+.img-gossifleur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1131px;
 }
 
-.bg-gothita {
+.img-gothita {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1131px;
 }
 
-.bg-gothitelle {
+.img-gothitelle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1131px;
 }
 
-.bg-gothorita {
+.img-gothorita {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1131px;
 }
 
-.bg-gougingfire {
+.img-gougingfire {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1131px;
 }
 
-.bg-gourgeist {
+.img-gourgeist {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1131px;
 }
 
-.bg-gourgeistlarge {
+.img-gourgeistlarge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1131px;
 }
 
-.bg-gourgeistsmall {
+.img-gourgeistsmall {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1131px;
 }
 
-.bg-gourgeistsuper {
+.img-gourgeistsuper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1131px;
 }
 
-.bg-grafaiai {
+.img-grafaiai {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -10px;
 }
 
-.bg-granbull {
+.img-granbull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -69px;
 }
 
-.bg-grapploct {
+.img-grapploct {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -128px;
 }
 
-.bg-graveler {
+.img-graveler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -187px;
 }
 
-.bg-graveleralola {
+.img-graveleralola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -246px;
 }
 
-.bg-greattusk {
+.img-greattusk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -305px;
 }
 
-.bg-greavard {
+.img-greavard {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -364px;
 }
 
-.bg-greedent {
+.img-greedent {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -423px;
 }
 
-.bg-greninja {
+.img-greninja {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -482px;
 }
 
-.bg-greninjabond {
+.img-greninjabond {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -541px;
 }
 
-.bg-grimer {
+.img-grimer {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -600px;
 }
 
-.bg-grimeralola {
+.img-grimeralola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -659px;
 }
 
-.bg-grimmsnarl {
+.img-grimmsnarl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -718px;
 }
 
-.bg-grookey {
+.img-grookey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -777px;
 }
 
-.bg-grotle {
+.img-grotle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -836px;
 }
 
-.bg-groudon {
+.img-groudon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -895px;
 }
 
-.bg-grovyle {
+.img-grovyle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -954px;
 }
 
-.bg-growlithe {
+.img-growlithe {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1013px;
 }
 
-.bg-growlithehisui {
+.img-growlithehisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1072px;
 }
 
-.bg-grubbin {
+.img-grubbin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1131px;
 }
 
-.bg-grumpig {
+.img-grumpig {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1190px;
 }
 
-.bg-gulpin {
+.img-gulpin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1190px;
 }
 
-.bg-gumshoos {
+.img-gumshoos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1190px;
 }
 
-.bg-gurdurr {
+.img-gurdurr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1190px;
 }
 
-.bg-guzzlord {
+.img-guzzlord {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1190px;
 }
 
-.bg-gyarados {
+.img-gyarados {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1190px;
 }
 
-.bg-hakamoo {
+.img-hakamoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1190px;
 }
 
-.bg-happiny {
+.img-happiny {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1190px;
 }
 
-.bg-hariyama {
+.img-hariyama {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1190px;
 }
 
-.bg-hatenna {
+.img-hatenna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1190px;
 }
 
-.bg-hatterene {
+.img-hatterene {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1190px;
 }
 
-.bg-hattrem {
+.img-hattrem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1190px;
 }
 
-.bg-haunter {
+.img-haunter {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1190px;
 }
 
-.bg-hawlucha {
+.img-hawlucha {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1190px;
 }
 
-.bg-haxorus {
+.img-haxorus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1190px;
 }
 
-.bg-heatmor {
+.img-heatmor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1190px;
 }
 
-.bg-heatran {
+.img-heatran {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1190px;
 }
 
-.bg-heliolisk {
+.img-heliolisk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1190px;
 }
 
-.bg-helioptile {
+.img-helioptile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1190px;
 }
 
-.bg-heracross {
+.img-heracross {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1190px;
 }
 
-.bg-herdier {
+.img-herdier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1190px;
 }
 
-.bg-hippopotas {
+.img-hippopotas {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -10px;
 }
 
-.bg-hippowdon {
+.img-hippowdon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -69px;
 }
 
-.bg-hitmonchan {
+.img-hitmonchan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -128px;
 }
 
-.bg-hitmonlee {
+.img-hitmonlee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -187px;
 }
 
-.bg-hitmontop {
+.img-hitmontop {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -246px;
 }
 
-.bg-honchkrow {
+.img-honchkrow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -305px;
 }
 
-.bg-honedge {
+.img-honedge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -364px;
 }
 
-.bg-hooh {
+.img-hooh {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -423px;
 }
 
-.bg-hoopa {
+.img-hoopa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -482px;
 }
 
-.bg-hoopaunbound {
+.img-hoopaunbound {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -541px;
 }
 
-.bg-hoothoot {
+.img-hoothoot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -600px;
 }
 
-.bg-hoppip {
+.img-hoppip {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -659px;
 }
 
-.bg-horsea {
+.img-horsea {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -718px;
 }
 
-.bg-houndoom {
+.img-houndoom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -777px;
 }
 
-.bg-houndour {
+.img-houndour {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -836px;
 }
 
-.bg-houndstone {
+.img-houndstone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -895px;
 }
 
-.bg-huntail {
+.img-huntail {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -954px;
 }
 
-.bg-hydrapple {
+.img-hydrapple {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1013px;
 }
 
-.bg-hydreigon {
+.img-hydreigon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1072px;
 }
 
-.bg-hypno {
+.img-hypno {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1131px;
 }
 
-.bg-igglybuff {
+.img-igglybuff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1190px;
 }
 
-.bg-illumise {
+.img-illumise {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1249px;
 }
 
-.bg-impidimp {
+.img-impidimp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1249px;
 }
 
-.bg-incineroar {
+.img-incineroar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1249px;
 }
 
-.bg-indeedee {
+.img-indeedee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1249px;
 }
 
-.bg-indeedeef {
+.img-indeedeef {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1249px;
 }
 
-.bg-infernape {
+.img-infernape {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1249px;
 }
 
-.bg-inkay {
+.img-inkay {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1249px;
 }
 
-.bg-inteleon {
+.img-inteleon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1249px;
 }
 
-.bg-ironboulder {
+.img-ironboulder {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1249px;
 }
 
-.bg-ironbundle {
+.img-ironbundle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1249px;
 }
 
-.bg-ironcrown {
+.img-ironcrown {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1249px;
 }
 
-.bg-ironhands {
+.img-ironhands {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1249px;
 }
 
-.bg-ironjugulis {
+.img-ironjugulis {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1249px;
 }
 
-.bg-ironleaves {
+.img-ironleaves {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1249px;
 }
 
-.bg-ironmoth {
+.img-ironmoth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1249px;
 }
 
-.bg-ironthorns {
+.img-ironthorns {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1249px;
 }
 
-.bg-irontreads {
+.img-irontreads {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1249px;
 }
 
-.bg-ironvaliant {
+.img-ironvaliant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1249px;
 }
 
-.bg-ivysaur {
+.img-ivysaur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1249px;
 }
 
-.bg-jangmoo {
+.img-jangmoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1249px;
 }
 
-.bg-jellicent_1 {
+.img-jellicent_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1249px;
 }
 
-.bg-jellicent {
+.img-jellicent {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1249px;
 }
 
-.bg-jigglypuff {
+.img-jigglypuff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -10px;
 }
 
-.bg-jirachi {
+.img-jirachi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -69px;
 }
 
-.bg-jolteon {
+.img-jolteon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -128px;
 }
 
-.bg-joltik {
+.img-joltik {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -187px;
 }
 
-.bg-jumpluff {
+.img-jumpluff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -246px;
 }
 
-.bg-jynx {
+.img-jynx {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -305px;
 }
 
-.bg-kabuto {
+.img-kabuto {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -364px;
 }
 
-.bg-kabutops {
+.img-kabutops {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -423px;
 }
 
-.bg-kadabra {
+.img-kadabra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -482px;
 }
 
-.bg-kakuna {
+.img-kakuna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -541px;
 }
 
-.bg-kangaskhan {
+.img-kangaskhan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -600px;
 }
 
-.bg-karrablast {
+.img-karrablast {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -659px;
 }
 
-.bg-kartana {
+.img-kartana {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -718px;
 }
 
-.bg-kecleon {
+.img-kecleon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -777px;
 }
 
-.bg-keldeo {
+.img-keldeo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -836px;
 }
 
-.bg-kilowattrel {
+.img-kilowattrel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -895px;
 }
 
-.bg-kingambit {
+.img-kingambit {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -954px;
 }
 
-.bg-kingdra {
+.img-kingdra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1013px;
 }
 
-.bg-kingler {
+.img-kingler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1072px;
 }
 
-.bg-kirlia {
+.img-kirlia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1131px;
 }
 
-.bg-klang {
+.img-klang {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1190px;
 }
 
-.bg-klawf {
+.img-klawf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1249px;
 }
 
-.bg-kleavor {
+.img-kleavor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1308px;
 }
 
-.bg-klefki {
+.img-klefki {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1308px;
 }
 
-.bg-klink {
+.img-klink {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1308px;
 }
 
-.bg-klinklang {
+.img-klinklang {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1308px;
 }
 
-.bg-koffing {
+.img-koffing {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1308px;
 }
 
-.bg-komala {
+.img-komala {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1308px;
 }
 
-.bg-kommoo {
+.img-kommoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1308px;
 }
 
-.bg-koraidon {
+.img-koraidon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1308px;
 }
 
-.bg-krabby {
+.img-krabby {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1308px;
 }
 
-.bg-kricketot {
+.img-kricketot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1308px;
 }
 
-.bg-kricketune {
+.img-kricketune {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1308px;
 }
 
-.bg-krokorok {
+.img-krokorok {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1308px;
 }
 
-.bg-krookodile {
+.img-krookodile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1308px;
 }
 
-.bg-kubfu {
+.img-kubfu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1308px;
 }
 
-.bg-kyogre {
+.img-kyogre {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1308px;
 }
 
-.bg-kyurem {
+.img-kyurem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1308px;
 }
 
-.bg-kyuremblack {
+.img-kyuremblack {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1308px;
 }
 
-.bg-kyuremwhite {
+.img-kyuremwhite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1308px;
 }
 
-.bg-lairon {
+.img-lairon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1308px;
 }
 
-.bg-lampent {
+.img-lampent {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1308px;
 }
 
-.bg-landorus {
+.img-landorus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1308px;
 }
 
-.bg-landorustherian {
+.img-landorustherian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1308px;
 }
 
-.bg-lanturn {
+.img-lanturn {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1308px;
 }
 
-.bg-lapras {
+.img-lapras {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -10px;
 }
 
-.bg-larvesta {
+.img-larvesta {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -69px;
 }
 
-.bg-larvitar {
+.img-larvitar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -128px;
 }
 
-.bg-latias {
+.img-latias {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -187px;
 }
 
-.bg-latios {
+.img-latios {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -246px;
 }
 
-.bg-leafeon {
+.img-leafeon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -305px;
 }
 
-.bg-leavanny {
+.img-leavanny {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -364px;
 }
 
-.bg-lechonk {
+.img-lechonk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -423px;
 }
 
-.bg-ledian {
+.img-ledian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -482px;
 }
 
-.bg-ledyba {
+.img-ledyba {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -541px;
 }
 
-.bg-lickilicky {
+.img-lickilicky {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -600px;
 }
 
-.bg-lickitung {
+.img-lickitung {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -659px;
 }
 
-.bg-liepard {
+.img-liepard {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -718px;
 }
 
-.bg-lileep {
+.img-lileep {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -777px;
 }
 
-.bg-lilligant {
+.img-lilligant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -836px;
 }
 
-.bg-lilliganthisui {
+.img-lilliganthisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -895px;
 }
 
-.bg-lillipup {
+.img-lillipup {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -954px;
 }
 
-.bg-linoone {
+.img-linoone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1013px;
 }
 
-.bg-linoonegalar {
+.img-linoonegalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1072px;
 }
 
-.bg-litleo {
+.img-litleo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1131px;
 }
 
-.bg-litten {
+.img-litten {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1190px;
 }
 
-.bg-litwick {
+.img-litwick {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1249px;
 }
 
-.bg-lokix {
+.img-lokix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1308px;
 }
 
-.bg-lombre {
+.img-lombre {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1367px;
 }
 
-.bg-lopunny {
+.img-lopunny {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1367px;
 }
 
-.bg-lotad {
+.img-lotad {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1367px;
 }
 
-.bg-loudred {
+.img-loudred {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1367px;
 }
 
-.bg-lucario {
+.img-lucario {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1367px;
 }
 
-.bg-ludicolo {
+.img-ludicolo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1367px;
 }
 
-.bg-lugia {
+.img-lugia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1367px;
 }
 
-.bg-lumineon {
+.img-lumineon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1367px;
 }
 
-.bg-lunala {
+.img-lunala {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1367px;
 }
 
-.bg-lunatone {
+.img-lunatone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1367px;
 }
 
-.bg-lurantis {
+.img-lurantis {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1367px;
 }
 
-.bg-luvdisc {
+.img-luvdisc {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1367px;
 }
 
-.bg-luxio {
+.img-luxio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1367px;
 }
 
-.bg-luxray {
+.img-luxray {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1367px;
 }
 
-.bg-lycanroc {
+.img-lycanroc {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1367px;
 }
 
-.bg-lycanrocdusk {
+.img-lycanrocdusk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1367px;
 }
 
-.bg-lycanrocmidnight {
+.img-lycanrocmidnight {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1367px;
 }
 
-.bg-mabosstiff {
+.img-mabosstiff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1367px;
 }
 
-.bg-machamp {
+.img-machamp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1367px;
 }
 
-.bg-machoke {
+.img-machoke {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1367px;
 }
 
-.bg-machop {
+.img-machop {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1367px;
 }
 
-.bg-magby {
+.img-magby {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1367px;
 }
 
-.bg-magcargo {
+.img-magcargo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1367px;
 }
 
-.bg-magearna {
+.img-magearna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1367px;
 }
 
-.bg-magikarp {
+.img-magikarp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -10px;
 }
 
-.bg-magmar {
+.img-magmar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -69px;
 }
 
-.bg-magmortar {
+.img-magmortar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -128px;
 }
 
-.bg-magnemite {
+.img-magnemite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -187px;
 }
 
-.bg-magneton {
+.img-magneton {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -246px;
 }
 
-.bg-magnezone {
+.img-magnezone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -305px;
 }
 
-.bg-makuhita {
+.img-makuhita {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -364px;
 }
 
-.bg-malamar {
+.img-malamar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -423px;
 }
 
-.bg-mamoswine {
+.img-mamoswine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -482px;
 }
 
-.bg-manaphy {
+.img-manaphy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -541px;
 }
 
-.bg-mandibuzz {
+.img-mandibuzz {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -600px;
 }
 
-.bg-manectric {
+.img-manectric {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -659px;
 }
 
-.bg-mankey {
+.img-mankey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -718px;
 }
 
-.bg-mantine {
+.img-mantine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -777px;
 }
 
-.bg-mantyke {
+.img-mantyke {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -836px;
 }
 
-.bg-maractus {
+.img-maractus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -895px;
 }
 
-.bg-mareanie {
+.img-mareanie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -954px;
 }
 
-.bg-mareep {
+.img-mareep {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1013px;
 }
 
-.bg-marill {
+.img-marill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1072px;
 }
 
-.bg-marowak {
+.img-marowak {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1131px;
 }
 
-.bg-marowakalola {
+.img-marowakalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1190px;
 }
 
-.bg-marshadow {
+.img-marshadow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1249px;
 }
 
-.bg-marshtomp {
+.img-marshtomp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1308px;
 }
 
-.bg-maschiff {
+.img-maschiff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1367px;
 }
 
-.bg-masquerain {
+.img-masquerain {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1426px;
 }
 
-.bg-maushold {
+.img-maushold {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1426px;
 }
 
-.bg-mawile {
+.img-mawile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1426px;
 }
 
-.bg-medicham {
+.img-medicham {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1426px;
 }
 
-.bg-meditite {
+.img-meditite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1426px;
 }
 
-.bg-meganium {
+.img-meganium {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1426px;
 }
 
-.bg-melmetal {
+.img-melmetal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1426px;
 }
 
-.bg-meloetta {
+.img-meloetta {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1426px;
 }
 
-.bg-meloettapirouette {
+.img-meloettapirouette {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1426px;
 }
 
-.bg-meltan {
+.img-meltan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1426px;
 }
 
-.bg-meowscarada {
+.img-meowscarada {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1426px;
 }
 
-.bg-meowstic {
+.img-meowstic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1426px;
 }
 
-.bg-meowsticf {
+.img-meowsticf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1426px;
 }
 
-.bg-meowth {
+.img-meowth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1426px;
 }
 
-.bg-meowthalola {
+.img-meowthalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1426px;
 }
 
-.bg-meowthgalar {
+.img-meowthgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1426px;
 }
 
-.bg-mesprit {
+.img-mesprit {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1426px;
 }
 
-.bg-metagross {
+.img-metagross {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1426px;
 }
 
-.bg-metang {
+.img-metang {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1426px;
 }
 
-.bg-metapod {
+.img-metapod {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1426px;
 }
 
-.bg-mew {
+.img-mew {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1426px;
 }
 
-.bg-mewtwo {
+.img-mewtwo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1426px;
 }
 
-.bg-mienfoo {
+.img-mienfoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1426px;
 }
 
-.bg-mienshao {
+.img-mienshao {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1426px;
 }
 
-.bg-mightyena {
+.img-mightyena {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1426px;
 }
 
-.bg-milcery {
+.img-milcery {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -10px;
 }
 
-.bg-milotic {
+.img-milotic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -69px;
 }
 
-.bg-miltank {
+.img-miltank {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -128px;
 }
 
-.bg-mimejr {
+.img-mimejr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -187px;
 }
 
-.bg-mimikyu {
+.img-mimikyu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -246px;
 }
 
-.bg-minccino {
+.img-minccino {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -305px;
 }
 
-.bg-minior {
+.img-minior {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -364px;
 }
 
-.bg-miniormeteor {
+.img-miniormeteor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -423px;
 }
 
-.bg-minun {
+.img-minun {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -482px;
 }
 
-.bg-miraidon {
+.img-miraidon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -541px;
 }
 
-.bg-misdreavus {
+.img-misdreavus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -600px;
 }
 
-.bg-mismagius {
+.img-mismagius {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -659px;
 }
 
-.bg-moltres {
+.img-moltres {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -718px;
 }
 
-.bg-moltresgalar {
+.img-moltresgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -777px;
 }
 
-.bg-monferno {
+.img-monferno {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -836px;
 }
 
-.bg-morelull {
+.img-morelull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -895px;
 }
 
-.bg-morgrem {
+.img-morgrem {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -954px;
 }
 
-.bg-morpeko {
+.img-morpeko {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1013px;
 }
 
-.bg-mothim {
+.img-mothim {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1072px;
 }
 
-.bg-mrmime {
+.img-mrmime {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1131px;
 }
 
-.bg-mrmimegalar {
+.img-mrmimegalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1190px;
 }
 
-.bg-mrrime {
+.img-mrrime {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1249px;
 }
 
-.bg-mudbray {
+.img-mudbray {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1308px;
 }
 
-.bg-mudkip {
+.img-mudkip {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1367px;
 }
 
-.bg-mudsdale {
+.img-mudsdale {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1426px;
 }
 
-.bg-muk {
+.img-muk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1485px;
 }
 
-.bg-mukalola {
+.img-mukalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1485px;
 }
 
-.bg-munchlax {
+.img-munchlax {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1485px;
 }
 
-.bg-munkidori {
+.img-munkidori {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1485px;
 }
 
-.bg-munna {
+.img-munna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1485px;
 }
 
-.bg-murkrow {
+.img-murkrow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1485px;
 }
 
-.bg-musharna {
+.img-musharna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1485px;
 }
 
-.bg-nacli {
+.img-nacli {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1485px;
 }
 
-.bg-naclstack {
+.img-naclstack {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1485px;
 }
 
-.bg-naganadel {
+.img-naganadel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1485px;
 }
 
-.bg-natu {
+.img-natu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1485px;
 }
 
-.bg-necrozma {
+.img-necrozma {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1485px;
 }
 
-.bg-necrozmadawnwings {
+.img-necrozmadawnwings {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1485px;
 }
 
-.bg-necrozmaduskmane {
+.img-necrozmaduskmane {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1485px;
 }
 
-.bg-nickit {
+.img-nickit {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1485px;
 }
 
-.bg-nidoking {
+.img-nidoking {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1485px;
 }
 
-.bg-nidoqueen {
+.img-nidoqueen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1485px;
 }
 
-.bg-nidoranf {
+.img-nidoranf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1485px;
 }
 
-.bg-nidoranm {
+.img-nidoranm {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1485px;
 }
 
-.bg-nidorina {
+.img-nidorina {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1485px;
 }
 
-.bg-nidorino {
+.img-nidorino {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1485px;
 }
 
-.bg-nihilego {
+.img-nihilego {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1485px;
 }
 
-.bg-nincada {
+.img-nincada {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1485px;
 }
 
-.bg-ninetales {
+.img-ninetales {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1485px;
 }
 
-.bg-ninetalesalola {
+.img-ninetalesalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1485px;
 }
 
-.bg-ninjask {
+.img-ninjask {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1485px;
 }
 
-.bg-noctowl {
+.img-noctowl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -10px;
 }
 
-.bg-noibat {
+.img-noibat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -69px;
 }
 
-.bg-noivern {
+.img-noivern {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -128px;
 }
 
-.bg-nosepass {
+.img-nosepass {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -187px;
 }
 
-.bg-numel {
+.img-numel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -246px;
 }
 
-.bg-nuzleaf {
+.img-nuzleaf {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -305px;
 }
 
-.bg-nymble {
+.img-nymble {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -364px;
 }
 
-.bg-obstagoon {
+.img-obstagoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -423px;
 }
 
-.bg-octillery {
+.img-octillery {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -482px;
 }
 
-.bg-oddish {
+.img-oddish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -541px;
 }
 
-.bg-ogerpon {
+.img-ogerpon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -600px;
 }
 
-.bg-ogerponcornerstone {
+.img-ogerponcornerstone {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -659px;
 }
 
-.bg-ogerponhearthflame {
+.img-ogerponhearthflame {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -718px;
 }
 
-.bg-ogerponwellspring {
+.img-ogerponwellspring {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -777px;
 }
 
-.bg-oinkologne {
+.img-oinkologne {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -836px;
 }
 
-.bg-oinkolognef {
+.img-oinkolognef {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -895px;
 }
 
-.bg-okidogi {
+.img-okidogi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -954px;
 }
 
-.bg-omanyte {
+.img-omanyte {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1013px;
 }
 
-.bg-omastar {
+.img-omastar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1072px;
 }
 
-.bg-onix {
+.img-onix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1131px;
 }
 
-.bg-oranguru {
+.img-oranguru {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1190px;
 }
 
-.bg-orbeetle {
+.img-orbeetle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1249px;
 }
 
-.bg-oricorio {
+.img-oricorio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1308px;
 }
 
-.bg-oricoriopau {
+.img-oricoriopau {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1367px;
 }
 
-.bg-oricoriopompom {
+.img-oricoriopompom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1426px;
 }
 
-.bg-oricoriosensu {
+.img-oricoriosensu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1485px;
 }
 
-.bg-orthworm {
+.img-orthworm {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1544px;
 }
 
-.bg-oshawott {
+.img-oshawott {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1544px;
 }
 
-.bg-overqwil {
+.img-overqwil {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1544px;
 }
 
-.bg-pachirisu {
+.img-pachirisu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1544px;
 }
 
-.bg-palafin {
+.img-palafin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1544px;
 }
 
-.bg-palafinhero {
+.img-palafinhero {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1544px;
 }
 
-.bg-palkia {
+.img-palkia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1544px;
 }
 
-.bg-palkiaorigin {
+.img-palkiaorigin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1544px;
 }
 
-.bg-palossand {
+.img-palossand {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1544px;
 }
 
-.bg-palpitoad {
+.img-palpitoad {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1544px;
 }
 
-.bg-pancham {
+.img-pancham {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1544px;
 }
 
-.bg-pangoro {
+.img-pangoro {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1544px;
 }
 
-.bg-panpour {
+.img-panpour {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1544px;
 }
 
-.bg-pansage {
+.img-pansage {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1544px;
 }
 
-.bg-pansear {
+.img-pansear {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1544px;
 }
 
-.bg-paras {
+.img-paras {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1544px;
 }
 
-.bg-parasect {
+.img-parasect {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1544px;
 }
 
-.bg-passimian {
+.img-passimian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1544px;
 }
 
-.bg-patrat {
+.img-patrat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1544px;
 }
 
-.bg-pawmi {
+.img-pawmi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1544px;
 }
 
-.bg-pawmo {
+.img-pawmo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1544px;
 }
 
-.bg-pawmot {
+.img-pawmot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1544px;
 }
 
-.bg-pawniard {
+.img-pawniard {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1544px;
 }
 
-.bg-pecharunt {
+.img-pecharunt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1544px;
 }
 
-.bg-pelipper {
+.img-pelipper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1544px;
 }
 
-.bg-perrserker {
+.img-perrserker {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1544px;
 }
 
-.bg-persian {
+.img-persian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1544px;
 }
 
-.bg-persianalola {
+.img-persianalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -10px;
 }
 
-.bg-petilil {
+.img-petilil {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -69px;
 }
 
-.bg-phanpy {
+.img-phanpy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -128px;
 }
 
-.bg-phantump {
+.img-phantump {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -187px;
 }
 
-.bg-pheromosa {
+.img-pheromosa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -246px;
 }
 
-.bg-phione {
+.img-phione {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -305px;
 }
 
-.bg-pichu {
+.img-pichu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -364px;
 }
 
-.bg-pidgeot {
+.img-pidgeot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -423px;
 }
 
-.bg-pidgeotto {
+.img-pidgeotto {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -482px;
 }
 
-.bg-pidgey {
+.img-pidgey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -541px;
 }
 
-.bg-pidove {
+.img-pidove {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -600px;
 }
 
-.bg-pignite {
+.img-pignite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -659px;
 }
 
-.bg-pikachu {
+.img-pikachu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -718px;
 }
 
-.bg-pikipek {
+.img-pikipek {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -777px;
 }
 
-.bg-piloswine {
+.img-piloswine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -836px;
 }
 
-.bg-pincurchin {
+.img-pincurchin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -895px;
 }
 
-.bg-pineco {
+.img-pineco {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -954px;
 }
 
-.bg-pinsir {
+.img-pinsir {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1013px;
 }
 
-.bg-piplup {
+.img-piplup {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1072px;
 }
 
-.bg-plusle {
+.img-plusle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1131px;
 }
 
-.bg-poipole {
+.img-poipole {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1190px;
 }
 
-.bg-politoed {
+.img-politoed {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1249px;
 }
 
-.bg-poliwag {
+.img-poliwag {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1308px;
 }
 
-.bg-poliwhirl {
+.img-poliwhirl {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1367px;
 }
 
-.bg-poliwrath {
+.img-poliwrath {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1426px;
 }
 
-.bg-poltchageist {
+.img-poltchageist {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1485px;
 }
 
-.bg-polteageist {
+.img-polteageist {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1544px;
 }
 
-.bg-ponyta {
+.img-ponyta {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1603px;
 }
 
-.bg-ponytagalar {
+.img-ponytagalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1603px;
 }
 
-.bg-poochyena {
+.img-poochyena {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1603px;
 }
 
-.bg-popplio {
+.img-popplio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1603px;
 }
 
-.bg-porygon {
+.img-porygon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1603px;
 }
 
-.bg-porygon2 {
+.img-porygon2 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1603px;
 }
 
-.bg-porygonz {
+.img-porygonz {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1603px;
 }
 
-.bg-primarina {
+.img-primarina {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1603px;
 }
 
-.bg-primeape {
+.img-primeape {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1603px;
 }
 
-.bg-prinplup {
+.img-prinplup {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1603px;
 }
 
-.bg-probopass {
+.img-probopass {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1603px;
 }
 
-.bg-psyduck {
+.img-psyduck {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1603px;
 }
 
-.bg-pumpkaboo {
+.img-pumpkaboo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1603px;
 }
 
-.bg-pumpkaboolarge {
+.img-pumpkaboolarge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1603px;
 }
 
-.bg-pumpkaboosmall {
+.img-pumpkaboosmall {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1603px;
 }
 
-.bg-pumpkaboosuper {
+.img-pumpkaboosuper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1603px;
 }
 
-.bg-pupitar {
+.img-pupitar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1603px;
 }
 
-.bg-purugly {
+.img-purugly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1603px;
 }
 
-.bg-pyroar_1 {
+.img-pyroar_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1603px;
 }
 
-.bg-purrloin {
+.img-purrloin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1603px;
 }
 
-.bg-pyroar {
+.img-pyroar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1603px;
 }
 
-.bg-pyukumuku {
+.img-pyukumuku {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1603px;
 }
 
-.bg-quagsire {
+.img-quagsire {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1603px;
 }
 
-.bg-quaquaval {
+.img-quaquaval {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1603px;
 }
 
-.bg-quaxly {
+.img-quaxly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1603px;
 }
 
-.bg-quaxwell {
+.img-quaxwell {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1603px;
 }
 
-.bg-quilava {
+.img-quilava {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1603px;
 }
 
-.bg-quilladin {
+.img-quilladin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1603px;
 }
 
-.bg-qwilfish {
+.img-qwilfish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -10px;
 }
 
-.bg-qwilfishhisui {
+.img-qwilfishhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -69px;
 }
 
-.bg-raboot {
+.img-raboot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -128px;
 }
 
-.bg-rabsca {
+.img-rabsca {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -187px;
 }
 
-.bg-ragingbolt {
+.img-ragingbolt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -246px;
 }
 
-.bg-raichu {
+.img-raichu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -305px;
 }
 
-.bg-raikou {
+.img-raikou {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -364px;
 }
 
-.bg-raichualola {
+.img-raichualola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -423px;
 }
 
-.bg-ralts {
+.img-ralts {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -482px;
 }
 
-.bg-rampardos {
+.img-rampardos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -541px;
 }
 
-.bg-rapidash {
+.img-rapidash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -600px;
 }
 
-.bg-rapidashgalar {
+.img-rapidashgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -659px;
 }
 
-.bg-raticate {
+.img-raticate {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -718px;
 }
 
-.bg-raticatealola {
+.img-raticatealola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -777px;
 }
 
-.bg-rattata {
+.img-rattata {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -836px;
 }
 
-.bg-rattataalola {
+.img-rattataalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -895px;
 }
 
-.bg-regice {
+.img-regice {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -954px;
 }
 
-.bg-rayquaza {
+.img-rayquaza {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1013px;
 }
 
-.bg-regidrago {
+.img-regidrago {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1072px;
 }
 
-.bg-regieleki {
+.img-regieleki {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1131px;
 }
 
-.bg-regigigas {
+.img-regigigas {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1190px;
 }
 
-.bg-regirock {
+.img-regirock {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1249px;
 }
 
-.bg-registeel {
+.img-registeel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1308px;
 }
 
-.bg-relicanth {
+.img-relicanth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1367px;
 }
 
-.bg-rellor {
+.img-rellor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1426px;
 }
 
-.bg-remoraid {
+.img-remoraid {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1485px;
 }
 
-.bg-reshiram {
+.img-reshiram {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1544px;
 }
 
-.bg-reuniclus {
+.img-reuniclus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1603px;
 }
 
-.bg-revavroom {
+.img-revavroom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1662px;
 }
 
-.bg-rhydon {
+.img-rhydon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1662px;
 }
 
-.bg-rhyhorn {
+.img-rhyhorn {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1662px;
 }
 
-.bg-rhyperior {
+.img-rhyperior {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1662px;
 }
 
-.bg-ribombee {
+.img-ribombee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1662px;
 }
 
-.bg-rillaboom {
+.img-rillaboom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1662px;
 }
 
-.bg-riolu {
+.img-riolu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1662px;
 }
 
-.bg-roaringmoon {
+.img-roaringmoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1662px;
 }
 
-.bg-rockruff {
+.img-rockruff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1662px;
 }
 
-.bg-roggenrola {
+.img-roggenrola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1662px;
 }
 
-.bg-rolycoly {
+.img-rolycoly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1662px;
 }
 
-.bg-rookidee {
+.img-rookidee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1662px;
 }
 
-.bg-roselia {
+.img-roselia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1662px;
 }
 
-.bg-roserade {
+.img-roserade {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1662px;
 }
 
-.bg-rotom {
+.img-rotom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1662px;
 }
 
-.bg-rotomfan {
+.img-rotomfan {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1662px;
 }
 
-.bg-rotomfrost {
+.img-rotomfrost {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1662px;
 }
 
-.bg-rotomheat {
+.img-rotomheat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1662px;
 }
 
-.bg-rotommow {
+.img-rotommow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1662px;
 }
 
-.bg-rotomwash {
+.img-rotomwash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1662px;
 }
 
-.bg-rufflet {
+.img-rufflet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1662px;
 }
 
-.bg-rowlet {
+.img-rowlet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1662px;
 }
 
-.bg-runerigus {
+.img-runerigus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1662px;
 }
 
-.bg-sableye {
+.img-sableye {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1662px;
 }
 
-.bg-salandit {
+.img-salandit {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1662px;
 }
 
-.bg-salamence {
+.img-salamence {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1662px;
 }
 
-.bg-salazzle {
+.img-salazzle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1662px;
 }
 
-.bg-samurott {
+.img-samurott {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1662px;
 }
 
-.bg-samurotthisui {
+.img-samurotthisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1662px;
 }
 
-.bg-sandaconda {
+.img-sandaconda {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -10px;
 }
 
-.bg-sandile {
+.img-sandile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -69px;
 }
 
-.bg-sandshrew {
+.img-sandshrew {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -128px;
 }
 
-.bg-sandshrewalola {
+.img-sandshrewalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -187px;
 }
 
-.bg-sandslash {
+.img-sandslash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -246px;
 }
 
-.bg-sandslashalola {
+.img-sandslashalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -305px;
 }
 
-.bg-sandygast {
+.img-sandygast {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -364px;
 }
 
-.bg-sandyshocks {
+.img-sandyshocks {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -423px;
 }
 
-.bg-sawk {
+.img-sawk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -482px;
 }
 
-.bg-sawsbuck {
+.img-sawsbuck {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -541px;
 }
 
-.bg-scatterbug {
+.img-scatterbug {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -600px;
 }
 
-.bg-sceptile {
+.img-sceptile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -659px;
 }
 
-.bg-scizor {
+.img-scizor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -718px;
 }
 
-.bg-scolipede {
+.img-scolipede {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -777px;
 }
 
-.bg-scorbunny {
+.img-scorbunny {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -836px;
 }
 
-.bg-scovillain {
+.img-scovillain {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -895px;
 }
 
-.bg-scrafty {
+.img-scrafty {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -954px;
 }
 
-.bg-scraggy {
+.img-scraggy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1013px;
 }
 
-.bg-screamtail {
+.img-screamtail {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1072px;
 }
 
-.bg-scyther {
+.img-scyther {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1131px;
 }
 
-.bg-seadra {
+.img-seadra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1190px;
 }
 
-.bg-seaking {
+.img-seaking {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1249px;
 }
 
-.bg-sealeo {
+.img-sealeo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1308px;
 }
 
-.bg-seedot {
+.img-seedot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1367px;
 }
 
-.bg-seel {
+.img-seel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1426px;
 }
 
-.bg-seismitoad {
+.img-seismitoad {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1485px;
 }
 
-.bg-sentret {
+.img-sentret {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1544px;
 }
 
-.bg-serperior {
+.img-serperior {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1603px;
 }
 
-.bg-servine {
+.img-servine {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1662px;
 }
 
-.bg-seviper {
+.img-seviper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1721px;
 }
 
-.bg-sewaddle {
+.img-sewaddle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1721px;
 }
 
-.bg-sharpedo {
+.img-sharpedo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1721px;
 }
 
-.bg-shaymin {
+.img-shaymin {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1721px;
 }
 
-.bg-shayminsky {
+.img-shayminsky {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1721px;
 }
 
-.bg-shedinja {
+.img-shedinja {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1721px;
 }
 
-.bg-shelgon {
+.img-shelgon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1721px;
 }
 
-.bg-shellder {
+.img-shellder {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1721px;
 }
 
-.bg-shellos_1 {
+.img-shellos_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1721px;
 }
 
-.bg-shellos {
+.img-shellos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1721px;
 }
 
-.bg-shelmet {
+.img-shelmet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1721px;
 }
 
-.bg-shieldon {
+.img-shieldon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1721px;
 }
 
-.bg-shiftry {
+.img-shiftry {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1721px;
 }
 
-.bg-shiinotic {
+.img-shiinotic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1721px;
 }
 
-.bg-shinx {
+.img-shinx {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1721px;
 }
 
-.bg-shroodle {
+.img-shroodle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1721px;
 }
 
-.bg-shroomish {
+.img-shroomish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1721px;
 }
 
-.bg-shuckle {
+.img-shuckle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1721px;
 }
 
-.bg-shuppet {
+.img-shuppet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1721px;
 }
 
-.bg-sigilyph {
+.img-sigilyph {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1721px;
 }
 
-.bg-silcoon {
+.img-silcoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1721px;
 }
 
-.bg-silicobra {
+.img-silicobra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1721px;
 }
 
-.bg-silvally {
+.img-silvally {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1721px;
 }
 
-.bg-simipour {
+.img-simipour {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1721px;
 }
 
-.bg-simisage {
+.img-simisage {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1721px;
 }
 
-.bg-simisear {
+.img-simisear {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1721px;
 }
 
-.bg-sinistcha {
+.img-sinistcha {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1721px;
 }
 
-.bg-sinistea {
+.img-sinistea {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1721px;
 }
 
-.bg-sirfetchd {
+.img-sirfetchd {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1721px;
 }
 
-.bg-sizzlipede {
+.img-sizzlipede {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1721px;
 }
 
-.bg-skarmory {
+.img-skarmory {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -10px;
 }
 
-.bg-skeledirge {
+.img-skeledirge {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -69px;
 }
 
-.bg-skiddo {
+.img-skiddo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -128px;
 }
 
-.bg-skiploom {
+.img-skiploom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -187px;
 }
 
-.bg-skitty {
+.img-skitty {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -246px;
 }
 
-.bg-skorupi {
+.img-skorupi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -305px;
 }
 
-.bg-skrelp {
+.img-skrelp {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -364px;
 }
 
-.bg-skuntank {
+.img-skuntank {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -423px;
 }
 
-.bg-skwovet {
+.img-skwovet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -482px;
 }
 
-.bg-slaking {
+.img-slaking {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -541px;
 }
 
-.bg-slakoth {
+.img-slakoth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -600px;
 }
 
-.bg-sliggoo {
+.img-sliggoo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -659px;
 }
 
-.bg-sliggoohisui {
+.img-sliggoohisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -718px;
 }
 
-.bg-slitherwing {
+.img-slitherwing {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -777px;
 }
 
-.bg-slowbro {
+.img-slowbro {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -836px;
 }
 
-.bg-slowbrogalar {
+.img-slowbrogalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -895px;
 }
 
-.bg-slowking {
+.img-slowking {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -954px;
 }
 
-.bg-slowkinggalar {
+.img-slowkinggalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1013px;
 }
 
-.bg-slowpoke {
+.img-slowpoke {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1072px;
 }
 
-.bg-slowpokegalar {
+.img-slowpokegalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1131px;
 }
 
-.bg-slugma {
+.img-slugma {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1190px;
 }
 
-.bg-slurpuff {
+.img-slurpuff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1249px;
 }
 
-.bg-smeargle {
+.img-smeargle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1308px;
 }
 
-.bg-smoliv {
+.img-smoliv {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1367px;
 }
 
-.bg-smoochum {
+.img-smoochum {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1426px;
 }
 
-.bg-sneasel {
+.img-sneasel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1485px;
 }
 
-.bg-sneaselhisui {
+.img-sneaselhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1544px;
 }
 
-.bg-sneasler {
+.img-sneasler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1603px;
 }
 
-.bg-snivy {
+.img-snivy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1662px;
 }
 
-.bg-snom {
+.img-snom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1721px;
 }
 
-.bg-snorlax {
+.img-snorlax {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1780px;
 }
 
-.bg-snorunt {
+.img-snorunt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1780px;
 }
 
-.bg-snover {
+.img-snover {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1780px;
 }
 
-.bg-snubbull {
+.img-snubbull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1780px;
 }
 
-.bg-sobble {
+.img-sobble {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1780px;
 }
 
-.bg-solgaleo {
+.img-solgaleo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1780px;
 }
 
-.bg-solosis {
+.img-solosis {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1780px;
 }
 
-.bg-solrock {
+.img-solrock {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1780px;
 }
 
-.bg-spearow {
+.img-spearow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1780px;
 }
 
-.bg-spectrier {
+.img-spectrier {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1780px;
 }
 
-.bg-spewpa {
+.img-spewpa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1780px;
 }
 
-.bg-spheal {
+.img-spheal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1780px;
 }
 
-.bg-spidops {
+.img-spidops {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1780px;
 }
 
-.bg-spinarak {
+.img-spinarak {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1780px;
 }
 
-.bg-spinda {
+.img-spinda {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1780px;
 }
 
-.bg-spiritomb {
+.img-spiritomb {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1780px;
 }
 
-.bg-spoink {
+.img-spoink {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1780px;
 }
 
-.bg-sprigatito {
+.img-sprigatito {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1780px;
 }
 
-.bg-spritzee {
+.img-spritzee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1780px;
 }
 
-.bg-squawkabilly {
+.img-squawkabilly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1780px;
 }
 
-.bg-squawkabillyblue {
+.img-squawkabillyblue {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1780px;
 }
 
-.bg-squawkabillywhite {
+.img-squawkabillywhite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1780px;
 }
 
-.bg-squawkabillyyellow {
+.img-squawkabillyyellow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1780px;
 }
 
-.bg-squirtle {
+.img-squirtle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1780px;
 }
 
-.bg-stakataka {
+.img-stakataka {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1780px;
 }
 
-.bg-stantler {
+.img-stantler {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1780px;
 }
 
-.bg-staraptor {
+.img-staraptor {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1780px;
 }
 
-.bg-staravia {
+.img-staravia {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1780px;
 }
 
-.bg-starly {
+.img-starly {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1780px;
 }
 
-.bg-starmie {
+.img-starmie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1780px;
 }
 
-.bg-staryu {
+.img-staryu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1780px;
 }
 
-.bg-steelix {
+.img-steelix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -10px;
 }
 
-.bg-steenee {
+.img-steenee {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -69px;
 }
 
-.bg-stonjourner {
+.img-stonjourner {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -128px;
 }
 
-.bg-stoutland {
+.img-stoutland {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -187px;
 }
 
-.bg-stufful {
+.img-stufful {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -246px;
 }
 
-.bg-stunfisk {
+.img-stunfisk {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -305px;
 }
 
-.bg-stunfiskgalar {
+.img-stunfiskgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -364px;
 }
 
-.bg-stunky {
+.img-stunky {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -423px;
 }
 
-.bg-sudowoodo {
+.img-sudowoodo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -482px;
 }
 
-.bg-suicune {
+.img-suicune {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -541px;
 }
 
-.bg-sunflora {
+.img-sunflora {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -600px;
 }
 
-.bg-sunkern {
+.img-sunkern {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -659px;
 }
 
-.bg-surskit {
+.img-surskit {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -718px;
 }
 
-.bg-swablu {
+.img-swablu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -777px;
 }
 
-.bg-swadloon {
+.img-swadloon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -836px;
 }
 
-.bg-swalot {
+.img-swalot {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -895px;
 }
 
-.bg-swampert {
+.img-swampert {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -954px;
 }
 
-.bg-swanna {
+.img-swanna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1013px;
 }
 
-.bg-swellow {
+.img-swellow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1072px;
 }
 
-.bg-swinub {
+.img-swinub {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1131px;
 }
 
-.bg-swirlix {
+.img-swirlix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1190px;
 }
 
-.bg-sylveon {
+.img-sylveon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1249px;
 }
 
-.bg-swoobat {
+.img-swoobat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1308px;
 }
 
-.bg-tadbulb {
+.img-tadbulb {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1367px;
 }
 
-.bg-taillow {
+.img-taillow {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1426px;
 }
 
-.bg-talonflame {
+.img-talonflame {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1485px;
 }
 
-.bg-tandemaus {
+.img-tandemaus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1544px;
 }
 
-.bg-tangela {
+.img-tangela {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1603px;
 }
 
-.bg-tangrowth {
+.img-tangrowth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1662px;
 }
 
-.bg-tapubulu {
+.img-tapubulu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1721px;
 }
 
-.bg-tapufini {
+.img-tapufini {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1780px;
 }
 
-.bg-tapukoko {
+.img-tapukoko {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1839px;
 }
 
-.bg-tapulele {
+.img-tapulele {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1839px;
 }
 
-.bg-tarountula {
+.img-tarountula {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1839px;
 }
 
-.bg-tatsugiri {
+.img-tatsugiri {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1839px;
 }
 
-.bg-tauros {
+.img-tauros {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1839px;
 }
 
-.bg-taurospaldeaaqua {
+.img-taurospaldeaaqua {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1839px;
 }
 
-.bg-taurospaldeablaze {
+.img-taurospaldeablaze {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1839px;
 }
 
-.bg-taurospaldeacombat {
+.img-taurospaldeacombat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1839px;
 }
 
-.bg-teddiursa {
+.img-teddiursa {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1839px;
 }
 
-.bg-tentacool {
+.img-tentacool {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1839px;
 }
 
-.bg-tentacruel {
+.img-tentacruel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1839px;
 }
 
-.bg-tepig {
+.img-tepig {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1839px;
 }
 
-.bg-terapagos {
+.img-terapagos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1839px;
 }
 
-.bg-terapagosstellar {
+.img-terapagosstellar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1839px;
 }
 
-.bg-terapagosterastal {
+.img-terapagosterastal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1839px;
 }
 
-.bg-terrakion {
+.img-terrakion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1839px;
 }
 
-.bg-thievul {
+.img-thievul {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1839px;
 }
 
-.bg-throh {
+.img-throh {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1839px;
 }
 
-.bg-thundurus {
+.img-thundurus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1839px;
 }
 
-.bg-thundurustherian {
+.img-thundurustherian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1839px;
 }
 
-.bg-thwackey {
+.img-thwackey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1839px;
 }
 
-.bg-timburr {
+.img-timburr {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1839px;
 }
 
-.bg-tinglu {
+.img-tinglu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1839px;
 }
 
-.bg-tinkatink {
+.img-tinkatink {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1839px;
 }
 
-.bg-tinkaton {
+.img-tinkaton {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1839px;
 }
 
-.bg-tinkatuff {
+.img-tinkatuff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1839px;
 }
 
-.bg-tirtouga {
+.img-tirtouga {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1839px;
 }
 
-.bg-toedscool {
+.img-toedscool {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1839px;
 }
 
-.bg-toedscruel {
+.img-toedscruel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1839px;
 }
 
-.bg-togedemaru {
+.img-togedemaru {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1839px;
 }
 
-.bg-togekiss {
+.img-togekiss {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1839px;
 }
 
-.bg-togepi {
+.img-togepi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1839px;
 }
 
-.bg-togetic {
+.img-togetic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -10px;
 }
 
-.bg-torchic {
+.img-torchic {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -69px;
 }
 
-.bg-torkoal {
+.img-torkoal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -128px;
 }
 
-.bg-tornadus {
+.img-tornadus {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -187px;
 }
 
-.bg-tornadustherian {
+.img-tornadustherian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -246px;
 }
 
-.bg-torracat {
+.img-torracat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -305px;
 }
 
-.bg-torterra {
+.img-torterra {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -364px;
 }
 
-.bg-totodile {
+.img-totodile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -423px;
 }
 
-.bg-toucannon {
+.img-toucannon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -482px;
 }
 
-.bg-toxapex {
+.img-toxapex {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -541px;
 }
 
-.bg-toxel {
+.img-toxel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -600px;
 }
 
-.bg-toxicroak {
+.img-toxicroak {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -659px;
 }
 
-.bg-toxtricity {
+.img-toxtricity {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -718px;
 }
 
-.bg-toxtricitylowkey {
+.img-toxtricitylowkey {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -777px;
 }
 
-.bg-tranquill {
+.img-tranquill {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -836px;
 }
 
-.bg-trapinch {
+.img-trapinch {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -895px;
 }
 
-.bg-treecko {
+.img-treecko {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -954px;
 }
 
-.bg-trevenant {
+.img-trevenant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1013px;
 }
 
-.bg-tropius {
+.img-tropius {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1072px;
 }
 
-.bg-trubbish {
+.img-trubbish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1131px;
 }
 
-.bg-trumbeak {
+.img-trumbeak {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1190px;
 }
 
-.bg-tsareena {
+.img-tsareena {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1249px;
 }
 
-.bg-turtonator {
+.img-turtonator {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1308px;
 }
 
-.bg-turtwig {
+.img-turtwig {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1367px;
 }
 
-.bg-tympole {
+.img-tympole {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1426px;
 }
 
-.bg-tynamo {
+.img-tynamo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1485px;
 }
 
-.bg-typenull {
+.img-typenull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1544px;
 }
 
-.bg-typhlosion {
+.img-typhlosion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1603px;
 }
 
-.bg-typhlosionhisui {
+.img-typhlosionhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1662px;
 }
 
-.bg-tyranitar {
+.img-tyranitar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1721px;
 }
 
-.bg-tyrantrum {
+.img-tyrantrum {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1780px;
 }
 
-.bg-tyrogue {
+.img-tyrogue {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1839px;
 }
 
-.bg-tyrunt {
+.img-tyrunt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1898px;
 }
 
-.bg-umbreon {
+.img-umbreon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1898px;
 }
 
-.bg-unfezant_1 {
+.img-unfezant_1 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1898px;
 }
 
-.bg-unfezant {
+.img-unfezant {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1898px;
 }
 
-.bg-unown {
+.img-unown {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1898px;
 }
 
-.bg-ursaluna {
+.img-ursaluna {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1898px;
 }
 
-.bg-ursalunabloodmoon {
+.img-ursalunabloodmoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1898px;
 }
 
-.bg-ursaring {
+.img-ursaring {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1898px;
 }
 
-.bg-urshifu {
+.img-urshifu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1898px;
 }
 
-.bg-urshifurapidstrike {
+.img-urshifurapidstrike {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1898px;
 }
 
-.bg-uxie {
+.img-uxie {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1898px;
 }
 
-.bg-vanillish {
+.img-vanillish {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1898px;
 }
 
-.bg-vanillite {
+.img-vanillite {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1898px;
 }
 
-.bg-vanilluxe {
+.img-vanilluxe {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1898px;
 }
 
-.bg-vaporeon {
+.img-vaporeon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1898px;
 }
 
-.bg-varoom {
+.img-varoom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1898px;
 }
 
-.bg-veluza {
+.img-veluza {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1898px;
 }
 
-.bg-venipede {
+.img-venipede {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1898px;
 }
 
-.bg-venomoth {
+.img-venomoth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1898px;
 }
 
-.bg-venonat {
+.img-venonat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1898px;
 }
 
-.bg-venusaur {
+.img-venusaur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1898px;
 }
 
-.bg-vespiquen {
+.img-vespiquen {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1898px;
 }
 
-.bg-vibrava {
+.img-vibrava {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1898px;
 }
 
-.bg-victini {
+.img-victini {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1898px;
 }
 
-.bg-victreebel {
+.img-victreebel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1898px;
 }
 
-.bg-vigoroth {
+.img-vigoroth {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1898px;
 }
 
-.bg-vikavolt {
+.img-vikavolt {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1898px;
 }
 
-.bg-vileplume {
+.img-vileplume {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1898px;
 }
 
-.bg-virizion {
+.img-virizion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1898px;
 }
 
-.bg-vivillon {
+.img-vivillon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1898px;
 }
 
-.bg-vivillonfancy {
+.img-vivillonfancy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1898px;
 }
 
-.bg-volbeat {
+.img-volbeat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1898px;
 }
 
-.bg-volcanion {
+.img-volcanion {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1898px;
 }
 
-.bg-volcarona {
+.img-volcarona {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -10px;
 }
 
-.bg-voltorb {
+.img-voltorb {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -69px;
 }
 
-.bg-voltorbhisui {
+.img-voltorbhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -128px;
 }
 
-.bg-vullaby {
+.img-vullaby {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -187px;
 }
 
-.bg-vulpix {
+.img-vulpix {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -246px;
 }
 
-.bg-vulpixalola {
+.img-vulpixalola {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -305px;
 }
 
-.bg-wailmer {
+.img-wailmer {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -364px;
 }
 
-.bg-wailord {
+.img-wailord {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -423px;
 }
 
-.bg-walkingwake {
+.img-walkingwake {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -482px;
 }
 
-.bg-walrein {
+.img-walrein {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -541px;
 }
 
-.bg-wartortle {
+.img-wartortle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -600px;
 }
 
-.bg-watchog {
+.img-watchog {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -659px;
 }
 
-.bg-wattrel {
+.img-wattrel {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -718px;
 }
 
-.bg-weavile {
+.img-weavile {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -777px;
 }
 
-.bg-weedle {
+.img-weedle {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -836px;
 }
 
-.bg-weepinbell {
+.img-weepinbell {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -895px;
 }
 
-.bg-weezing {
+.img-weezing {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -954px;
 }
 
-.bg-weezinggalar {
+.img-weezinggalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1013px;
 }
 
-.bg-whimsicott {
+.img-whimsicott {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1072px;
 }
 
-.bg-whirlipede {
+.img-whirlipede {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1131px;
 }
 
-.bg-whiscash {
+.img-whiscash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1190px;
 }
 
-.bg-whismur {
+.img-whismur {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1249px;
 }
 
-.bg-wigglytuff {
+.img-wigglytuff {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1308px;
 }
 
-.bg-wiglett {
+.img-wiglett {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1367px;
 }
 
-.bg-wimpod {
+.img-wimpod {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1426px;
 }
 
-.bg-wingull {
+.img-wingull {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1485px;
 }
 
-.bg-wishiwashi {
+.img-wishiwashi {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1544px;
 }
 
-.bg-wishiwashischool {
+.img-wishiwashischool {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1603px;
 }
 
-.bg-wobbuffet {
+.img-wobbuffet {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1662px;
 }
 
-.bg-wochien {
+.img-wochien {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1721px;
 }
 
-.bg-woobat {
+.img-woobat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1780px;
 }
 
-.bg-wooloo {
+.img-wooloo {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1839px;
 }
 
-.bg-wooper {
+.img-wooper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1898px;
 }
 
-.bg-wooperpaldea {
+.img-wooperpaldea {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -10px -1957px;
 }
 
-.bg-wormadam {
+.img-wormadam {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -69px -1957px;
 }
 
-.bg-wormadamsandy {
+.img-wormadamsandy {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -128px -1957px;
 }
 
-.bg-wormadamtrash {
+.img-wormadamtrash {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -187px -1957px;
 }
 
-.bg-wugtrio {
+.img-wugtrio {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -246px -1957px;
 }
 
-.bg-wurmple {
+.img-wurmple {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -305px -1957px;
 }
 
-.bg-wynaut {
+.img-wynaut {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -364px -1957px;
 }
 
-.bg-wyrdeer {
+.img-wyrdeer {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -423px -1957px;
 }
 
-.bg-xatu {
+.img-xatu {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -482px -1957px;
 }
 
-.bg-xerneas {
+.img-xerneas {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -541px -1957px;
 }
 
-.bg-xurkitree {
+.img-xurkitree {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -600px -1957px;
 }
 
-.bg-yamask {
+.img-yamask {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -659px -1957px;
 }
 
-.bg-yamaskgalar {
+.img-yamaskgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -718px -1957px;
 }
 
-.bg-yamper {
+.img-yamper {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -777px -1957px;
 }
 
-.bg-yanma {
+.img-yanma {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -836px -1957px;
 }
 
-.bg-yanmega {
+.img-yanmega {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -895px -1957px;
 }
 
-.bg-yungoos {
+.img-yungoos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -954px -1957px;
 }
 
-.bg-yveltal {
+.img-yveltal {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1013px -1957px;
 }
 
-.bg-zacian {
+.img-zacian {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1072px -1957px;
 }
 
-.bg-zaciancrowned {
+.img-zaciancrowned {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1131px -1957px;
 }
 
-.bg-zamazenta {
+.img-zamazenta {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1190px -1957px;
 }
 
-.bg-zamazentacrowned {
+.img-zamazentacrowned {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1249px -1957px;
 }
 
-.bg-zangoose {
+.img-zangoose {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1308px -1957px;
 }
 
-.bg-zapdos {
+.img-zapdos {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1367px -1957px;
 }
 
-.bg-zapdosgalar {
+.img-zapdosgalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1426px -1957px;
 }
 
-.bg-zarude {
+.img-zarude {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1485px -1957px;
 }
 
-.bg-zebstrika {
+.img-zebstrika {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1544px -1957px;
 }
 
-.bg-zekrom {
+.img-zekrom {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1603px -1957px;
 }
 
-.bg-zeraora {
+.img-zeraora {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1662px -1957px;
 }
 
-.bg-zigzagoon {
+.img-zigzagoon {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1721px -1957px;
 }
 
-.bg-zigzagoongalar {
+.img-zigzagoongalar {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1780px -1957px;
 }
 
-.bg-zoroark {
+.img-zoroark {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1839px -1957px;
 }
 
-.bg-zoroarkhisui {
+.img-zoroarkhisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1898px -1957px;
 }
 
-.bg-zorua {
+.img-zorua {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -1957px -1957px;
 }
 
-.bg-zoruahisui {
+.img-zoruahisui {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -10px;
 }
 
-.bg-zubat {
+.img-zubat {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -69px;
 }
 
-.bg-zweilous {
+.img-zweilous {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -128px;
 }
 
-.bg-zygarde {
+.img-zygarde {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -187px;
 }
 
-.bg-zygarde10 {
+.img-zygarde10 {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -246px;
 }
 
-.bg-zygardecomplete {
+.img-zygardecomplete {
   width: 39px;
   height: 39px;
   background: url('./assets/img/pokemon_sprites.png') -2016px -305px;
