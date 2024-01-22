@@ -211,7 +211,7 @@
     background: global.$defaultWhite;
   }
 
-  .null-value {
+  .null-element {
     background: global.$defaultGrey200;
     color: global.$defaultGrey200;
     pointer-events: none;
@@ -404,36 +404,36 @@
     }
 
     .pokemon-types {
-      .result-type-double {
+      .result-duo-type {
         width: 100px;
         overflow: hidden;
       }
 
-      .result-type-single {
+      .result-uni-type {
         width: 208px;
         overflow: hidden;
       }
     }
 
     .pokemon-abilities {
-      .result-ability-double {
+      .result-duo-ability {
         width: 120px;
         overflow: hidden;
       }
 
-      .result-ability-single {
+      .result-uni-ability {
         width: 248px;
         overflow: hidden;
       }
 
-      .result-ability-hidden {
+      .result-hidden-ability {
         width: 120px;
         overflow: hidden;
       }
     }
 
     .pokemon-stats {
-      .result-stat {
+      .result-base-stat {
         width: 64px;
         overflow: hidden;
       }
@@ -612,31 +612,31 @@
       }
 
       .pokemon-types {
-        .result-type-double {
+        .result-duo-type {
           width: 100px;
         }
 
-        .result-type-single {
+        .result-uni-type {
           width: 208px;
         }
       }
 
       .pokemon-abilities {
-        .result-ability-double {
+        .result-duo-ability {
           width: 120px;
         }
 
-        .result-ability-single {
+        .result-uni-ability {
           width: 248px;
         }
 
-        .result-ability-hidden {
+        .result-hidden-ability {
           width: 120px;
         }
       }
 
       .pokemon-stats {
-        .result-stat {
+        .result-base-stat {
           width: 64px;
         }
       }
@@ -660,7 +660,6 @@
   .result-collapse {
     grid-template-columns: 380px calc(100% - 360px - 20px);
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
 
 @media screen and (max-width: 767px) {
@@ -795,7 +794,7 @@
           }
         }
 
-        .result-regional-form {
+        .result-pokemon-forme {
           p {
             font-size: 8px;
           }
@@ -829,31 +828,31 @@
           padding: 0;
         }
 
-        .result-type-double {
+        .result-duo-type {
           width: 43px;
         }
 
-        .result-type-single {
+        .result-uni-type {
           width: 90px;
         }
       }
 
       .pokemon-abilities {
-        .result-ability-double {
+        .result-duo-ability {
           width: 76px;
         }
 
-        .result-ability-single {
+        .result-uni-ability {
           width: 156px;
         }
 
-        .result-ability-hidden {
+        .result-hidden-ability {
           width: 76px;
         }
       }
 
       .pokemon-stats {
-        .result-stat {
+        .result-base-stat {
           width: 48px;
         }
       }
@@ -877,5 +876,4 @@
   .result-collapse {
     grid-template-columns: 224px calc(100% - 204px - 20px);
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }

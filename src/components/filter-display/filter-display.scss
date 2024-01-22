@@ -437,11 +437,7 @@
   left: 8px;
   bottom: 0;
   width: 16px;
-  background: linear-gradient(
-    to left,
-    rgba(global.$defaultGrey700, 0),
-    rgba(global.$defaultGrey700, 1)
-  );
+  background: linear-gradient(to left, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 1));
   z-index: 1;
 }
 
@@ -450,11 +446,7 @@
   right: 8px;
   bottom: 0;
   width: 16px;
-  background: linear-gradient(
-    to right,
-    rgba(global.$defaultGrey700, 0),
-    rgba(global.$defaultGrey700, 1)
-  );
+  background: linear-gradient(to right, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 1));
   z-index: 1;
 }
 
@@ -502,12 +494,10 @@
   .display-default-size {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: 360px calc(100% - 360px - 20px - 82px - 20px) 82px;
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }
 
 @media screen and (max-width: 767px) {
@@ -583,10 +573,8 @@
   .display-default-size {
     grid-template-columns: calc(100% - 94px) 82px;
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 
   .display-collapse {
     grid-template-columns: calc(100% - 94px) 82px;
   }
-  // TODO: here for .result-collapse and ensure that url('./src/component/filter-display/index.js') does not affect screen devices with a max-width of 1024px or less."
 }

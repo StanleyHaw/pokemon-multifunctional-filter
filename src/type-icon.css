@@ -1,110 +1,110 @@
-.type-sprites {
+.type-icon {
   background-image: url('./src/assets/img/type_sprites.png');
 }
 
-.bg-type-bug {
+.icon-type-bug {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -10px -10px;
 }
 
-.bg-type-dark {
+.icon-type-dark {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -54px -10px;
 }
 
-.bg-type-electric {
+.icon-type-electric {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -10px -54px;
 }
 
-.bg-type-fighting {
+.icon-type-fighting {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -54px -54px;
 }
 
-.bg-type-fairy {
+.icon-type-fairy {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -98px -10px;
 }
 
-.bg-type-dragon {
+.icon-type-dragon {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -98px -54px;
 }
 
-.bg-type-fire {
+.icon-type-fire {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -10px -98px;
 }
 
-.bg-type-flying {
+.icon-type-flying {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -54px -98px;
 }
 
-.bg-type-ghost {
+.icon-type-ghost {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -98px -98px;
 }
 
-.bg-type-ice {
+.icon-type-ice {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -142px -10px;
 }
 
-.bg-type-ground {
+.icon-type-ground {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -142px -54px;
 }
 
-.bg-type-normal {
+.icon-type-normal {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -142px -98px;
 }
 
-.bg-type-rock {
+.icon-type-rock {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -10px -142px;
 }
 
-.bg-type-grass {
+.icon-type-grass {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -54px -142px;
 }
 
-.bg-type-steel {
+.icon-type-steel {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -98px -142px;
 }
 
-.bg-type-psychic {
+.icon-type-psychic {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -142px -142px;
 }
 
-.bg-type-poison {
+.icon-type-poison {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -186px -10px;
 }
 
-.bg-type-water {
+.icon-type-water {
   width: 24px;
   height: 24px;
   background: url('./src/assets/img/type_sprites.png') -186px -54px;

@@ -4,4 +4,4 @@ import './components/filter-menu/index.js';
 import './components/filter-results/index.js';
 import './api.js';
 import './pokemon-sprites.css';
-import './type-sprites.css';
+import './type-icon.css';
