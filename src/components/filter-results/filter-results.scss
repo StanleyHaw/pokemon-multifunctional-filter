@@ -33,7 +33,11 @@
       bottom: 0;
       width: 8px;
       height: 100%;
-      background: linear-gradient(to left, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 0.15));
+      background: linear-gradient(
+        to left,
+        rgba(global.$defaultGrey700, 0),
+        rgba(global.$defaultGrey700, 0.15)
+      );
       z-index: 1;
     }
   }
@@ -176,7 +180,11 @@
       bottom: 0;
       width: 8px;
       height: 100%;
-      background: linear-gradient(to left, rgba(global.$defaultGrey700, 0), rgba(global.$defaultGrey700, 0.15));
+      background: linear-gradient(
+        to left,
+        rgba(global.$defaultGrey700, 0),
+        rgba(global.$defaultGrey700, 0.15)
+      );
       z-index: 1;
     }
   }
@@ -249,6 +257,10 @@
       justify-content: flex-start;
       align-items: center;
       width: auto;
+
+      .result-abilities-group {
+        display: flex;
+      }
     }
   }
 }
@@ -401,6 +413,10 @@
       align-items: center;
       width: auto;
       gap: 8px;
+
+      .result-abilities-group {
+        display: flex;
+      }
     }
 
     .pokemon-types {
@@ -416,20 +432,19 @@
     }
 
     .pokemon-abilities {
-      .result-duo-ability {
-        width: 120px;
-        overflow: hidden;
-      }
+      width: 248px;
+      display: flex;
+      column-gap: 8px;
 
-      .result-uni-ability {
-        width: 248px;
+      .result-ability {
+        width: 100%;
         overflow: hidden;
       }
+    }
 
-      .result-hidden-ability {
-        width: 120px;
-        overflow: hidden;
-      }
+    .result-hidden-ability {
+      width: 120px;
+      overflow: hidden;
     }
 
     .pokemon-stats {
@@ -609,6 +624,10 @@
         align-items: center;
         width: auto;
         gap: 8px;
+
+        .result-abilities-group {
+          display: flex;
+        }
       }
 
       .pokemon-types {
@@ -622,17 +641,18 @@
       }
 
       .pokemon-abilities {
-        .result-duo-ability {
-          width: 120px;
-        }
+        width: 248px;
+        display: flex;
+        column-gap: 8px;
 
-        .result-uni-ability {
-          width: 248px;
+        .result-ability {
+          width: 100%;
+          overflow: hidden;
         }
+      }
 
-        .result-hidden-ability {
-          width: 120px;
-        }
+      .result-hidden-ability {
+        width: 120px;
       }
 
       .pokemon-stats {
@@ -817,6 +837,10 @@
         align-items: center;
         width: auto;
         gap: 4px;
+
+        .result-abilities-group {
+          display: flex;
+        }
       }
 
       .pokemon-types {
@@ -838,17 +862,17 @@
       }
 
       .pokemon-abilities {
-        .result-duo-ability {
-          width: 76px;
-        }
+        width: 248px;
+        display: flex;
+        column-gap: 8px;
 
-        .result-uni-ability {
-          width: 156px;
+        .result-ability {
+          width: 100%;
         }
+      }
 
-        .result-hidden-ability {
-          width: 76px;
-        }
+      .result-hidden-ability {
+        width: 76px;
       }
 
       .pokemon-stats {

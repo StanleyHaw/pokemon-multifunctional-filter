@@ -1,5 +1,5 @@
 import { renderResultTypesElement } from './species-result/render-type-element.js';
-import { renderResultAbilitiesElement } from './species-result/render-ability-element.js';
+import { renderResultAbilities } from './species-result/render-ability-element.js';
 import { renderResultStatsElement } from './species-result/render-stat-element.js';
 import { renderResultMovesElement } from './species-result/render-move-element.js';
 
@@ -10,7 +10,7 @@ export function renderPokemonSpeciesElement(data, moveInfoList) {
 
   resultSpeciesContainer.appendChild(resultSpeciesWrapper);
   renderResultTypesElement(resultSpeciesWrapper, data);
-  renderResultAbilitiesElement(resultSpeciesWrapper, data);
+  renderResultAbilities(resultSpeciesWrapper, data);
   renderResultStatsElement(resultSpeciesWrapper, data);
   renderResultMovesElement(resultSpeciesWrapper, moveInfoList);
 

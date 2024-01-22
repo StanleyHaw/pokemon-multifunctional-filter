@@ -4,10 +4,10 @@ const onScreenTemplates = {
   default: () => '',
   loading: () => `
     <div class="loading-spinner">
-      <img src="./src/assets/loading-spinner/loading-spinner.svg" alt="" />
+      <img src="./src/assets/loading-spinner/loading-spinner.svg" alt="loading-spinner" />
     </div>
     <div class="shadow-cover">
-      <img src="./src/assets/loading-spinner/shadow-cover.svg" alt="" />
+      <img src="./src/assets/loading-spinner/shadow-cover.svg" alt="shadow-cover" />
     </div>
     `,
 };

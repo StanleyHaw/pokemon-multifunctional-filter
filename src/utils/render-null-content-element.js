@@ -1,3 +1,3 @@
 export function isNullContentElement(paragraph) {
-  return paragraph === '' || paragraph === undefined;
+  return paragraph === '' || paragraph === undefined ? ' null-element' : '';
 }
