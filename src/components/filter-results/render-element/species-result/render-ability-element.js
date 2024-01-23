@@ -1,34 +1,39 @@
 import { isNullContentElement } from '../../../../utils/render-null-content-element.js';
 
-function renderAbilityElement(wrapper, ability, hasSecond) {
-  const amount = hasSecond ? 'duo' : 'uni';
-  const nullContentElement = isNullContentElement(ability.H) ? ' null-element' : '';
-  const generateAbilityHTML = (content) => `
-    <div class="result result-${amount}-ability">
-      <p>${content}</p>
-    </div>
-  `;
-  const hiddenAbilityInnerHTML = `
-    <div class="result result-hidden-ability${nullContentElement}">
-      <p>${ability.H !== undefined ? ability.H : ''}</p>
-    </div>
-  `;
-  const uniAbilityInnerHTML = generateAbilityHTML(ability[0]);
-  const duoAbilitiesInnerHTML = generateAbilityHTML(ability[0]) + generateAbilityHTML(ability[1]);
+function renderAbilitiesElement(wrapper, { firstAbility, secondAbility }) {
+  const abilitiesWrapper = document.createElement('div');
+  const abilities = secondAbility ? [firstAbility, secondAbility] : [firstAbility];
 
-  if (hasSecond) {
-    wrapper.innerHTML += duoAbilitiesInnerHTML + hiddenAbilityInnerHTML;
-  } else if (!hasSecond) {
-    wrapper.innerHTML += uniAbilityInnerHTML + hiddenAbilityInnerHTML;
-  }
+  abilitiesWrapper.classList.add('result-abilities');
+
+  abilities.forEach((abilityName) => {
+    abilitiesWrapper.innerHTML += `
+      <div class="result result-ability">
+        <p>${abilityName}</p>
+      </div>
+    `;
+  });
+
+  wrapper.appendChild(abilitiesWrapper);
 }
 
-export function renderResultAbilitiesElement(wrapper, data) {
+function renderHiddenAbilityElement(wrapper, ability) {
+  const nullContentElement = isNullContentElement(ability);
+
+  wrapper.innerHTML += `
+    <div class="result result-hidden-ability${nullContentElement}">
+     ${ability ? `<p>${ability}</p>` : ''}
+    </div>
+  `;
+}
+
+export function renderResultAbilities(wrapper, data) {
   const pokemonAbilitiesWrapper = document.createElement('div');
-  const hasSecond = '1' in data.abilities;
+  const { 0: firstAbility, 1: secondAbility, H: hiddenAbility } = data.abilities;
 
   pokemonAbilitiesWrapper.classList.add('result-species-group', 'pokemon-abilities');
-  renderAbilityElement(pokemonAbilitiesWrapper, data.abilities, hasSecond);
+  renderAbilitiesElement(pokemonAbilitiesWrapper, { firstAbility, secondAbility });
+  renderHiddenAbilityElement(pokemonAbilitiesWrapper, hiddenAbility);
 
   wrapper.appendChild(pokemonAbilitiesWrapper);
 }

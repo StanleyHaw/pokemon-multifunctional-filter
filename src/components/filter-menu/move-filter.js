@@ -1,1 +1,1 @@
-export const moveList = ['extremespeed', 'feint', 'suckerpunch', 'quickattack', 'bulletpunch'];
+export const moveList = ['thunderpunch', 'suckerpunch', 'superfang', 'uturn', 'scald'];
