@@ -351,7 +351,9 @@
     .pokemon-moves {
       .subtitle {
         min-width: 90px;
+        max-width: 90px;
         width: auto;
+        white-space: nowrap;
       }
     }
   }
@@ -404,26 +406,24 @@
     }
 
     .pokemon-types {
-      .result-duo-type {
-        width: 100px;
-        overflow: hidden;
-      }
+      min-width: 208px;
+      // HACK: width can't work without min-width
 
-      .result-uni-type {
-        width: 208px;
-        overflow: hidden;
+      .result-type {
+        width: 100%;
       }
     }
 
     .pokemon-abilities {
-      .result-duo-ability {
-        width: 120px;
-        overflow: hidden;
-      }
-
-      .result-uni-ability {
+      .result-abilities {
         width: 248px;
+        display: flex;
+        gap: 8px;
         overflow: hidden;
+
+        .result-ability {
+          width: 100%;
+        }
       }
 
       .result-hidden-ability {
@@ -612,22 +612,24 @@
       }
 
       .pokemon-types {
-        .result-duo-type {
-          width: 100px;
-        }
+        min-width: 208px;
+        // HACK: width can't work without min-width
 
-        .result-uni-type {
-          width: 208px;
+        .result-type {
+          width: 100%;
         }
       }
 
       .pokemon-abilities {
-        .result-duo-ability {
-          width: 120px;
-        }
-
-        .result-uni-ability {
+        .result-abilities {
           width: 248px;
+          display: flex;
+          gap: 8px;
+          overflow: hidden;
+
+          .result-ability {
+            width: 100%;
+          }
         }
 
         .result-hidden-ability {
@@ -820,6 +822,13 @@
       }
 
       .pokemon-types {
+        min-width: 90px;
+        // HACK: width can't work without min-width
+
+        .result-type {
+          width: 100%;
+        }
+
         p {
           display: none;
         }
@@ -827,23 +836,18 @@
         img {
           padding: 0;
         }
-
-        .result-duo-type {
-          width: 43px;
-        }
-
-        .result-uni-type {
-          width: 90px;
-        }
       }
 
       .pokemon-abilities {
-        .result-duo-ability {
-          width: 76px;
-        }
-
-        .result-uni-ability {
+        .result-abilities {
           width: 156px;
+          display: flex;
+          gap: 4px;
+          overflow: hidden;
+
+          .result-ability {
+            width: 100%;
+          }
         }
 
         .result-hidden-ability {
